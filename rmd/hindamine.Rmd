@@ -1,0 +1,189 @@
+\multicolsbegin
+
+# Hindamine
+
+## Põhikursused
+
+### Üldreeglid
+
+Eristavalt hinnatavat sooritust tohib õpilane sooritama asuda, kui on kõik oma kaasasolevad nutiseadmed asetanud minu näidatud kohta. Testimise kestel on õpilasel lubatud kasutada õpetaja arvutit arvutamiseks, nii et korraga teeb seda üks õpilane. Tõlkimist ei toimu, vaid tundmatud sõnad tuleb mulle ette lugeda ja siis ma selgitan need muude sõnade kaudu. Igasugune muu nutiseadme puudutamine lähiajaloo teadmiste-oskuste testimise kestel klassifitseerub mittelubatud kõrvalise abi kasutamiseks või mahakirjutamiseks. Lubatud on kasutada iseenda loodud konspekti.
+
+[]{#eksperimendi-protokolli-koostamise-juhend}
+
+### Lühikontrollid
+
+#### Iseseisev õpe
+
+Kui ma olen andnud iseseisvaks lahendamiseks ülesandeid, siis õpilastel on võimalus näidata oma lahendust tahvli abil kõigile kohalviibijaile, nii et sama ülesannet saavad selgitada mitu õpilast ainult juhul, kui lahendused on erinevad. Enne tahvlile lahendamist tuleb mulle enda vihikust lahendus ette näidata. Hinnete kriteeriumid on järgmised:
+
+1. Lahenduskäigus esineb olulisi vigu või puudujääke, milliste kohtade kordategemisega õpilane ise hakkama ei saa, ja ülesanne on põhimõtteliselt valesti lahendatud. Õpilase teadmistes-oskustes ei ole tuvastatav areng.
+
+2. Lahenduskäigus esineb olulisi vigu või puudujääke, milliste kohtade kordategemisega õpilane ise hakkama ei saa, ja ülesanne on põhimõtteliselt valesti lahendatud. Õpilase teadmistes-oskustes on siiski toimunud areng.
+
+3. Lahenduskäigus esineb olulisi vigu või puudujääke, milliste kohtade kordategemisega õpilane ise hakkama ei saa, kuid põhimõtteliselt on ülesanne õigesti lahendatud.
+
+4. Lahenduskäigus esineb olulisi vigu või puudujääke, mille õpilane vihjamise abil vastavalt eemaldab või asendab.
+
+5. Lahenduskäik ja selgitamine on oluliste vigade ja puudujääkideta.
+
+Iseseisvaks lahendamiseks jäetud ülesannete lahendused tuleb mulle esitada eraldi paberil või virtuaalselt mulle identifitseeritavana, kelle lahendusega on tegemist, ja kuupäevaga ülesande lahendamise tähtajale järgneva õppesessioonini. Tagasisidestan hiljemalt omakorda järgmise õppesessioonide päeva kestel, misjärel õpilane lisab kommentaarid oma soorituse kohta ja hinde, lahendab oma vihikusse ka ning tagastab mulle hiljemalt omakorda järgmise õppesessioonide päeva õppesessioonis.
+
+Tahvli abil lahenduskäigu selgitamiste mediaanhinde kaal on \num{0,6}, muidu \num{0,4}.
+
+#### Lähiajalugu
+
+Kui iseseisvaks lahendamiseks pole vastavaks kontaktsessioonide päevaks jäetud mitte ühtki ülesannet, toimub esimese 20 minuti kestel kontroll teadmiste-oskuste kohta infos, mis on saadud alates eelmise sellise kontrolli järgsest hetkest kuni eelneva kontaktsessioonide päeva lõpuni. Selles kontrollis osalevad kõik kohalolevad õpilased. Arutleda tuleb võimalikult põhjalikult, kuid püsides teemas. Väliseid allikaid kasutada ei ole lubatud.
+
+Pärast minupoolset kontrollimist tagastan õpilasele tema soorituslehe, misjärel õpilane kommenteerib oma sooritust ja hindab ise ka tagastades soorituslehe seejärel minule järgmise kontaktsessioonide päeva esimese kontaktsessiooni alguses, misjärel saab õpilane teada minu pandud hinde ja võrrelda enda panduga.
+
+Lähiajaloo mediaanhinde kaal on \num{0,6}.
+
+Lähiajaloo testimised toimuvad üle nädala.
+
+\multicolsend
+
+\pagebreak
+
+#### Lühitestide hinded
+
+\multicolsbegin
+
+Selleks et saada kokkuvõttev lühitestide ja lähiajaloo teadmiste-oskuste hinne, peab olema vähemalt kohal oldud vähemalt vastava hinde osamäära testide ulatuses. Lühitestide esialgne koondhinne konverteeritakse lõplikuks lühitestide koondhindeks vastavalt tabelile \@ref(tab:grading-criteria) leheküljel `r render_pageref(reference = "tab:grading-criteria")`.
+
+\multicolsend
+
+```{r label="grading-criteria", echo=FALSE}
+grade <- c(
+  1,
+  2,
+  3,
+  4,
+  5
+)
+rate <- c(
+  0,
+  .2,
+  .5,
+  .75,
+  .9
+)
+criterium <- (grade[length(grade)] - grade[1]) * rate + grade[1]
+data_frame_of_criteria <- data.frame(criterium, grade)
+colnames(data_frame_of_criteria) <- c(
+  "Esialgne koondhinne vähemalt",
+  "Lõplik koondhinne"
+)
+print_table(table = data_frame_of_criteria, caption = "Lühitestide hinnete kriteeriumid.")
+
+```
+
+\pagebreak
+
+\multicolsbegin
+
+### Kontrolltöö
+
+#### Üldised kontrolltöö reeglid
+
+Kontrolltöö toimub kursuse lõpus. Kui õpilane pole rahul oma senise koondhindega, võib ta sooritada kontrolltöö. Kui õpilane on rahul oma senise koondhindega, ei pea ta kontrolltööd sooritama. Seega on kontrolltöö lühikontrollide järelvastamine.
+
+Kontrolltöö sisaldab viie ülesande lahendamist:
+
+1. Millegi sõnaline selgitamine kasutades vajadusel valemindust ja/või joonistamist/joonestamist (\qty{10}{\percent} kontrolltööd).
+
+2. Valemi tuletamine (\qty{20}{\percent} kontrolltööd).
+
+3. Kõige lihtsam arvutusülesanne (\qty{50}{\percent} kontrolltööd).
+
+4. Mõõduka raskusastmega arvutusülesanne (\qty{75}{\percent} kontrolltööd).
+
+5. Väljakutsuv arvutusülesanne (\qty{90}{\percent} kontrolltööd).
+
+Kui õpilane kogub vähemalt \num{180} protsendipunkti kontrolltöö kohta, siis ta saab lisahinde \num{5}.
+
+Kõik suurused tuleb kirjutada vastavalt SI reeglitele.
+
+Igaks järgnevaks õppesessioonide päevaks võib õpilane koostada aktuaalse õppesessioonide päeva temaatika kohta ülesande, mis võib olla ka küsimus. See ülesanne peab olema esitatud koos tervikliku lahenduskäiguga. Hindan ülesande kvaliteeti. Kui ülesanne on kvaliteetne, siis ma kaasan ülesande kontrolltöösse. Kui ülesanne on ebakvaliteetne, annan õpilasele võimaluse ülesanne kvaliteetseks teha.
+
+#### Kontrolltöö sisetingimustes
+
+Sisetingimustes toimub teadmiste ja oskuste kontrollimine järgnevalt:
+
+1. Õpilane võtab taaskasutatavate paberilehtede virnast  taaskasutatava paberilehe, millele võib hiljem vajadusel lisa võtta, ning igast viiest ülesannete virnast ühe ülesande.
+
+\multicolsend
+
+2.  Õpilane sooritab kontrolltöö järgmise struktuuriga:
+
+    0. > Olen... ja asun lahendama ülesandeid teemal.... Täna on kuupäev...
+
+    1. Õpilane kirjutab ülesande tunnuse ja selgitab mõiste kirjutades selle mõiste kohta nii palju tõtt kui teab. Jama ja teemast mööda ei kirjuta.
+
+    2. Õpilane kirjutab ülesande tunnuse. Õpilane avaldab ja / või arvutab selle, mis on sedelil kirjas näidates kogu tuletuskäigu võimalikult üksikasjaliselt. Õpilane tähistab muutujad kas üldtuntud tähistustega või kui kasutab muid tähistusi, siis kirjutab juurde legendi.
+
+    3.-5. Õpilane kirjutab ülesande tunnuse ja lahendab ülesande kasutades struktuuri:
+     - sisend(id): muutujad väärtustega teisendades kõik ühikud Système'i Internationale (SI), kui pole vajalik kasutada muud ühikut,
+     - väljund(id): muutuja(d), millele otsitakse ülesande lahendamise kaudu väärtust,
+     - (joonis),
+     - arutelu: õpilane arutleb, kuidas ülesannet lahendada. Selles osas paneb õpilane kokku lõpliku valemi,
+     - arvutamine: õpilane kasutab lõplikku valemit pannes sinna muutujatele väärtused, näitab arvutuskäigu ja arvutab kasutades korrektselt tüvenumbrite teooriat. Kui ülesande osa on vahetulemuste arvutamine, siis need tuleb arvutada igaüks vastava lõpliku valemiga ja lõpptulemuses võib siis vahetulemusi kasutada,
+     - lahend täislausega.
+        
+    Kontrolltöö sooritamises tohib kasutada enda mälu, konspekti ja mitteelektroonilisi vahendeid nagu kirjutusvahendeid, joonestamis- ja mõõtmisvahendeid, samuti elektroonilist kalkulaatorit. Kui kalkulaator on mitmeotstarbelises arvutis, siis tuleb selle igakordsest kasutamisest mulle märku anda käetõstmisega. Mitmeostarbelises arvutis oleva tõlkeprogrammi kasutamisest tuleb ka mulle käetõstmisega märku anda.
+
+    Ühe korra võib kontrolltöö kestel kasutada muidu mittelubatud abivahendit tasuta. Selleks kutsub õpilane minu enda juurde, hangib teabe ilma midagi kirjutamata ja lõpetab mittelubatud abivahendi kasutuskorra, misjärel võib kirjutamisega jätkata. Iga järgmine selline kasutuskord on võimalik üksnes vastavalt ühe võrra maksimaalse võimaliku hinde alandamisega.
+
+\multicolsbegin
+
+[]{#test-inside-3}
+
+3. Õpilane annab oma tehtu mulle üle. Kui õppesessiooni aega on veel järel, kasutab õpilane seda, et edasi õppida.
+
+4. Hindan kontrolltöö tulemuse. 
+Kui õpilane on korrektselt lahendanud kõrgema raskusastmega arvutusülesande, siis väiksema raskusastmega ülesande lahenduse soorituse arvestan korrektselt tehtuks. Kontrolltööde tulemusi hindan arvulise hindega. 
+
+5. Järgmise kontaktsessioonide päeva kontaktsessioonis tagasisidestan kontrolltöö tulemuse.
+
+6. Tagastan õpilasele tema kontrolltöö tulemuse.
+
+7. Õpilane lahendab kõik enda testiülesanded oma vihikusse korrektselt kasutades vajadusel võrdlemist minu näidislahendustega.
+
+8. Õpilane kommenteerib oma testitulemust võimalikult põhjalikult testitulemuse paberile.
+
+9. Õpilane paneb enda testitulemusele hinde oma testitulemuse paberile.
+
+10. Õpilane tagastab mulle testitulemuse paberi järgmise kontaktsessiooni päeva esimese kontaktsessiooni alguses.
+
+11. Võrdlen enda ja õpilase hinnangut ja teeme järelduse.
+
+[]{#test-outside}
+
+#### Kontrolltöö väljas
+
+Välistingimuste teeme testi *MathCityMap*iga[@mathcitymap]. Enne testi kontaktsessiooni peab õpilase nutitelefonis olema *MathCityMap*i rakendus ja nutitelefoni aku peab olema täis. Samuti peab olema tal võimalik kasutada Internetti ja sisse peab olema lülitatud Global Positioning Systemi sensor.
+
+Õpilane peab olema kontaktsessiooni alguseks valmis riietunud vastavalt välistingimustele ja kui on sadu, siis soovitan õpilasel kasutada vihmavarju, sest muidu on nutitelefoni kasutamine raskendatud. Samuti peab õpilasel olema kaasas kirjutusvahend ja koht, kuhu kirjutada. Sõltuvalt testist võib vaja minna mõõtmisvahendeid nagu nt mõõdulinti.
+
+Õpilane saab minult mängu koodi, mille sisestab *MathCityMap*pi. Samuti otsustab ta, kas mängib üksi, kahekesi või kolmekesi. Rühma peale on kasutuses ainult üks *MathCityMap*i isend. Õpilane sisestab kõikide rühma liikmete nimed mulle arusaadavalt. Testi kestel on lubatud suhelda rühmasiseselt, kuid mitte rühmadevaheliselt. Kui ma tuvastan, et vastuseid on teatatud muu rühma liikmeile, siis tühistan vastavad tulemused mõlema rühma puhul.
+
+Testi kontaktsessiooni alguseks kogunevad õpilased minu poolt kirjeldatud kogunemispaika, milleks on Edu Valemis koolimaja esine. Testmäng algab kontaktsessiooni algusega. Pärast koodi sisestamist toimub kaardi allalaadimine, mis võib kesta sõltuvalt Interneti ühenduse kiirusest mitu minutit. Kui kaart on alla laetud, näeb mängija kaarti, millel on kontrollpunktid, ja asub neid otsima ning nendes olevaid ülesandeid vastavalt mängu juhendile lahendama. Mäng lõpeb kontaktsessiooni lõpuga.
+
+Pärast mängu analüüsin järgmise kontaktsessiooni päeva kontaktsessiooniks mängu tulemused, hindan ja tagasisidestan.
+
+Õpilane lahendab kõik testmängu ülesanded oma konspekti omakorda järgmise kontaktsessioonide päeva esimeseks kontaktsessiooniks ja analüüsib oma sooritust ja määrab enda tulemusele hinde, misjärel saame oma hinnanguid võrrelda.
+
+Kui mitte ükski õpilane ei soorita kontrolltööd välistingimustes hindele *3*, *4* ega *5*, siis kordame välistingimuste kontrolltööd sisetingimustes ning rakenduvad sisetingimuste kontrolltöö [reeglid *3* ja *4*](#test-inside-3).
+
+## Konspekt
+
+Iga õpilane kohustub looma konspekti, millesse märgib üles kõik olulise ja lahendab kõik ülesanded. Konspekt võiks olla *A4*\nobreakdash-vormingus ruuduline. Soovitan kasutada eri värve eri tüüpi info eraldamiseks ning luua sisujuhi koos lehekülgede numeratsiooniga. Enda loodud konspekti tohib õpilane kasutada kõikide hindeliste ülesannete lahendamises.
+
+## Kohalolu
+
+Õppesessiooni ruumist väljas võib käia üksnes üks õpilane korraga, kui pole minuga kokku lepitud teistmoodi.
+
+## Kordamine
+
+Nõustamine ja järelevastamine lepitakse iga kord eraldi kokku.
+
+\multicolsend

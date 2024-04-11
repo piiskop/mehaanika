@@ -3,11 +3,11 @@ site: bookdown::bookdown_site
 
 colorlinks: TRUE
 author: "peacecop kalmer:"
-description: "This is the manual for creating content using RStudio Server."
-lang: en
+description: "maanika kursus"
+lang: et
 include-before:
     - \input{title-page.tex}
-title: "`r if (knitr::is_latex_output()) { '' } else { 'Manual for creating content<br/>using<br/>RStudio Server' }`"
+title: "`r if (knitr::is_latex_output()) { '' } else { 'Maanika' }`"
 
 documentclass: book
 papersize: a4
@@ -56,6 +56,22 @@ if (!require("librarian")) {
 }
 
 library(librarian)
+
+names_10_20240220 <- c(
+	"2. Irhin, Donat",
+	"3. Kimasks, Stanislavs",
+	"4. Kustov, Vladimir",
+	"5. Malõšev, Polina",
+	"5. Nersesjan, Feliks",
+	"6. Šerstobitov, Mihhail",
+  "7. Salnikova, Veronika",
+	"7. Šesterikov, Daniil",
+	"8. Žigadlo, Grigori",
+	"9. Žukova, Darja",
+	"10. Trubilko, Vladislav",
+	"12. Volkova, Darja",
+	"13. Volkova, Jeva"
+)
 
 #' This function displays external graphics by making the appropriate conversion aforehead.
 #' 
@@ -227,23 +243,39 @@ render_color <- function(color, text) {
 
 \lstlistoflistings
 
-# Introduction {-}
+\multicolsbegin
 
-Once upon a time, a student asked me to help him in R. i had no experience with R, however i gave it a chance. i installed RStudio Server. Months passed after my first use until i needed it for my stuff. i was studying statistics in a university and our teacher wanted us to create our solutions using a spreadsheet program. i saw that using R, i could learn more useful stuff and moved on RStudio Server. i learnt to create output using *bookdown* which is a library that can be used for creating websites or e-books while including calculations and graphs. As *bookdown* has a steap learning curve, i want to elaborate it here. Template strings are marked with angle brackets.
+# Sissejuhatus {-}
 
-For me, regarding cross-references, the following things are important:
+Olen peacecop kalmer:. Õpetasin füüsikat Kohila Gümnaasiumis ning õpetan füüsikat Edu Valemis. Oma oskused-teadmised olen süvitsi ammutanud alates 2021. a Tallinna Ülikoolis integreeritud loodusteadusi õppides ning neid annan edasi olles need vahepeal läbi oma aju töödelnud. Kuna nüüd aastas 2024 on mul esimene kord kõige fundamentaalsemat loodusteadust õpetada, siis loon iga kursuse nullist kaasates õppesse enda hinnangul võimalikult tõhusaid allikaid ja vahendeid. See konspekt siin kajastab maanika kursuse sisu ja esitab muud seotud infot. Mõistagi täiendan igat sektsiooni vastavalt sellele, kuidas loomisprotsess edeneb.
 
-1. It must be possible to cross-reference between files.
+Leian, et tõhus on iga teema puhul käsitleda juppi teooriat, lahendada selle kohta hulganisti arvutusülesandeid ning kontrollida teooriat eksperimentaalselt, enne kui võtta ette järgmine jupp. Samuti peavad jupid olema üksteisega loogiliselt seotud. Iga järgmine jupp võib eeldada eelneva jupi valdamist. Iseseisvaks lahendamiseks jäetavad arvutusülesanded on mul ka üldjuhul tahvlile lahendatud, nii et on võimalik kontrollida ja võrrelda lahendusi[@looduseuurimine2].
 
-2. R code in one file must be accessible in another file.
+Igal õpilasel soovitan kasutusele võtta *A4*-vormingus ruuduliste lehtedega kaustiku, kuhu õpilane loob oma konspekti, st märgib üles kõik vajaliku, ja kuhu lahendab ka ülesanded. Samuti on õpilasel vaja eri värvi füüsilisi kirjutusvahendeid ja geomeetriavahendeid. Kalkulaator on abiks keeruliste arvutuste puhul. Konspekti võib luua ka virtuaalselt, kui õpilasel on graafikatahvel. Sellisel juhul annan kasutusse minu halduses oleva virtuaaltahvlite keskkonna, et kõik virtuaalsed konspektid oleksid ühes kohas.
 
-3. Citations in table captions using `kableStyling` must be possible.
+Kuna iga kontaktsessioon on vaid \qty{45}{\minute} pikk, siis teadmiste-oskuste kinnistamiseks on vajalik õpilasel lahendada hulganisti ülesandeid, lugeda, vaadata ja kuulata juurde väljaspool kontaktsessiooni.
 
-Currently, *bookdown* supports all of them.
+Opik.fyysika.ee[@pikud] sisaldab hulganisti eestikeelseid füüsikaõpikuid, mida saavad õpilased kasutada täiendavaks lugemiseks ja harjutamiseks.
 
-we can see the workflow of from the written markdown to the ready output on the figure \@ref(fig:workflow).
+Põhiõpik, mida kasutan, on Douglas Giancoli *PHYSICS
+for SCIENTISTS and ENGINEERS*[@physics]. Selles on õpilase- ja õpetajasõbralik kujundus ja sisu. Õpik sisaldab hulganisti enesekontrolli küsimusi ja ülesandeid, millest osadele on esitatud lahend. Selle õpiku kasutamisega lõimin looduseuurimise õppesse inglise keelt. Ülesanded iseseisvaks harjutamiseks pärinevad sellest õpikust. Parim füüsikaõpetaja Ameerikas on minu meelest mr.p, kelle Flipping Physics[@flipping] aitab kindlasti paremini mõista paljusid füüsikateemasid. Need allikad on abiks, kuni ma oma kursust veel piisavalt valmis pole saanud, ja edaspidi täienduseks. Täidetavaid lehti leiab The Physics Classroomist[@thephysicsclassroom_2019_the].
 
-```{r label = "workflow", fig.cap = "The workflow from the written markdown to the ready output using *bookdown* [@riederer_21]."}
-include_external_graphics("rmd/workflow.png")
+Kui pole kasutada eksperimendivahendeid, on abi simulatsioonist[@a2022].
 
-```
+Eesti keeles saab täiendavalt lugeda ka Ako Sauga konspektist[@fsikaline]. Kursuse dünaamika osa on kompaktselt, kuigi vigaselt käsitletud e-koolikotis[@ekoolikottee].
+
+[]{#my-name}
+
+Kuna õpilased on uurinud, miks mu nimi just selline on, siis selgitan.  Teatavasti nimed ei ole looduslikud, vaid inimeste konstrukt, ja mulle meeldib seda reeglistikku järgida. Leian, et nimi peaks olema igaühel unikaalne. Ühtlasi on igaühe enda asi, kuidas ta oma nime soovib näidata ja seda soovi tuleb austada. Igaüks saab ka ise endale sobiliku nime määrata kasvõi nõustudes kellegi muu poolt omistatud nimega.
+
+Mida suurem osakaal on suurtähtedel nimes, seda rohkem nimekandja oma õigusi ja vastutust delegeerib[@naturalperson]. Hauaplaadil, lennupiletil ja juhiloal, samuti ID-kaardil on kõik suurtähed. Viimasel kolmel juhul pole tegemist inimese, vaid isikuga, esimesel surnud keha nimetamisega.
+
+Vabaks ei ole vaja kuulutada. Samas, kuulutada ju võib, aga kas see teeb vabaks? Inimene ei saa mitte kunagi olla täiesti vaba. Keha alati sõltub ümbritsevast keskkonnast ja väga vähe on selliseid vaime, kes suudavad välistada endale keskkonna mõju. Oleme, nagu on viis inimest, kellega enim suhtleme. Nime kirjutusviisi puhul on pigem küsimus mitte vabaduses, vaid õigustes ja vastutuses.
+
+Kasutan oma nimekujus koolonit, mis tähendab soovi olla ka juriidiliselt sõltumatu. Nagu juba mainisin, siis täielikult suveräänne olla ei saa, kuid juriidiliselt saab. Selle kohta on mul tõesti endavalmistatud dokument, kuna mõni inimene on sunnitud küsima dokumenti. Suveräänil ei pea olema dokumente. Isikut saab tõendada dokumentaalselt, aga et ma olen inimene, seda vist pole vaja tõestada. Tõendust vajatakse ikka isiku kohta.
+
+Mõni aasta tagasi leidis vastuseid hõlpsasti, aga järjepanu neid vastuseid eemaldati. Selleks ajaks olin enda jaoks juhtmõtte piisavalt selgeks teinud. Eesti inimestel kipub olema, et kas osatakse inglise keelt või vene keelt, mõlema oskajaid on üsna vähe. Kui sa valdad vene keelt, siis leiad ka selles keeles hullult palju infot, aga tuleb täheldada, et šarlatane on sõltumata keeleoskusest ja tuleb osata välja lugeda enda jaoks tõest teavet. Nimelt paljuski loodavad inimesed, kes oma eluga ise hakkama ei saa, lihtsatele lahendustele, et umbes kuulutada end vabaks ja kohtutäitur ei võta korterit ära. Nii see ei toimi. Tuleb pühenduda ja aru saada ümbritsevast keskkonnast ning hästi oluline on mitte tegutseda pelgalt kellegi muu järgi, vaid minna oma teed, sest ainult nii suudetakse põhjendada, miks midagi tehakse. Muidu oleks ka vastuolu: kirjutatakse nimi küll väikeselt, aga ikkagi elatakse kellegi muu järgi.
+
+Eesti suhtes avalikult teatamiseks loetakse vähemalt üle-Eestilises avalikus väljaandes teatamist. Kui väljaanne on saadaval Interneti kaudu, siis on tegemist lausa globaalse teadaandega. Mina olen seda teinud Harku Valla Teatajas[@lk, lk 4]  ja Õhtulehes[@jrgmine].
+
+\multicolsend

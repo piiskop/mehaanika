@@ -1,0 +1,1809 @@
+# Kursus
+
+## Dünaamika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses (44.4);
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6);
+
+5. sõnastab impulsi jäävuse seaduse ja lahendab probleemülesandeid, kasutades seost
+a. (9.2);
+
+6. seostab reaktiivliikumist impulsi jäävuse seadusega; toob näiteid reaktiivliikumise kohta looduses ja
+rakenduste kohta tehnikas (9.2);
+
+7. toob näiteid nähtuste kohta, kus impulsi muutumise kiirus on võrdne seda muutust põhjustava jõuga (9.2);
+
+8. rakendab gravitatsiooniseadust (6: 1-2);
+
+9. tunneb gravitatsioonivälja mõistet (6.8);
+
+10. teab, et üldrelatiivsusteooria kirjeldab gravitatsioonilist vastastikmõju aegruumi kõverdumise kaudu (6.9);
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk (4.6, 6, 8.7, 8.10)
+
+12. probleemülesandeid lahendades ning rakendab seost P = m (g ± a) (4.7);
+
+13. selgitab mõisteid hõõrdejõud ja elastsusjõud ning rakendab loodus- ja tehiskeskkonnas toimuvaid
+nähtusi selgitades seoseid Fh = µ N ja Fe = – k ∆l (5.1, 7.3);
+
+14. rakendab mõisteid töö, energia, kineetiline ja potentsiaalne energia, võimsus, kasulik energia,
+kasutegur, selgitades looduses ja tehiskeskkonnas toimuvaid nähtusi (7, 8.2, 8.8, 20: 2-3);
+
+15. rakendab probleeme lahendades seoseid A = Fs cos α; , Ep = mgh ning E = Ek + Ep; 15)
+selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas (7.1, 8: 2-3).
+
+4
+5
+6
+7
+8: 1-3, 7-10
+9: 2
+20: 2-3
+44: 4
+
+### Õppesisu
+
+1. Newtoni seadused (4-6).
+
+2. Jõud (4: 1).
+
+3. Jõudude vektoriaalne liitmine (4: 4).
+
+4. Resultantjõud (4: 4).
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel (4: 2).
+
+6. Keha impulss (9).
+
+7. Impulsi jäävuse seadus (9: 2).
+
+8. Reaktiivliikumine (9: 2).
+
+9. Gravitatsiooniseadus (6: 1-2).
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+11. Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
+Jäikustegur (7: 3). Hõõrdejõud ja hõõrdetegur (5: 1). Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
+seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
+jäävuse seadus looduses ja tehnikas (8).
+
+4
+5
+6
+7
+8
+9
+12: 5
+20: 2-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+kuju muutumine
+
+reaktiivliikumine (9: 2),
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+inertsus (4: 2-3)
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass (4: 2-3)
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+impulss (9)
+: massi ja kiirusvektori korrutis[@haynes_2014_crc, lk 2-59]
+
+, impulsi
+jäävuse seadus (9: 2),
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
+hõõrdetegur (5: 1), mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
+
+### Praktiline tegevus
+
+1. Tutvumine Newtoni seaduste olemusega (4-6);
+
+2. jäikusteguri määramine (7: 3);
+
+3. liugehõõrdeteguri määramine (5: 1);
+
+4. seisuhõõrde uurimine (5: 1);
+
+5. tutvumine reaktiivliikumise ja jäävusseadustega (7: 3, 8: 3). 
+
+## Perioodilised liikumised
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. seostab looduses ja tehnoloogias esinevad perioodilised nähtused ühtlase ja mitteühtlase tiirlemise
+ning pöörlemisega (10);
+
+2. kasutab ringliikumist kirjeldades füüsikalisi suurusi pöördenurk, periood, sagedus, nurkkiirus,
+joonkiirus ja kesktõmbekiirendus (10: 1);
+
+3. rakendab ringliikumisega seotud probleemülesannete lahendamisel järgmisi seoseid: (10: 1);
+
+5. analüüsib orbitaalliikumist, kasutades inertsi ja kesktõmbejõu mõistet (5: 3);
+
+6. kasutab vabavõnkumise ja sundvõnkumise mõistet looduses ning tehnikas toimuvaid võnkumisi
+kirjeldades (14: 8);
+
+7. rakendab füüsikalisi suurusi hälve, amplituud, periood, sagedus ja faas perioodilisi liikumisi
+kirjeldades (10: 1);
+
+8. kasutab võnkumise probleemülesandeid lahendades seoseid (10: 1);
+
+9. analüüsib energia jäävuse seaduse kehtivust pendli võnkumisel (11: 6);
+
+10. analüüsib võnkumise graafikuid (14: 2-4);
+
+11. selgitab resonantsi ning toob näiteid selle esinemise kohta looduses ja tehnikas (14: 8, 15: 9);
+
+12. kirjeldab piki- ja ristlainete tekkimist ning levimist ning toob nende kohta näiteid (15: 2);
+
+13. rakendab füüsikalisi suurusi lainepikkus, laine levimiskiirus, periood ja sagedus lainenähtusi
+selgitades (15: 2);
+
+14. kasutab probleeme lahendades seoseid (15: 1);
+
+15. toob nähtuste peegeldumine, murdumine, interferents ja difraktsioon näiteid loodusest ning
+tehnikast (15: 10-11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14: 1-4, 8
+15: 1-2, 9-11
+20: 1-3
+29: 4
+44: 4
+
+### Õppesisu
+
+Ühtlase ringjoonelise liikumise kirjeldamine: pöördenurk, periood, sagedus, nurk- ja joonkiirus,
+kesktõmbekiirendus (10: 1). Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine (10). Võnkumine kui
+perioodiline liikumine (14). Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6). Energia
+muundumine võnkumisel (14: 3). Võnkumised ja resonants looduses ning tehnikas (14: 8). Lained (15). Piki- ja ristlained (15: 2). Lainet
+iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1). Lainenähtused: peegeldumine,
+murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11). 3D-printimine.
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+Ppöördenurk, periood (5: 2, 10: 1, 14: 1-2, 15: 1), sagedus (15: 1), nurkkiirus (10: 1), joonkiirus (10: 1), kesktõmbekiirendus (10: 1), võnkumine (14), hälve (14: 1),
+amplituud (14: 1), faas (14: 2), vabavõnkumine, sundvõnkumine (14: 8), pendel (14: 5-6), resonants (14: 8, 15: 9), laine (15), pikilaine (15: 2),
+ristlaine (15: 2), lainepikkus (15: 1), peegeldumine (15: 7, 32: 1-2, 32: 9, 34: 5), murdumine (15: 10), interferents (15: 8), difraktsioon (15: 11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4
+
+### Praktiline tegevus
+
+1. pöördliikumise uurimine, kesktõmbekiirenduse määramine (10);
+
+2. matemaatilise pendli ja vedrupendli võnkumise uurimine (14: 5);
+
+3. gravitatsioonivälja tugevuse määramine pendliga;
+
+4. tutvumine lainenähtustega (15);
+
+5. helikiiruse määramine (16: 1). 
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+16: 1
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4
+
+## Õppesessioonid
+
+### 2024-2-15
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses.
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+Õppesisu:
+
+1. Jõud.
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel.
+
+Põhimõisted:
+
+kuju muutumine
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+Kava:
+
+1. Tutvumine.
+
+2. Jõud.
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel. Jõudsime jõudude liitmise simulatsioonini.
+
+### 2024-2-15
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses.
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+Õppesisu:
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud.
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel.
+
+Põhimõisted:
+
+kuju muutumine
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+Kava:
+
+3. Jõudude vektoriaalne liitmine.
+
+4. Resultantjõud. Jõudsime jõudude liitmise ülesanded lahendada.
+
+\onecolumn
+
+### 2024-2-20
+
+Kava: Arutelu hindamissüsteemi üle (joonis \@ref(fig:grading) leheküljel `r render_pageref(reference="fig:grading")`).
+
+```{r label="grading", echo=FALSE, fig.cap="Hindamissüsteemi arutelu tulemus."}
+include_external_graphics("rmd/hindamine-IMG_20240220_131955.jpg")
+
+```
+
+\multicolsbegin
+
+### 2024-2-20
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Jõudsime viienda ülesande lahendatud Newtoni I seaduse kohta.
+
+### 2024-2-22
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustasime kuuenda ülesande lahendamisest Newtoni I seaduse kohta. Jõudsime II seaduse neljanda ülesandeni.
+
+### 2024-2-22
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustasime II seaduse viiendast ülesandest. Jõudsime tutvuda III seadusega.
+
+### 2024-3-7
+
+Kursuse lõpus õpilane:
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+Põhimõisted:
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+Kava: Newtoni seadused. Alustasime III seaduse ülesannete lahendamist.
+
+### 2024-3-7
+
+Kursuse lõpus õpilane:
+8. rakendab gravitatsiooniseadust (6: 1-2).
+
+Kava: Gravitatsiooniseadus.
+
+### 2024-3-7
+
+Õpilasi polnud.
+
+### 2024-3-14
+
+Kursuse lõpus õpilane:
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6).
+
+Kava: Vektorite kordamine.
+
+### 2024-3-14
+
+Kursuse lõpus õpilane:
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6).
+
+Kava: Vektorite test.
+
+### 2024-3-14
+
+Kursuse lõpus õpilane:
+
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu:
+
+1. Newtoni seadused (4-6).
+
+2. Jõud (4: 1).
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel (4: 2).
+
+9. Gravitatsiooniseadus (6: 1-2).
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõisted:
+
+kuju muutumine
+
+reaktiivliikumine (9: 2),
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
+
+inertsus (4: 2-3)
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+mass (4: 2-3)
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+impulss (9), impulsi
+jäävuse seadus (9: 2),
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Dünaamika kordamine raskusjõuni.
+
+### 2024-3-21
+
+Arutelu õppeprotsessi tõhustamisest: esimesed seitse muret
+
+### 2024-3-21
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava:
+
+1. Kahe viimase punkti üle arutamine õppeprotsessi osas.
+
+2. Gravitatsioonikonstandi ühiku tuletamine.
+
+### 2024-3-21
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Arvutused gravitatsioonikonstandiga (joonis \@ref(fig:dynamics-sessions-gravitation-discussion) leheküljel `r render_pageref(reference="fig:dynamics-sessions-gravitation-discussion")`.
+
+```{r label="dynamics-sessions-gravitation-discussion", echo=FALSE, fig.cap="Arutelu teemad, lahendid ja gravitatsioonimöll."}
+include_external_graphics("rmd/IMG_20240321_150908.jpg")
+
+```
+
+### 2024-3-28
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Test.
+
+### 2024-3-28
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Mängisime läbi jõu arvutamise situatsioonid staatilise raskusega.
+
+### 2024-3-28
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Arvutasime kaalu näidu liikuma hakkava lifti puhul (joonis \@ref(fig:dynamics-sessions-weight) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-weight")`.
+
+```{r label="dynamics-sessions-weight", echo=FALSE, fig.cap="Kaal."}
+include_external_graphics("rmd/IMG_20240328_150618.jpg")
+
+```
+
+### 2024-4-4
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava: Tegime läbi ülesanded: tõusuvesi, astronaut, Z-34.
+
+\multicolsend
+
+### 2024-4-4
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõiste:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+Kava:
+
+1. Lahendasime veel valemi kasutuse oskust kontrollivaid gravitatsioonijõu ja -kiirenduse ülesandeid: võrdelisus, millegi suurendamine, vähendamine, selle mõju.
+
+2.  Tegime kaalusituatsioonide tabeli kuni staatilise liftini (joonis \@ref(fig:dynamics-sessions-weight-lift) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-weight-lift")`).
+
+    ```{r label="dynamics-sessions-weight-lift", echo=FALSE, fig.cap="Kaalu olukorrad."}
+    include_external_graphics("rmd/IMG_20240404_144302.jpg")
+    
+    ```
+
+### 2024-4-4
+
+Kursuse lõpus õpilane:
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk.
+
+Õppesisu:
+
+6. Keha impulss (9).
+
+7. Impulsi jäävuse seadus (9: 2).
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+Põhimõisted:
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+impulss (9)
+: massi ja kiirusvektori korrutis[@haynes_2014_crc, lk 2-59]
+
+Kava:
+
+1. Lõpetasime kaalusituatsioonide tabeli.
+
+2.  Selgitasin hoogu ja ajet (joonis \@ref(fig:dynamics-sessions-momentum) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-momentum")`).
+
+    ```{r label="dynamics-sessions-momentum", echo=FALSE, fig.cap="Hoog."}
+    include_external_graphics("rmd/IMG_20240404_150452.jpg")
+    
+    ```
+
+\multicolsbegin
+
+### 2024-4-11
+
+### 2024-4-11
+
+### 2024-4-11
+
+\pagebreak
+
+## Ülesanded
+
+### 2024-3-3
+
+Kuupäevani 2024-3-3 tuleb lahendada järgmised ülesanded iseseisvalt kasutades ülesande lahendamise struktuuri ja näidates terve lahenduskäigu:
+
+::: {.exercise #dynamics-task-20240303-1 name="Kolme vektori suurus ja suund."}
+Tee kindlaks kolme vektori
+$$\overrightarrow{\bf{V}_1} = \num{4,0} \hat{\bf{i}} - \num{8,0} \hat{\bf{j}},$$
+$$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
+$$\overrightarrow{\bf{V}_3} = \num{-2,0} \hat{\bf{i}} + \num{4,0} \hat{\bf{j}}$$
+suurus ja suund!
+
+Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
+:::
+
+2.  Vektorid $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$ liituvad summaarseks vektoriks $\overrightarrow{\bf{V}_R} = \overrightarrow{\bf{V}_1} + \overrightarrow{\bf{V}_2}$.
+
+    Kirjelda $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$, kui
+
+ - $V_\text{R} = V_\text{1} + V_\text{2}$,
+    
+ - $V_\text{R}^2 = V_\text{1}^2 + V_\text{2}^2$,
+ 
+ - $V_1 + V_2 = V_1 - V_2$.
+
+3.  Konkreetse osakese asukoha aja funktsioonina annab
+    $$\overrightarrow{\bf{r}} = ( \num{9,60} \cdot t \hat{\bf{i}} + \num{6,45} \hat{\bf{j}} - \num{1,50} \cdot t^2 \hat{\bf{k}}) \text{m}.$$
+    Määra osakese kiirus ja kiirendus aja funktsioonina.
+
+4.  Auto liigub kiirusega \qty{16,0}{\m\per\s} otse lõunasse ühel hetkel ja \qty{25,7}{\m\per\s} otse itta \qty{8,00}{\s} hiljem. Selle ajavahemiku jooksul määra auto
+ - keskmine suunatud kiirus,
+ 
+ - keskmise kiirenduse suurus ja suund,
+ 
+ - keskmine kiirus.
+
+    [Vihje: kas saad antud teabe põhjal kõikidele alamküsimustele vastata?]
+
+\multicolsend
+
+\twocolumn
+
+5.  Suusataja kiirendab \qty{30,0}{\degree} mäest alla \qty{1,80}{\m\per\s\squared} (joonis \@ref(fig:dynamics-tasks-vectors-23) leheküljel `r render_pageref(reference="fig:dynamics-tasks-vectors-23")`).
+
+    ```{r label="dynamics-tasks-vectors-23", echo=FALSE, fig.cap="Suusataja laskumas."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-23.svg")
+    
+    ```
+
+ - Milline on tema kiirenduse vertikaalne komponent?
+ 
+ - Kui kaua kulub tal mäe põhja jõudmiseks, eeldades, et ta alustab puhkeasendist ja kiirendab ühtlaselt, kui $a = \qty{1,80}{\m\per\s\squared}$ ja 
+kõrguse muutus on \qty{125}{\m}?
+
+\onecolumn
+
+\multicolsbegin
+
+6. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $x$-komponent!
+
+7. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $y$-komponent!
+
+8. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $x$-komponent trajektoori esimese lõigu lõpust!
+
+9. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $y$-komponent trajektoori esimese lõigu lõpust!
+
+10. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $x$-komponent trajektoori viimase lõigu algusest!
+
+11. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $y$-komponent trajektoori viimase lõigu algusest!
+
+12. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{x}}} = (\qty{1,424e-1}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga keskmise kiiruse vektori $x$-komponent!
+
+13. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{y}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektori $y$-komponent!
+
+### 2024-3-19
+
+1. Osakese asukoha aja $t$ funktsioonina annab $\overrightarrow{\bf{r}} = ( \qty{5,0}{\m\per\s} \cdot t + \qty{6,0}{\m\per\s\squared} \cdot t^2 ) \hat{\bf{i}} + ( \qty{7,0}{\m} \qty{- 3,0}{\m\per\s\cubed} \cdot t^3 ) \hat{\bf{j}}$. Kui $t = \qty{5,0}{\s}$, arvuta osakese nihkevektori $∆(\overrightarrow{\bf{r}})$ suurus ja suund punkti $\overrightarrow{\bf{r_0}} =\nolinebreak(\qty{2,0}{\m} \hat{\bf{i}} +\nolinebreak \qty{7,0}{\m} \hat{\bf{j}} )$ suhtes!
+
+2. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur on õhu liikumise kiirus otse lennuki tegelikule suunale vastu?
+
+3. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur tuule kiiruse lennuki arvatud suunaga risti olev komponent?
+
+4. Osake alustab liikumist lähtepunktist $t = 0$ algkiirusega \qty{5,0}{\m\per\s} piki positiivset $x$-telge. Kui kiirendus on $(-3,0 \hat{\bf{i}} + 4,5 \hat{\bf{j}} ) \unit{\m\per\s\squared}$, määra osakese kiirus ja asukoht hetkel, mil see jõuab maksimaalsele $x$-koordinaadile!
+
+5. \qty{2,5}{\m\per\s} jooksev sukelduja hüppab vertikaalse kalju servalt horisontaalselt välja ja jõuab \qty{3,5}{\s} hiljem alla vette. Kui kõrge oli kalju ja kui kaugel selle alusest sukelduja vette plärtsatas? Eira õhutakistust!
+
+\columnbreak
+
+6. Hoone katuselt \qty{10,8}{\m\per\s} horisontaalselt visatud pall maandub \qty{21,0}{\m} kaugusel hoone alusest. Kui kõrge hoone on? Eira õhutakistust!
+
+\multicolsend
+
+7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Millise nurga all peaks otsik olema, et vesi maanduks
+\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37")`)? Miks on kaks erinevat nurka? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-37", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
+    
+    ```
+
+\multicolsbegin
+
+8.  Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra
+
+ - mürsu maksimaalne kõrgus,
+ 
+ - kogu õhus viibitud aeg ja
+ 
+ - horisontaalne kogu läbitud kaugus (st laskeulatus).
+ 
+    Eira õhutakistust!
+
+\columnbreak
+
+9. Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra mürsu kiirus \qty{1,50}{\s} peale tulistamist. Eira õhutakistust!
+
+\columnbreak
+
+10. Mürsu maksimaalne laskekaugus on \qty{95}{\m}.
+Avalda tegeliku mürsu lendamise aja ja maksimaalse lennukauguse lennu kestuse suhe nii rõhtsate kui püstiste komponentide kaudu! Eira õhutakistust!
+
+\multicolsend
+
+11. Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
+Kui mürsk tabab maad $x = \qty{68}{\m}$ kaugusel,
+milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-angle) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-angle")`.
+
+    \begin{align}
+    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{\text{sin}(2 \cdot \measuredangle{(v_0)_\text{max}})}{R}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
+    (\#eq:dynamics-tasks-projectiles-41-test-angle)
+    \end{align}
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+12. Kaugushüpet sooritav sportlane lahkub maapinnast \qty{27,0}{\degree} nurga all ja maandub \qty{7,80}{\m} kaugusele.
+
+ - Milline oli stardikiirus?
+ 
+ - Kui seda kiirust suurendataks vaid \qty{5,0}{\percent}, kui palju pikem oleks hüpe?
+
+    Eira õhutakistust!
+
+\multicolsend
+
+13. Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    ```{r label="dynamics-tasks-projectiles-45", echo=FALSE, fig.cap="Hüppav auto."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-45.svg")
+    
+    ```
+
+    Millise minimaalse kiirusega peab ta horisontaalselt kaldteelt maha sõitma? Kaldtee vertikaalne kõrgus on autokatuste kohal \qty{1,5}{\m} ja horisontaalne vahemaa, mille ta peab läbima, on \qty{22}{\m}.
+
+    Eira õhutakistust!
+    
+\newpage
+
+### 2024-4-2
+
+\multicolsbegin
+
+1.  Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    Kui kaldtee on nüüd kallutatud ülespoole, nii et stardinurk on \qty{9,0}{\degree} horisontaaltasapinnast kõrgemal, siis milline on uus minimaalne kiirus?
+
+    Eira õhutakistust!
+
+\columnbreak
+
+2.  Päästelennuki tegelased tahavad \qty{265}{\m} allpool asuval kivisel harjal varusid eraldada mägironijatele. Kui lennuk liigub horisontaalselt kiirusega \qty{125}{\kilo\m\per\hour}, siis kui kaugel enne saajaid (horisontaalne vahemaa) tuleb kaup kukutada?
+
+    Eira õhutakistust!
+
+3.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Arvuta mürsu algkiirus!
+
+    Eira õhutakistust!
+
+4.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Määra mürsu horisontaalne ulatus!
+
+    Eira õhutakistust!
+
+\multicolsend
+
+5.  Pall visatakse horisontaalselt kalju tipust algkiirusega $v_0$ (kui $t = 0$). Igal hetkel moodustab selle liikumissuund horisontaaltasandi suhtes nurga $u$ (joonis \@ref(fig:dynamics-tasks-projectiles-51) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-51")`). Tuleta $u$ valem aja $t$ funktsioonina, arvestades, et kuul järgib mürsu rada.
+
+    ```{r label="dynamics-tasks-projectiles-51", echo=FALSE, fig.cap="Visatud pall."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-51.svg")
+    
+    ```
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+6.  Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Milline on tema stardikiirus $v_0$?
+
+    Eira õhutakistust!
+
+7.  Kui pall lüüakse maapinnalt \qty{15,0}{\m\per\s}, on kaks stardinurka, mis panevad palli maanduma \qty{20,0}{\m} kaugusele. Tuleta nende kahe nurga arvutamise valem!
+
+    Ignoreeri õhutakistust.
+
+\columnbreak
+
+8.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Millise maksimaalse kõrguse pall igal juhul saavutab?
+
+    Ignoreeri õhutakistust.
+
+9.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Kui kaua on pall igal juhul õhus?
+
+    Ignoreeri õhutakistust.
+
+\multicolsend
+
+\onecolumn
+
+[]{#mechanics-tasks-2024-2-20}
+
+## Testid
+
+### 2024-2-20
+
+1.  Sõidetakse autoga \qty{245}{\kilo\m} läände ja seejärel \qty{118}{\kilo\m} edelasse (\qty{45,0}{\degree}). Kui suur on auto nihkumine lähtepunktist? Joonista diagramm.
+              
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Sõidetakse autoga \qty{245}{\kilo\m} läände ja seejärel \qty{118}{\kilo\m} edelasse (\qty{45,0}{\degree}). Kui suur on auto nihkumise lähtepunktist suurus (suurus ja suund)? Joonista diagramm.
+              
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+3.  Kui $\overrightarrow{\bf{V_x}} = \num{9,40}$ ühikut ja $\overrightarrow{\bf{V_y}} = \num{-6,80}$ ühikut, määra $\overrightarrow{\bf{V}}$ suurus ja suund!
+              
+    \vspace{0.2\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4.  $\bf{V}$ on vektor, mille suurus on \num{21,8} ühikut ja mis osutab negatiivse $x$-telje kohal \qty{23,4}{\degree} nurga all.
+
+    Joonista see vektor.
+    
+    Arvuta $V_x$ ja $V_y$.
+    
+    Kasuta $V_x$'i ja $V_y$'t, et arvutada kontrolliks tagasi $\overrightarrow{\bf{V}}$!
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Joonisel \@ref(fig:dynamics-test-vectors-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-7")` on kujutatud kaks vektorit, $\overrightarrow{\bf{A}}$ ja  $\overrightarrow{\bf{B}}$, mille suurused on $A = \num{6,8}$ ühikut ja $B = \num{5,5}$ ühikut.
+
+    ```{r label="dynamics-test-vectors-7", echo=FALSE, fig.cap="Kaks antiparalleelset vektorit."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-7.svg")
+    
+    ```
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{A}} + \overrightarrow{\bf{B}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,3}; \num{0})}$.
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,2e1}; \num{0})}$.
+
+    Kui $\overrightarrow{\bf{C}} = \overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$, siis $\overrightarrow{\bf{C}}= \blank{(\num{1,2e1}; \pi)}$.
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+6.  Mäe tipp, mis asub baaslaagrist \qty{2450}{\m} kõrgusel, on kaardil mõõdetud \qty{4580}{\m} kaugusel laagrist \qty{38,4}{\degree} loode suunas. Millised on laagrist tipuni nihkevektori komponendid? Milline on selle suurusjärk? Vali $x$-telg ida suunas, $y$-telg põhja suunas ja $z$-telg ülespoole.
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+7.  Joonisel \@ref(fig:dynamics-test-vectors-11-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-7")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-7", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Määra $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suurus!
+    
+    $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus on \num{53.9}.
+    
+    Võrdle kummagi vahe tulemusi ja selgita!
+                  
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+8.  Joonisel \@ref(fig:dynamics-test-vectors-11-8) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-8")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-8", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Määra $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suund!
+
+    $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund on \num{-0,09109}.
+    
+    Võrdle kummagi vahe tulemusi ja märka, et need on vastandlikud!
+                  
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+9.  Joonisel \@ref(fig:dynamics-test-vectors-11-9) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-9")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-9", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Arvuta $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus!
+    
+    $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suurus on \num{53.9}.
+
+    Võrdle kummagi vahe tulemusi ja selgita!
+                  
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+10. Joonisel \@ref(fig:dynamics-test-vectors-11-10) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-10")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
+
+    ```{r label="dynamics-test-vectors-11-10", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    Arvuta $\overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund!
+    
+    $\overrightarrow{\bf{B}} - \overrightarrow{\bf{A}}$ suund on \num{3,050}.
+
+    Võrdle kummagi vahe tulemusi ja märka, et need on vastandlikud!
+                      
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+11. Joonisel \@ref(fig:dynamics-test-vectors-11-11) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-11")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-11", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+12. Joonisel \@ref(fig:dynamics-test-vectors-11-12) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-12")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-12", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+13. Joonisel \@ref(fig:dynamics-test-vectors-11-13) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-13")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-13", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+14. Joonisel \@ref(fig:dynamics-test-vectors-11-14) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-14")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-14", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+15. Joonisel \@ref(fig:dynamics-test-vectors-11-15) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-15")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus!
+
+    ```{r label="dynamics-test-vectors-11-15", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+16. Joonisel \@ref(fig:dynamics-test-vectors-11-16) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-16")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund!
+
+    ```{r label="dynamics-test-vectors-11-16", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
+    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    
+    ```
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-2-20 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+[]{#mechanics-tasks-2024-3-14}
+
+### 2024-3-14
+
+1.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Selle, esimese lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{1; x}}} = (\qty{1,00e-1}{\m}; \frac{\pi}{2}; \num{0})$. Seejärel pöörab ta \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Selle, teise lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{2; x}}} = (\qty{7,660e-2}{\m}; \frac{\pi}{2}; \num{0})$. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Selle, kolmanda lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{3; x}}} = (\qty{-3,421e-2}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga nihke vektori $x$-komponent!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+2.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Selle, esimese lõigu nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{1; y}}} = \overrightarrow{0}$. Seejärel pöörab ta \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Selle, teise lõigu nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{2; y}}} = (\qty{6,428e-2}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Selle, kolmanda lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{3; x}}} = (\qty{3,420e-2}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga nihke vektori $y$-komponent!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+3.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga keskmise kiiruse vektori rõhtne komponent on $\overrightarrow{\bf{\overline{v_\text{x}}}} = (\qty{2,48e-2}{\m}; \frac{\pi}{2}; \num{0})$. Sipelga keskmise kiiruse vektori püstine komponent on $\overrightarrow{\bf{\overline{v_\text{y}}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektor!
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\pagebreak
+
+4. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Õhu liikumise kiirus otse lennuki tegelikule suunale vastu on \qty{21,39}{\m\per\s}. Kui suur on lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent?
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent on \qty{20,66}{\m\per\s}. Tuule kiiruse lennuki arvatud suunaga risti olev komponent on \qty{7.765}{\m\per\s}. Kui suur on tuule kiirus?
+
+    \vspace{0.2\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+6. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Lennukile otse vastu liikuva õhu kiirusvektori lennuki arvatud suuna sihiline komponent on \qty{20,66}{\m\per\s}. Tuule kiiruse lennuki arvatud suunaga risti olev komponent on \qty{7.765}{\m\per\s}. Milline on on tuule kiirus suund?
+
+    \vspace{0.2\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Otsik on nurga \num{3,19e-1} või \num{1,26} all, et vesi maanduks
+\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37-test) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37-test")`)?
+Joonista kummagi trajektoor! Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-37-test", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
+    
+    ```
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+8.  Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
+Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lendamise aja ($t$) ja maksimaalse lennukauguse lennu kestuse ($t_\text{max}$) suhe rõhtsate komponentide kaudu avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-x) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-x")` ning püstiste komponentide kaudu valemina \@ref(eq:dynamics-tasks-projectiles-41-test-y) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-y")`. Tuleta valem stardinurga $\angle{v_0}$ arvutamiseks! Eira õhutakistust!
+
+    \begin{align}
+    \frac{t}{t_\text{max}} = \frac{x \cdot \text{cos}(\measuredangle(v_0)_\text{max})}{R \cdot \text{cos}(\angle{v_0})}.
+    (\#eq:dynamics-tasks-projectiles-41-test-x)
+    \end{align}
+
+    \begin{align}
+    \frac{t}{t_\text{max}} = \frac{\text{sin}(\angle{v_0})}{\text{sin}(\measuredangle(v_0)_\text{max})}.
+    (\#eq:dynamics-tasks-projectiles-41-test-y)
+    \end{align}
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Täpselt $t_3 = \qty{3,0}{\s}$ pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Mürsu algkiiruseks arvutasin \qty{24,2}{\m\per\s} või \qty{34,6}{\m\per\s} vastavalt valemile \@ref(eq:dynamics-tasks-projectiles-49-test-start-velocity-y) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-49-test-start-velocity-y")`, milles $v_{t; y; 3}$ on mürsu kiiruse püstine komponent pärast $t_3$ möödumist. Arvuta aeg, mis kulub mürsul jõudmiseks maksimaalsele kõrgusele!
+
+    \begin{align}
+    v_{0; y} = g \cdot t_3 \pm v_{t; y; 3}.
+    (\#eq:dynamics-tasks-projectiles-49-test-start-velocity-y)
+    \end{align}
+
+    Eira õhutakistust!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+10. Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Mürsu algkiiruse püstine komponent on \qty{34,6}{\m\per\s}. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Arvuta, kui kõrgele mürsk maapinnast kõige kõrgemale lendab! 
+
+    Eira õhutakistust!
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+11. Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{\bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$\nobreakdash-telg on positiivne ülespoole. Mürsu algkiiruse püstine komponent on \qty{34,6}{\m\per\s}. Määra mürsu kiirus ja liikumisnurk vahetult enne maapinnaga kokkupuutumist!
+
+    Eira õhutakistust!
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+12. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Nüüd on ta matkamas ja jõuab jõe vasakule kaldale. Silda ei ole ja parem kallas on horisontaalselt \qty{10,0}{\m} kaugusel ja vertikaalselt \qty{2,5}{\m} allpool. Kui ta hüppab vasaku kalda servalt \qty{45}{\degree} eelneva hüppe kiirusega, siis kui kaugele vastaskalda servast ja kummale poole ta maandub (joonis \@ref(fig:dynamics-tasks-projectiles-53) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-53")`)? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-53", echo=FALSE, fig.cap="Hüpe üle vee."}
+    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-53.svg")
+    
+    ```
+
+    \vspace{0.5\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Nende kahe nurga arvutamise valem on \@ref(eq:dynamics-tasks-projectiles-55) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-55")`. Arvuta need kaks nurka!
+
+    \begin{align}
+    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{g \cdot x}{v_0^2}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
+    (\#eq:dynamics-tasks-projectiles-55)
+    \end{align}
+
+    Ignoreeri õhutakistust.
+
+    \vspace{0.3\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+### 2024-3-28
+
+1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade massidega, mille vahel see jõud mõjub.
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
+    	\item[\faSquareO] Eestis on Maa pinnal gravitatsioonist tingitud kiirendus \qty{9,80}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+    	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
+    	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+2.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
+    	\item[\faSquareO] Maa kiireneb Kuu suunas rohkem kui Kuu Maa suhtes.
+    	\item[\faSquareO] Maa ümber tiirlevas rahvusvahelises kosmosejaamas kogevad astronaudid näilist kaaluta olekut, kuna kosmoses gravitatsiooni pole.
+    	\item[\faSquareO] Kui kaugus Kuuni kahekordistub, siis gravitatsioonijõud Maa ja Kuu vahel muutub pooleks esialgsest.
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade massidega, mille vahel see jõud mõjub.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+3.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Kosmoselaev liigub Kuu suunas. Kui kosmoselaev jõuab atmosfäärist välja, siis kosmoselaevale Maa külgetõmbe jõud enam ei mõju.
+    	\item[\faSquareO] Kahe planeeti A ja B pinnal mõjub ühesuurune gravitatsioonijõud. B raadius on kaks A raadiust. Kui A mass on $m$, siis B mass on $4 \cdot m$.
+    	\item[\faSquareO] \qty{70}{\kg} kaaluv inimene seisab mererannal ja kogeb tõusuvett, mida põhjustab Kuu. Kui Kuu mass on \qty{7,35e22}{\kg}, kaugus Kuuni on \qty{3,82e8}{\m} ja $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$, siis gravitatsioonijõud tolle inimese ja Kuu vahel on \qty{0,0024}{\newton}.
+    	\item[\faSquareO] Astronaut on Maa avakosmoses Maa pinnast sama kaugel kui Maa pind Maa keskpunktist. Maa gravitatsiooniväljast tingitud astronaudi kiirendus on null.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+4.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Planeedi Z\nobreakdash-34 mass on kolmandik Maa massi. Planeedi Z\nobreakdash-34 raadius on kolmandik Maa raadiust. Kui $g$ tähistab Maa gravitatsioonist tingitud kiirendust Maa pinnal, siis Z\nobreakdash-34 gravitatsioonist tingitud kiirendus Z\nobreakdash-34 pinnal on $3 \cdot g$.
+    	\item[\faSquareO] Planeedi A mass on kahekordne planeedi B mass. Selle teabe põhjal teame, et gravitatsioonist tingitud kiirendust planeedi A pinnal on kahekordne võrreldes gravitatsioonist tingitud kiirendusega planeedi B pinnal.
+    	\item[\faSquareO] Satelliit ringleb ümber Marsi planeedi pinnast kõrgusel, mis on võrdne planeedi kolmekordse raadiusega. Kui $g\text{m}$ tähistab gravitatsioonist tingitud kiirendust Marsi pinnal, siis satelliidi asukohas on see kiirendus $\frac{g_\text{m}}{9}$.
+    	\item[\faSquareO] Maa gravitatsiooniväli ulatub Kuust veidi kaugemale.
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
+    	\item[\faSquareO] Eestis on Maa pinnal gravitatsioonist tingitud kiirendus \qty{9,80}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+    	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+5.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+6.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Maa kiireneb Kuu suunas rohkem kui Kuu Maa suhtes.
+    	\item[\faSquareO] Maa ümber tiirlevas rahvusvahelises kosmosejaamas kogevad astronaudid näilist kaaluta olekut, kuna kosmoses gravitatsiooni pole.
+    	\item[\faSquareO] Kui kaugus Kuuni kahekordistub, siis gravitatsioonijõud Maa ja Kuu vahel muutub pooleks esialgsest.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Kosmoselaev liigub Kuu suunas. Kui kosmoselaev jõuab atmosfäärist välja, siis kosmoselaevale Maa külgetõmbe jõud enam ei mõju.
+    	\item[\faSquareO] Kahe planeeti A ja B pinnal mõjub ühesuurune gravitatsioonijõud. B raadius on kaks A raadiust. Kui A mass on $m$, siis B mass on $4 \cdot m$.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+7.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] \qty{70}{\kg} kaaluv inimene seisab mererannal ja kogeb tõusuvett, mida põhjustab Kuu. Kui Kuu mass on \qty{7,35e22}{\kg}, kaugus Kuuni on \qty{3,82e8}{\m} ja $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$, siis gravitatsioonijõud tolle inimese ja Kuu vahel on \qty{0,0024}{\newton}.
+    	\item[\faSquareO] Astronaut on Maa avakosmoses Maa pinnast sama kaugel kui Maa pind Maa keskpunktist. Maa gravitatsiooniväljast tingitud astronaudi kiirendus on null.
+    	\item[\faSquareO] Planeedi Z\nobreakdash-34 mass on kolmandik Maa massi. Planeedi Z\nobreakdash-34 raadius on kolmandik Maa raadiust. Kui $g$ tähistab Maa gravitatsioonist tingitud kiirendust Maa pinnal, siis Z\nobreakdash-34 gravitatsioonist tingitud kiirendus Z\nobreakdash-34 pinnal on $3 \cdot g$.
+    	\item[\faSquareO] Planeedi A mass on kahekordne planeedi B mass. Selle teabe põhjal teame, et gravitatsioonist tingitud kiirendust planeedi A pinnal on kahekordne võrreldes gravitatsioonist tingitud kiirendusega planeedi B pinnal.
+    	\item[\faSquareO] Satelliit ringleb ümber Marsi planeedi pinnast kõrgusel, mis on võrdne planeedi kolmekordse raadiusega. Kui $g\text{m}$ tähistab gravitatsioonist tingitud kiirendust Marsi pinnal, siis satelliidi asukohas on see kiirendus $\frac{g_\text{m}}{9}$.
+    	\item[\faSquareO] Maa gravitatsiooniväli ulatub Kuust veidi kaugemale.
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
+    	\item[\faSquareO] Eestis on Maa pinnal gravitatsioonist tingitud kiirendus \qty{9,80}{\m\per\s\squared}.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+8.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+    	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
+    	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+9.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
+     	\item[\faSquareO] Maa kiireneb Kuu suunas rohkem kui Kuu Maa suhtes.
+    	\item[\faSquareO] Maa ümber tiirlevas rahvusvahelises kosmosejaamas kogevad astronaudid näilist kaaluta olekut, kuna kosmoses gravitatsiooni pole.
+    	\item[\faSquareO] Kui kaugus Kuuni kahekordistub, siis gravitatsioonijõud Maa ja Kuu vahel muutub pooleks esialgsest.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+10. Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
+    	\item[\faSquareO] Kosmoselaev liigub Kuu suunas. Kui kosmoselaev jõuab atmosfäärist välja, siis kosmoselaevale Maa külgetõmbe jõud enam ei mõju.
+    	\item[\faSquareO] Kahe planeeti A ja B pinnal mõjub ühesuurune gravitatsioonijõud. B raadius on kaks A raadiust. Kui A mass on $m$, siis B mass on $4 \cdot m$.
+    	\item[\faSquareO] \qty{70}{\kg} kaaluv inimene seisab mererannal ja kogeb tõusuvett, mida põhjustab Kuu. Kui Kuu mass on \qty{7,35e22}{\kg}, kaugus Kuuni on \qty{3,82e8}{\m} ja $G = \qty{6,67e-11}{\newton\m\squared\per\kg\squared}$, siis gravitatsioonijõud tolle inimese ja Kuu vahel on \qty{0,0024}{\newton}.
+    	\item[\faSquareO] Astronaut on Maa avakosmoses Maa pinnast sama kaugel kui Maa pind Maa keskpunktist. Maa gravitatsiooniväljast tingitud astronaudi kiirendus on null.
+    	\item[\faSquareO] Planeedi Z\nobreakdash-34 mass on kolmandik Maa massi. Planeedi Z\nobreakdash-34 raadius on kolmandik Maa raadiust. Kui $g$ tähistab Maa gravitatsioonist tingitud kiirendust Maa pinnal, siis Z\nobreakdash-34 gravitatsioonist tingitud kiirendus Z\nobreakdash-34 pinnal on $3 \cdot g$.
+    	\item[\faSquareO] Planeedi A mass on kahekordne planeedi B mass. Selle teabe põhjal teame, et gravitatsioonist tingitud kiirendust planeedi A pinnal on kahekordne võrreldes gravitatsioonist tingitud kiirendusega planeedi B pinnal.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+11. Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Satelliit ringleb ümber Marsi planeedi pinnast kõrgusel, mis on võrdne planeedi kolmekordse raadiusega. Kui $g\text{m}$ tähistab gravitatsioonist tingitud kiirendust Marsi pinnal, siis satelliidi asukohas on see kiirendus $\frac{g_\text{m}}{9}$.
+    	\item[\faSquareO] Maa gravitatsiooniväli ulatub Kuust veidi kaugemale.
+    	\item[\faSquareO] Eestis on Maa pinnal gravitatsioonist tingitud kiirendus \qty{9,80}{\m\per\s\squared}.
+    	\item[\faSquareO] Maa poolustel on Maa külgetõmbe jõud väiksem kui Maa ekvaatoril.
+    	\item[\faSquareO] Maa poolustel on Maa gravitatsiooniväljast tingitud kiirendus suurem kui Maa ekvaatoril.
+    	\item[\faSquareO] Maa poolustel ja Maa ekvaatoril on Maa külgetõmbe jõud erineva skalaariga.
+    	\item[\faSquareO] Maja kolmandal korrusel ja maja esimesel korrusel Maa külgetõmbe jõud oluliselt ei erine.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub igasuguste kehade vahel.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+    	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+12. Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+    	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+13. Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
+    	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
+    \end{itemize}
+
+    Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### 2024-4-9
+
+1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha liigub ühtlaselt sirgjooneliselt muutmata kujul.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu kiirendusega.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjuvad nii raskusjõud kui tooli pinna normaaljõud.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjub ainult raskusjõud.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjub ainult tooli pinna normaaljõud.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli sama suure jõuga kui see tool toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on nullist erinev, siis selle keha kuju, liikumise suund ega suurus ei muutu.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline sellele kehale mõjuva jõuga.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline sellele kehale mõjuva jõuga.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+2.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Mass on vastupanu kiirendusele.
+    	\item[\faSquareO] Mida suurem jõud muutumatu massiga kehale mõjub, seda suurema kiirenduse see keha saab.
+    	\item[\faSquareO] Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab.
+    	\item[\faSquareO] Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega.
+    	\item[\faSquareO] Kui objekt ei liigu, siis see ei tähenda, et sellele ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Objekt liigub sirgjoonel püsiva kiirusega. Sellele objektile ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Looduses ei ole olemas üksikut isoleeritud jõudu.
+    	\item[\faSquareO] Olles autos, ei ole võimalik autot paigalt nihutada.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+3.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Keha kiirendus kindlalt suureneb, kui kehale mõjuv jõud väheneb ja keha mass väheneb.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha liigub ühtlaselt sirgjooneliselt muutmata kujul.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu kiirendusega.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjuvad nii raskusjõud kui tooli pinna normaaljõud.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjub ainult raskusjõud.
+    	\item[\faSquareO] Toolil istuvale õpilasele mõjub ainult tooli pinna normaaljõud.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli sama suure jõuga kui see tool toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on nullist erinev, siis selle keha kuju, liikumise suund ega suurus ei muutu.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline sellele kehale mõjuva jõuga.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline sellele kehale mõjuva jõuga.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+4.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on nullist erinev, siis selle keha kuju, liikumise suund ega suurus ei muutu.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline sellele kehale mõjuva jõuga.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline sellele kehale mõjuva jõuga.
+    	\item[\faSquareO] Mass on vastupanu kiirendusele.
+    	\item[\faSquareO] Mida suurem jõud muutumatu massiga kehale mõjub, seda suurema kiirenduse see keha saab.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+5.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+     	\item[\faSquareO] Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab.
+    	\item[\faSquareO] Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega.
+    	\item[\faSquareO] Kui objekt ei liigu, siis see ei tähenda, et sellele ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Objekt liigub sirgjoonel püsiva kiirusega. Sellele objektile ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Keha kiirendus kindlalt suureneb, kui kehale mõjuv jõud väheneb ja keha mass väheneb.
+    	\item[\faSquareO] Looduses ei ole olemas üksikut isoleeritud jõudu.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+6.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Olles autos, ei ole võimalik autot paigalt nihutada.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+     	\item[\faSquareO] Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab.
+    	\item[\faSquareO] Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega.
+    	\item[\faSquareO] Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+7.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui objekt ei liigu, siis see ei tähenda, et sellele ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Objekt liigub sirgjoonel püsiva kiirusega. Sellele objektile ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Looduses ei ole olemas üksikut isoleeritud jõudu.
+    	\item[\faSquareO] Olles autos, ei ole võimalik autot paigalt nihutada.
+    	\item[\faSquareO] Looduses ei ole olemas üksikut isoleeritud jõudu.
+    	\item[\faSquareO] Olles autos, ei ole võimalik autot paigalt nihutada.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+     	\item[\faSquareO] Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
+### 2024-4-11
+
+$$
+\num{0} = F_\text{N} - F_\text{g} \pm F_\text{T}, \vec{\bf{a}} = \frac{\vec{\bf{F_\text{T}}}}{m}.
+$$
+
+Arvutused tee pöördele! Sulgudes on suurim alamülesande lahendi punktide arv.
+
+1. Pane minult saadud ämber kaalule, loe kaalult näit! Ämbri mass on \blank{\qty{3,99e-1}{\kg}}. (\num{2}.)
+
+2. Suru sõrmedega veidi kaalul olevale ämbrile, nii et kaalu näit muutuks! Kaalu uus näit on \blank{\qty{8,20e-1}{\kg}}. (\num{2}.)
+
+3. Tõsta ämbrit sangast, nii et kaalu näit muutub, aga ämber ei tõuse kaalult! Kaalu uus näit on \blank{\qty{1,49e-1}{\kg}}. (\num{2}.)
+
+4. Keskmine surumiskiirendus on \blank{\qty{-1,036e1}{\m\per\s\squared}}. (\num{2}.)
+
+5. Keskmine tõmbekiirendus on \blank{\qty{6,153}{\m\per\s\squared}}. (\num{2}.)
+
+6. Minimaalne kiirendus, millega ämber tõuseks kaalult lahti, on \blank{\qty{9,82}{\m\per\s\squared}}. (\num{2}.)
+
+7. Kui sa oleksid liikumatus liftis ja see lift hakkaks punktis \num{6} arvutatud kiirendusega allapoole liikuma, siis sinu kaal oleks \blank{\num{0}}.
+
+8. Punktis \num{7} nimetatud allapoole liikuv lift saavutaks püsiva kiiruse, millest alates oleks sinu kaal \Circle suurem \Circle väiksem kui liikuma hakkamise ajal.
+
+9. Punktis \num{8} püsikiirusega liikuv lift aeglustaks punktis \num{6} märgitud kiirendusega, mis \blank{kahe}kordistaks sinu kaalu.
+
+10. Kogu lifti liikumise kestel sinu mass \Circle muutuks \Circle ei muutuks.
+
+Täna on 2024-4-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### Lühitestide tulemused
+
+Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-1) leheküljel `r render_pageref(reference="tab:mechanics-results-1")`.
+
+\landscapebegin
+
+(ref:mechanics-tasks-2024-2-20) [2024-2-20](#mechanics-tasks-2024-2-20)
+(ref:mechanics-tasks-2024-3-14) [2024-3-14](#mechanics-tasks-2024-3-14)
+
+```{r label="mechanics-results-1", echo=FALSE}
+
+mechanics_dates <- c(
+  "(ref:mechanics-tasks-2024-2-20)",
+  "(ref:mechanics-tasks-2024-3-14)"
+)
+
+mechanics_tasks <- data.frame(
+  c( # 2024-2-20
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    4, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    2, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-3-14
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    1, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    2, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-3-28
+    6, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    5, # 6. Nersesjan, Feliks
+    NA, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  )
+)
+
+mechanics_grades <- data.frame(
+  c( # 2024-2-20
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    4, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    2, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-3-14
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    3, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    2, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-3-28
+    1, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    1, # 6. Nersesjan, Feliks
+    NA, # 7. Salnikova, Veronika
+    NA, # Šerstobitov, Mihhail
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  )
+)
+
+summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
+
+data_frame <- cbind(mechanics_tasks[1], mechanics_grades[1])
+number_of_tests <- length(mechanics_dates)
+limit_of_dates <- 2#6
+additional_header <- data.frame(
+  c("Õpilane", mechanics_dates[1:limit_of_dates]),
+  c(1, rep(x=2, limit_of_dates))
+)
+
+for (date in 2:number_of_tests) {
+  data_frame <- cbind(data_frame, mechanics_tasks[date], mechanics_grades[date])
+}
+
+data_frame <- cbind(data_frame, summary)
+
+last_column <- limit_of_dates * 2
+data_frame_1 <- subset(data_frame, select = c(1:last_column))
+colnames(data_frame_1) <- c(
+  rep(x=c("Üles-anne", "Hinne"), limit_of_dates)
+)
+rownames(data_frame_1) <- names_10_20240220
+table <- print_table(
+  table = data_frame_1,
+  caption = paste("Mehaanika kursuse tulemused ", mechanics_dates[1], " kuni ", mechanics_dates[limit_of_dates], ".", sep=""),
+  additional_header = additional_header
+)
+
+for (date in 1:limit_of_dates) {
+  table <- column_spec(kable_input = table, column = date * 2, width = "2em")
+}
+
+# table
+
+```
+
+\landscapeend

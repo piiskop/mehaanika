@@ -1,12 +1,18 @@
-book_filename: "manual-for-rstudio"
+book_filename: "mehaanika"
 new_session: false
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
-  "rmd/setup.Rmd",
-  "rmd/configuration.Rmd",
-  "rmd/rmd.Rmd",
-  "rmd/latex.Rmd",
-  "rmd/r.Rmd",
+  # "UntitledRMD.Rmd",
+  "rmd/hindamine.Rmd",
+  "rmd/soovitusi-õppimiseks.Rmd",
+  "rmd/baasreeglistik/baasreeglistik.Rmd",
+  "rmd/kursus.Rmd",
+  "rmd/mõõtmiseksperiment.Rmd",
   "references.Rmd"
 ]
+language:
+  label:
+    exr: 'Ülesanne '
+    fig: 'Joonis '
+    

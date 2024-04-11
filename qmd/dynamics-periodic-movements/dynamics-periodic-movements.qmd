@@ -1,0 +1,493 @@
+---
+author:
+  - name: 'peacecop kalmer:'
+bibliography: dynamics-periodic-movements.bib
+csl: ../../apa-numeric-superscript-brackets.csl
+title: |
+    | Dünaamika ja
+    | perioodilised liikumised
+output-file: dynamics-periodic-movements.html
+format:
+  revealjs:
+    incremental: false
+    multiplex:
+      url: 'http://manual-for-rstudio.ons.ee:1948/'
+      secret: "16759825730498538629"
+      socketId: "f3edf0ff0d09982e"
+language: et.yml
+crossref:
+  eq-prefix: avaldis
+  fig-prefix: joonis   # (default is "Figure")
+
+---
+
+## Hinnatavad tegevused
+
+```{r label="setup", echo=FALSE}
+#' This function displays external graphics by making the appropriate conversion aforehead.
+#' 
+#' @param path the path to the image file
+include_external_graphics = function(path) {
+
+  if (knitr::is_latex_output() && ("pdf" != xfun::file_ext(path))) {
+    output = xfun::with_ext(path, 'pdf')
+    
+    if ("svg" == xfun::file_ext(path)) {
+      system2('rsvg-convert', c('-f', 'pdf', '-a', '-o', shQuote(c(output, path))))
+    } else {
+      system(paste('gm convert ', path, ' ', output), intern = FALSE, ignore.stdout = FALSE, ignore.stderr = FALSE, wait = TRUE) # graphicsmagick
+    }
+    
+  } else {
+    output = path
+  }
+  
+  knitr::include_graphics(output)
+}
+
+```
+
+- lühitestid ja
+- kontrolltöö
+
+## Üldtingimused
+
+- enda nutiseadmed eemale
+- tõlkimiseks ja kalkuleerimiseks õpetaja arvuti kuni 30 s järjest
+- muu arvuti puudutamine mittelubatud kõrvalise abi kasutamine
+- enda konspekti tohib kasutada
+
+## Lühitestid
+
+- uues teemas lahendamised,
+- kooliväliseks lahendamiseks jäetud ülesande lahendamine ja
+- lähiajalugu
+
+## Uues teemas lahendamised
+
+- protsendipunktid kursuse lõpphinde osamäärale juurde
+- abita lahendus: üks protsendipunkt
+- abiga lahendus: pool protsendipunkti
+- võrdne võimalus
+- esimesena esimene soovija
+- hinded võrdse kaaluga
+
+## Lähiajalugu
+
+- esimesed kümme minutit
+- eelneva õppekorra temaatika
+- üks ülesanne
+- kõik kohalolevad õpilased
+- hinded võrdse kaaluga
+- koondhinde eeldus osalus vastavalt hinde kriteeriumosamäärale
+
+## Kontrolltöö
+
+- kursuse lõpus
+- fakultatiivne
+- senise koondhinde parandamisvõimalus
+- viis eri raskusega ülesannet
+- SI
+- õpilase enda loodud ülesanded
+
+## Konspekt
+
+- õpilase enda õpik
+- soovituslik *A4*-vormingus ja ruuduline
+- soovituslik kasutada eri värve
+- soovituslik sisujuht lehekülgede numeratsiooniga
+- kontrollin õppekordade lõpus ja tagasisidestan
+
+## Kohalolu
+
+Õppesessiooni ruumist väljas võibkäia üksnes üks õpilane korraga,kui pole minuga kokku lepitudteistmoodi.
+
+## Kordamine
+
+Nõustamine ja järelevastamine le-pitakse iga kord eraldi kokku.
+
+## Teemad
+
+- dünaamika
+- perioodilised liikumised
+
+## Jõud: simulatsioon[@forces]
+
+```{r label="sim-forces", echo=FALSE}
+knitr::include_url("https://phet.colorado.edu/sims/html/forces-and-motion-basics/latest/forces-and-motion-basics_all.html") 
+
+```
+
+## Jõud: ülesanded
+
+Lahendame ülesanded 1-5[@ekoolikottee] (@fig-qr-force-ekoolikott).
+
+```{r label="fig-qr-force-ekoolikott", echo=FALSE, fig.cap="Jõud - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229894#229895-Kehade-vastastikmoju-Joud", ecl="H")
+plot(code)
+
+```
+
+## Jõudude liitmine: eksperiment
+
+toolil oleva õpilase koos tooliga ühe käega tõstmise eksperiment
+
+## Jõudude liitmine: simulatsioon[@vector]
+
+```{r label="sim-adding-forces", echo=FALSE}
+knitr::include_url("https://phet.colorado.edu/sims/html/vector-addition/latest/vector-addition_all.html") 
+
+```
+
+## Jõudude liitmine: ülesanded
+
+Lahendame ülesanded 1-7[@ekoolikottee] (@fig-qr-adding-forces-ekoolikott).
+
+```{r label="fig-qr-adding-forces-ekoolikott", echo=FALSE, fig.cap="Jõudude liitmine - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229896#229897-Joudude-vektoriaalne-liitmine-Resultantjoud", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: I
+
+Kui kehale mõjuvate jõudude resultant on null, on keha kas paigal või liigub ühtlaselt ja sirgjooneliselt[@ekoolikottee].
+
+## Newtoni seadused: I: ülesanded
+
+Lahendame ülesanded 1-6[@ekoolikottee] (@fig-qr-newton-i-ekoolikott).
+
+```{r label="fig-qr-newton-i-ekoolikott", echo=FALSE, fig.cap="Newtoni esimene seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229898#229899-Newtoni-esimene-seadus", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: II: näitamine
+
+pallid[@ekoolikottee]
+
+## Newtoni seadused: II: inertsus
+
+inertsus
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+
+## Newtoni seadused: II: mass
+
+mass
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
+
+## Newtoni seadused: II
+
+Keha kiirendus on võrdeline kehale mõjuva jõuga ja pöördvõrdeline keha massiga[@ekoolikottee] (@eq-newton-ii).
+
+$$
+\vec{\bf{a}} = \frac{\vec{\bf{F}}}{m}
+$${#eq-newton-ii}
+
+## Newtoni seadused: II: ülesanded
+
+Lahendame ülesanded 1-7[@ekoolikottee] (@fig-qr-newton-ii-ekoolikott).
+
+```{r label="fig-qr-newton-ii-ekoolikott", echo=FALSE, fig.cap="Newtoni teine seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229900#229901-Newtoni-teine-seadus-Keha-mass", ecl="H")
+plot(code)
+
+```
+
+## Newtoni seadused: III: näitamine
+
+- sõrm ja laud
+
+- sõrm ja pall[@ekoolikottee]
+
+## Newtoni seadused: III
+
+Kaks keha mõjutavad teineteist alati absoluutväärtuselt võrdsete ja vastassuunaliste jõududega[@ekoolikottee] (@eq-newton-iii).
+
+$$
+F_\text{1; 2} = -F_\text{2; 1}
+$${#eq-newton-iii}
+
+Tingimused:
+
+- jõud alati paaris ja sama liiki,
+
+- ei tasakaalusta üksteist, sest mõjuvad eri kehadele.
+
+## Newtoni seadused: III: ülesanded
+
+Lahendame kõik ülesanded[@ekoolikottee] (@fig-qr-newton-iii-ekoolikott).
+
+```{r label="fig-qr-newton-iii-ekoolikott", echo=FALSE, fig.cap="Newtoni kolmas seadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229902#229903-Newtoni-kolmas-seadus", ecl="H")
+plot(code)
+
+```
+
+## Gravitatsiooniseadus
+
+Kaks keha tõmbuvad teineteise poole jõuga, mis on võrdeline nende masside korrutisega ja pöördvõrdeline vahekauguse ruuduga[@haynes_2014_crc(lk 1-1); @ekoolikottee] (@eq-gravitation).
+
+```{r label="gravitational-constant", echo=FALSE}
+librarian::shelf(c(
+  "constants",
+  "formatdown"
+))
+formatted_G <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=syms$bg, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+$$
+G = `r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}.\\
+F = \frac{G \cdot m_\text{1} \cdot m_\text{2}}{r^2}.
+$${#eq-gravitation}
+
+## Gravitatsioonikonstandi ühik
+
+$$
+G = \frac{F \cdot r^2}{m_\text{1} \cdot m_\text{2}}.
+$$
+
+Dimensionaalanalüüs:
+
+$$
+\text{dim}(G) = \frac{\frac{\text{M} \cdot \text{L}}{\text{T}^2} \cdot \text{L}^2}{\text{M} \cdot \text{M}} = \frac{\text{L}^3}{\text{M} \cdot \text{T}^2}.
+$$
+
+Ühik:
+
+$$
+\frac{\text{m}^3}{\text{kg}\ \text{s}^2}.
+$$
+
+## Raskusjõud Maa pinnal
+
+Gravitatsioonijõud:
+
+$$
+M = m_1,\\
+m = m_2,\\
+F = \frac{G \cdot M \cdot m}{r^2}.
+$$
+
+
+Maa mass[@planetary]:
+
+```{r label="mass-of-Earth", echo=FALSE}
+librarian::shelf(c(
+  "formatdown"
+))
+M <- 5.972e24
+formatted_M <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=M, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+$$
+M = `r formatted_M`\ \text{kg}.
+$$
+
+## Maa raadius
+
+Maa raadius ekvaatoril[@haynes_2014_crc, lk 14-11; @planetary]:
+
+```{r label="radius-of-Earth", echo=FALSE}
+librarian::shelf(c(
+  "formatdown"
+))
+mean_equatorial_radius <- 6.37814e6
+formatted_mean_equatorial_radius <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=mean_equatorial_radius, format="sci", delim = "\ "), fixed = TRUE)
+mean_polar_radius <- 6.356753e6
+formatted_mean_polar_radius <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=mean_polar_radius, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+$$
+\overline{a} = `r formatted_mean_equatorial_radius`\ \text{m}.
+$$
+
+Maa raadius poolustel[@ahrens_1995_a, lk 14-11]:
+
+$$
+\overline{c} = `r formatted_mean_polar_radius`\ \text{m}.
+$$
+
+## Raskusjõud ekvaatoril
+
+:::: {layout="[65, 35]"}
+
+::: {#gravitational-force-onequator-formula}
+
+Valem:
+
+$$
+\overline{a} = r,\\
+F = \frac{G \cdot M \cdot m}{\overline{a}^2}.
+$$
+
+Õigem:
+
+:::
+
+::: {#gravitational-force-on-equator-figure}
+
+![](ekvatoriaalne-raskusjõud.svg)
+
+:::
+
+::::
+
+```{r label="F_g_equatorial", echo=FALSE}
+g_equatorial <- syms$bg * M / (mean_equatorial_radius)^2
+formatted_g_equatorial <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=g_equatorial, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+
+$$
+\begin{align}
+F &= \frac{(`r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}) \times (`r formatted_M`\ \text{kg}) \cdot m}{(`r formatted_mean_equatorial_radius`\ \text{m})^2}\\
+&= (`r formatted_g_equatorial`\ \text{m}\ \text{s}^{-2}) \cdot m.
+\end{align}
+$$
+
+## Raskusjõud poolustel
+
+:::: {layout="[65, 35]"}
+
+::: {#gravitational-force-to-poles-formula}
+
+Valem:
+
+$$
+\overline{c} = r,\\
+F = \frac{G \cdot M \cdot m}{\overline{c}^2}.
+$$
+
+Õigem:
+
+:::
+
+::: {#gravitational-force-to-poles-figure}
+
+![](polaarne-raskusjõud.svg)
+
+:::
+
+::::
+
+```{r label="F_g_polar", echo=FALSE}
+g_polar <- syms$bg * M / (mean_polar_radius)^2
+formatted_g_polar <- gsub(pattern = ".", replacement = "{,}", x=format_power(x=g_polar, format="sci", delim = "\ "), fixed = TRUE)
+
+```
+
+
+$$
+\begin{align}
+F &= \frac{(`r formatted_G` \mathrm{m^3 kg^{-1} s^{-2}}) \times (`r formatted_M`\ \text{kg}) \cdot m}{(`r formatted_mean_polar_radius`\ \text{m})^2}\\
+&= (`r formatted_g_polar`\ \text{m}\ \text{s}^{-2}) \cdot m.
+\end{align}
+$$
+
+## Suurupi
+
+9,818235038
+
+## Kaks inimest
+
+## Gravitatsiooniseadus: ülesanded
+
+Lahendame ülesanded 1-3, 5[@ekoolikottee] (@fig-qr-gravitation-ekoolikott).
+
+```{r label="fig-qr-gravitation-ekoolikott", echo=FALSE, fig.cap="Gravitatsiooniseadus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229904#229905-Gravitatsioon-Gravitatsiooniseadus", ecl="H")
+plot(code)
+
+```
+
+## Raskusjõud
+
+raskusjõud
+: taevakeha külgetõmbe jõud[@ekoolikottee] (@eq-gravitational-force)
+
+$$
+F = \frac{G \cdot M \cdot m}{r^2}.
+$${#eq-gravitational-force}
+
+## Raskuskiirendus
+
+raskuskiirendus
+: kiirendus, mille annab kehale raskusjõud[@ekoolikottee] (@eq-acceleration-due-to-gravitation)
+
+$$
+g = \frac{F}{m} = \frac{\frac{G \cdot M \cdot m}{r^2}}{m} = \frac{G \cdot M}{r^2}.
+$${#eq-acceleration-due-to-gravitation}
+
+## Raskuskiirendus Maa pinnal[@elert_2019_glenn]
+
+![Gravitatsioonist põhjustatud kiirendus eri Maa paigus.](g.png)
+
+## Raskuskiirenduse konverteerimine[@haynes_2014_crc, p. 2-44, 14-11] 
+
+$$9,80665\frac{\text{m}}{\text{s}^2}.$$
+
+## Raskuskiirendus pinnalt kõrgemal
+
+$$g = G \cdot \frac{M}{(r + h) ^ 2},$$
+
+kus 
+
+*M*
+: Maa mass,
+
+*r*
+: Maa raadius,
+
+*h*
+: kõrgus Maa pinnast.
+
+## Raskusjõud ja -kiirendus: ülesanded
+
+Lahendame ülesanded 1-2, 6-7[@ekoolikottee] (@fig-qr-acceleration-due-to-gravitation-ekoolikott).
+
+```{r label="fig-qr-acceleration-due-to-gravitation-ekoolikott", echo=FALSE, fig.cap="Raskusjõud ja -kiirendus - viide."}
+librarian::shelf(c(
+  "qrcode"
+))
+code <- qr_code(x="https://e-koolikott.ee/et/oppematerjal/19850-2-1-Dunaamika/229906#229907-Raskusjoud-Raskuskiirendus", ecl="H")
+plot(code)
+
+```
+
+## Kaal
+
+Ülesanded 1, 3
+
+## Välised allikad
+
+```{=tex}
+\hyphenpenalty=10000
+\fontspec{Symbola}
+
+```
+
+[Looduseuurimine](/)

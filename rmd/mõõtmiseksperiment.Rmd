@@ -1,0 +1,235 @@
+# Mõõtmiseksperiment
+
+## Eesmärk
+
+Õpilasel on selge, kuidas praktiliselt rakendada mõõtemääramatust ja -viga. Õpetaja on kogenud, kuidas õpilased mõõtemääramatuse ja -vea praktilistes tegevustes edenevad.
+
+## Sisu
+
+Õpilased tegutsevad paarikaupa või kolmekesi. Ühekorraga on üks õpilasrühm ühes jaamas. Jaamad:
+
+1. Mõõtkavadega joonlaud.
+
+2. Nihik.
+
+3. Nurgamõõtja.
+
+4. Valgustugevuse mõõtja.
+
+5. Vere hapnikusisalduse mõõtja.
+
+6. Pulsimõõtja.
+
+7. Temperatuuri analoogmõõtja.
+
+8. Temperatuuri digitaalmõõtja.
+
+9. Kompass.
+
+10. Väike voltmeeter.
+
+11. Suur voltmeeter.
+
+12. Tavaline joonlaud.
+
+...
+
+Jaamas oleva mõõtmisvahendiga tuleb teostada mõõtmine või mõõtmised ning täheldada sõltuvalt mõõtevahendist oma konspekti järgmised andmed:
+
+1. Mõõtevahend.
+
+2. Kas digitaalne või analoogne?
+
+3. Mõõtevahendi kohta tootja poolt esitatud mõõtmistäpsus.
+
+4. Mõõtevahendi väikseim ühik.
+
+5. Mida mõõdeti?
+
+6. Mõõtmise tulemusväärtus ühe mõõtmise korral või -väärtused vähemalt seitsme mõõtmise korral.
+
+7. A-tüüpi mõõtemääramatus.
+
+8. B1-tüüpi mõõtemääramatus.
+
+9. B2-tüüpi mõõtemääramatus.
+
+10. Kogu mõõtemääramatus.
+
+11. Mitme sisendi korral talitluse mõõtemääramatus.
+
+12. Mõõtmistulemus koos mõõtemääramatusega täielikult.
+
+13. Suhteline mõõtemääramatus.
+
+14. Mõõtmistulemuse võimalik vahemik.
+
+15. Graafik mõõtmistulemuse keskväärtuse ja mõõtemääramatuse piiridega, mitme mõõtmise puhul ka kõik mõõtmistulemused.
+
+16. Mõõteviga.
+
+\onecolumn
+
+## Mõõtmisraport
+
+### Mõõtevahend
+
+Mõõtevahendi mudeli nimi: \blank{*ST-1300*}.
+
+Mõõtevahend on
+
+\begin{itemize}
+	\item[$\ocircle$] digitaalne.
+	\item[$\ocircle$] analoogne.
+\end{itemize}
+
+### Mõõtmine
+
+#### Mida mõõtsin?
+
+\vspace{0.2\textheight}
+
+#### Väljamõõdetud väärtus
+
+\vspace{0.1\textheight}
+
+#### A-tüüpi mõõtemääramatus
+
+Arvutan A-tüüpi mõõtemääramatuse tabeli \@ref(tab:measuring-uncertainty-A) leheküljel `r render_pageref(reference="tab:measuring-uncertainty-A")` abil.
+
+```{r label = "measuring-uncertainty-A", echo=FALSE}
+number_of_measurements <- 7
+
+x <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  number_of_measurements,
+  ""
+)
+
+distance_from_mean <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "$\\sum_{i = 1}^n{(x - \\bar{x})^2}$",
+  "n - 1",
+  paste("$u_\\mathrm{A} = \\num{", student_7, "} \\cdot \\sqrt{\\frac{\\sum_{i = 1}^n{(\\overline{x} - x_i)^2}}{n \\cdot (n - 1)}}$", sep = "")
+)
+
+distance_from_mean_scared <- c(
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  number_of_measurements - 1,
+  ""
+)
+data_frame_of_uncertainty_A <- data.frame(
+  x,
+  distance_from_mean,
+  distance_from_mean_scared
+)
+
+colnames(data_frame_of_uncertainty_A) <- c(
+  "$\\frac{x}{}$",
+  "$\\frac{x - \\bar{x}}{}$",
+  "$\\frac{(x - \\bar{x})^2}{}$"
+)
+
+rownames(data_frame_of_uncertainty_A) <- c(
+	"1.",
+	"2.",
+	"3.",
+	"4.",
+	"5.",
+	"6.",
+	"7.",
+	"$\\sum_{i = 1}^n{x}$",
+	"$n$",
+	"$\\bar{x}$"
+)
+
+print_table(
+  caption = "A-tüüpi mõõtemääramatuse arvutamine.",
+  table = data_frame_of_uncertainty_A
+)
+
+```
+
+#### B1-tüüpi mõõtemääramatus
+
+Mõõtevahendi dokumentatsioonis on mõõtetäpsus: \blank{$\pm \qty{5}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on väiksem kui \qty{10000}{\lux}, ja $\pm \qty{10}{\percent} \pm \num{10} \ \text{vähim olulist tüvenumbrit}$, kui valgustus on suurem kui \qty{10000}{\lux}}.
+
+$e_\mathrm{p} = \blank{\num{`r as.character(precision_ratio)`} \times \qty{`r as.character(illuminance_mean)`}{\lux} + \qty{`r as.character(number_of_least_sigfig)`}{\lux}}.$
+
+$u_\mathrm{B1} = \num{`r as.character(student_inf)`} \cdot \frac{e_\mathrm{p}}{3} = \blank{\qty{`r as.character(signif(x = illuminance_uncertainty_B_1, digits = 2))`}{\lux}}.$
+
+#### B2-tüüpi mõõtemääramatus
+
+Väikseim ühik $l =$ \blank{\qty{`r as.character(signif(x = caliper_smallest_unit, digits = 1))`}{\m}}.
+
+Mõõtevahendi kasutamisega võimalike veategemise kordade arv ühes mõõtmises $m =$ \blank{\num{1}}.
+
+$u_\mathrm{B2} = \num{`r as.character(probability)`} \cdot \frac{\text{väikseim ühik}}{2} \cdot m = \blank{\qty{`r as.character(signif(x = caliper_b, digits = 2))`}{\m}}.$
+
+#### Kogu mõõtemääramatus
+
+$u = \sqrt{u_\mathrm{A}^2 + u_\mathrm{B1}^2 + u_\mathrm{B2}^2} = \blank{\qty{`r as.character(signif(x = caliper_uncertainty, digits = 2))`}{\m}}.$
+
+#### Talitluse mõõtemääramatus
+
+\vspace{0.3\textheight}
+
+#### Mõõtmistulemus koos mõõtemääramatusega täielikult
+
+\vspace{0.1\textheight}
+
+#### Suhteline mõõtemääramatus
+
+$R = \frac{u}{\overline{\blank{x}}} = \blank{\num{`r as.character(signif(x = ruler_relative, digits = 3))`}}.$
+
+#### Mõõtmistulemuse võimalik vahemik
+
+[\blank{\qty{`r as.character(signif(x = ruler_lower, digits = 3))`}{\m}}; \blank{\qty{`r as.character(signif(x = ruler_upper, digits = 3))`}{\m}}].
+
+#### Graafik mõõtmistulemuse keskväärtuse ja mõõtemääramatuse piiridega
+
+\vspace{0.3\textheight}
+
+#### Mõõteviga
+
+\vspace{0.3\textheight}
+
+\twocolumn
+
+## Tegevused jaamati
+
+### Mõõtkavadega joonlaud
+
+Õpilane teeb mõõdistuse nii kaardil @virmalise3pdf kui @faili. Õpilane loeb kaardilt välja mõõtkava, valib vastavalt sellele mõõtkavadega joonlaua skaala ja asub mõõtma. @virmalise3pdf'l mõõdab õpilane suvalise skeemil tervenisti näha oleva lõigu pikkuse. @faili'l mõõdab õpilane aia detaili pikkuse ja kõrguse. Arvutada tuleb aiaosa pindala ja vastav mõõtemääramatus ning esitada tulemus. Kontrollida tuleb aia pikkust või kõrgust joonisel oleva suhtes esitades mõõtevea.
+
+\newpage
+
+### Nihik
+
+Õpilane mõõdab nihikuga oma nimetissõrme jämeduse. Selleks lülitab nihiku sisse vajutades *ON*-nupule. Kui näit erineb nullist, tuleb vajutada *ZERO*. Järgmisena tuleb nuppude juures all paremas servas oleva eenduse alla panna pöial ja nihutada plastikkarpi, mille tulemusel tekib metallribade vahele ava. Sinna avausse tuleb pista sõrm ja nihutada plastikkarpi, nii et sõrm oleks tihedalt mõlema metallriba vahel. Märkida üles näit! Korrata katset kuus korda vabastades iga kord sõrme ja alustades algusest vajadusel nullides näidu, nii et lõpuks oleks tehtud seitse katset!
+
+\newpage
+
+### Voltmeeter
+
+Mõõta tuleb nii tühjenenud kui tühjenemata patareid, sest viimase puhul on võimalik arvutada mõõteviga.
