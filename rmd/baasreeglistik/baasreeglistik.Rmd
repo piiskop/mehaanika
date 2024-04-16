@@ -121,7 +121,7 @@ $x$, $y$ ja $z$
 
 ```{=tex}
 \begin{align}
-\vec{\bf{r}} := x \cdot \hat{\bf{i}} + y \cdot \hat{\bf{j}} + z \cdot \hat{\bf{k}},
+\vec{\bf{r}} := x \, \hat{\bf{i}} + y \, \hat{\bf{j}} + z \, \hat{\bf{k}}.
 (\#eq:r)
 \end{align}
 
@@ -305,7 +305,7 @@ Kiiruse vektor on väljendatud valemiga \@ref(eq:velocity) leheküljel `r render
 
 ```{=tex}
 \begin{align}
-\vec{\bf{v}} = \frac{\mathrm{d}(\vec{\bf{r}})}{\mathrm{d}(t)},
+\vec{\bf{v}} = \frac{\mathrm{d}(\vec{\bf{r}})}{\mathrm{d}(t)}.
 (\#eq:velocity)
 \end{align}
 
@@ -552,7 +552,7 @@ Tee pikkuse saab püsiva jõnksu kaudu avaldada integreerimise kaudu, nagu on n�
 \int{v(t)} \cdot \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r)}{\mathrm{d}(t)}} \cdot \mathrm{d}(t), \leavevmode\\
 \int{\frac{w(t) \cdot t^2}{2} + a(0) \cdot t + v(0)}  \times \mathrm{d}(t) &= \int{\frac{\mathrm{d}(r(t))}{\mathrm{d}(t)}} \times \mathrm{d}(t), \leavevmode\\
 \frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + G &= r(t) + H, \leavevmode\\
-\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t)
+\frac{w(t) \cdot t^3}{6} + \frac{a(0) \cdot t^2}{2} + v(0) \cdot t + r(0) &= r(t).
 (\#eq:path-length-by-jerk)
 \end{align}
 
@@ -889,7 +889,7 @@ Aje ehk hooandmine ehk jõu impulss on hoo muut ning see on esitatud valemina \@
 Kui mass ei muutu, siis saab kiirenduse, mis on tingitud jõust, avaldada valemiga \@ref(eq:acceleration-by-force) leheküljel\ `r render_pageref(reference="eq:acceleration-by-force")`[@haynes_2014_crc(lk 2-2)].
 
 \begin{align}
-\Delta(m) = 0 \rightarrow \frac{m \cdot \mathrm{d}(\vec{\bf{v}})}{\text{d}(t)} = \vec{\bf{a}}= \frac{\vec{\bf{F}}}{m}.
+\Delta(m) = 0 \rightarrow \frac{m \cdot \mathrm{d}(\vec{\bf{v}})}{\text{d}(t)} = m \cdot \vec{\bf{a}}= \vec{\bf{F}}.
 (\#eq:acceleration-by-force)
 \end{align}
 
@@ -1758,20 +1758,24 @@ convert_W_to_hp <- function(W) {
 
 ## Aurustumissoojus
 
+Aurustumissoojust saab arvutada valemi \@ref(eq:heat-of-vaporization) järgi leheküljel \, `r render_pageref(reference="eq:heat-of-vaporization")`.
+
 ```{=tex}
 \begin{align}
 \Delta_\text{vap}(H) = \frac{E}{m} = \frac{m \cdot a \cdot \Delta(s)}{m} = a \cdot \Delta(s).
 (\#eq:heat-of-vaporization)
 \end{align}
+
 ```
 
-Dimensionaalanalüüs:
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-heat-of-vaporization) leheküljel\, `r render_pageref(reference="eq:dimensional-analysis-for-heat-of-vaporization")`.
 
 ```{=tex}
 \begin{align}
-\frac{L^2 \cdot M}{T^2 \cdot M} = \frac{L^2}{T^2},
+\text{dim}(\Delta_\text{vap}(H)) = \frac{L^2 \cdot M}{T^2 \cdot M} = \frac{L^2}{T^2}.
 (\#eq:dimensional-analysis-for-heat-of-vaporization)
 \end{align}
+
 ```
 
 mistõttu ühik on $\unit{\metre\squared\per\second\squared}$ või teisiti $\unit{\joule\kg}$.

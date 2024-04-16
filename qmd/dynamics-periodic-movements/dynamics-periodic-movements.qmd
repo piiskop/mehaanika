@@ -179,7 +179,7 @@ pallid[@ekoolikottee]
 ## Newtoni seadused: II: inertsus
 
 inertsus
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab väline nullist erinev mõju sellele kehale kestma teatud aja
 
 ## Newtoni seadused: II: mass
 

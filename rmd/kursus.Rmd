@@ -525,6 +525,8 @@ Kava:
 
 2. Gravitatsioonikonstandi ühiku tuletamine.
 
+\multicolsend
+
 ### 2024-3-21
 
 Kursuse lõpus õpilane:
@@ -547,6 +549,8 @@ Kava: Arvutused gravitatsioonikonstandiga (joonis \@ref(fig:dynamics-sessions-gr
 include_external_graphics("rmd/IMG_20240321_150908.jpg")
 
 ```
+
+\multicolsbegin
 
 ### 2024-3-28
 
@@ -584,6 +588,8 @@ raskusjõud (4: 6)
 
 Kava: Mängisime läbi jõu arvutamise situatsioonid staatilise raskusega.
 
+\multicolsend
+
 ### 2024-3-28
 
 Kursuse lõpus õpilane:
@@ -606,6 +612,26 @@ Kava: Arvutasime kaalu näidu liikuma hakkava lifti puhul (joonis \@ref(fig:dyna
 include_external_graphics("rmd/IMG_20240328_150618.jpg")
 
 ```
+
+\multicolsbegin
+
+### 2024-4-2 Waldorfkoolis
+
+Kava:
+
+Pärast soojendamiseks ja tutvumiseks tehtud loogikamängu, milles kõik neli rõõmuga osalesid, leppisime kokku esialgse plaani ja seejärel viskasin neile küsimusi praeguse füüsikakursuse alguse teemade kohta. Ilma konspektita ei osanud keegi Newtoni seadustest midagi rääkida. Konspekti abil kaks õpilast siiski tuletasid jutu kokku, mida nad ei mõistnud. Seetõttu me mõtestasime selles jutus olnud komponente lahti ja sidusime ka inimvaheliste suhetega.
+
+### 2024-4-2 Waldorfkoolis
+
+Õpitulemused:
+
+4. Selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
+
+Õppesisu
+
+1. Newtoni seadused (4-6).
+
+Kava: Jätkasime eelmise sessiooni kava järgimist pärast soojendust.
 
 ### 2024-4-4
 
@@ -690,11 +716,41 @@ Kava:
 
 \multicolsbegin
 
-### 2024-4-11
+### 2024-4-9 Waldorfkoolis
+
+Soojendus kahe võistkonna vahelise loogikamänguga.
+
+Liikumisseaduste kordamine ja hindeline lühitest.
+
+### 2024-4-9 Waldorfkoolis
+
+Hoo ja aje kordamine.
 
 ### 2024-4-11
 
 ### 2024-4-11
+
+### 2024-4-11
+
+### 2024-4-16 Waldorfkoolis
+
+Tegevused:
+
+1. Välised mõjud inimese kehale.
+
+2. Võrdelisuse selgitamine.
+
+3. Valemitemäng.
+
+4. Liikumisseaduste testi probleemsete ülesannete lahendamine.
+
+5. Lühitest aje teemani.
+
+6. Põrgete kordamine.
+
+7. Gravitatsiooni kordamine.
+
+### 2024-4-16 Waldorfkoolis
 
 \pagebreak
 
@@ -1628,6 +1684,26 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
 
     Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
 
+8.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Kui objekt ei liigu, siis see ei tähenda, et sellele ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Objekt liigub sirgjoonel püsiva kiirusega. Sellele objektile ei mõju mitte ükski jõud.
+    	\item[\faSquareO] Looduses ei ole olemas üksikut isoleeritud jõudu.
+    	\item[\faSquareO] Olles autos, ei ole võimalik autot paigalt nihutada.
+    	\item[\faSquareO] Igale mõjule on sama suur vastassuunaline vastumõju ning need mõjud avalduvad eri kehadele.
+    	\item[\faSquareO] Mõõde muutuse võimaldamiseks on aeg.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga.
+    	\item[\faSquareO] Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga.
+    	\item[\faSquareO] Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast.
+    	\item[\faSquareO] Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast.
+     	\item[\faSquareO] Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab.
+    \end{itemize}
+
+    Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
+
 ### 2024-4-11
 
 $$
@@ -1657,6 +1733,161 @@ Arvutused tee pöördele! Sulgudes on suurim alamülesande lahendi punktide arv.
 10. Kogu lifti liikumise kestel sinu mass \Circle muutuks \Circle ei muutuks.
 
 Täna on 2024-4-11 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+### 2024-4-16
+
+1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] "Kaks last hõljuvad liikumatult kosmosejaamas. \qty{20}{\kg} tüdruk surub \qty{40}{\kg} poissi ja poiss triivib ära kiirusega \qty{1,0}{\m\per\s}. Tüdruk jääb paigale.".
+    	\item[\faSquareO] Inertsus on keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab see keha ise ennast mõjutama teatud aja.
+    	\item[\faSquareO] Mass on füüsikaline suurus, mis suunaliselt iseloomustab keha inertsust.
+    	\item[\faSquareO] Mass on vektoriaalne suurus.
+    	\item[\faSquareO] Hoog on skalaarne suurus.
+    	\item[\faSquareO] Jõud on vektoriaalne suurus.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha ajet.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha hoo muutu.
+    \end{itemize}
+
+    Langevarjur langeb, liikudes ühtlaselt ja sirgjooneliselt. Selgitan, milliste kehade mõjud kompenseeruvad:
+
+    \blank{Maa külgetõmme}
+    \blank{ kompenseeritakse}
+    \blank{ õhutakistuse}
+    \blank{ ja üleslükkega.}
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+2.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+     	\item[\faSquareO] Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb.
+    	\item[\faSquareO] Kosmonaut on lühikese vahemaa kaugusel oma kosmosejaamast ilma köieta. Tal on suur mutrivõti. Et liikuda kosmosejaama poole, peaks ta mutrivõtme otse kosmosejaamast eemale viskama.
+    	\item[\faSquareO] Pesapall visatakse horisontaalselt koduplaadi suunas kiirusega \qty{110}{\kilo\m\per\hour}. Pesapalli aje on  suurema magnituudiga, kui pesapall lüüakse otse tagasi viskajale kiirusega \qty{110}{\kilo\m\per\hour}, võrreldes olukorraga, milles püüdja püüab palli kinni.
+    	\item[\faSquareO] Golfipall ja samaväärse massiga olev ubade kott visatakse samalt kõrguselt ja tabavad maad. Oa kott jääb maha, samal ajal kui golfipall põrkub tagasi. Ubade kott kogeb suuremat hoogu maapinnalt.
+    	\item[\faSquareO] Liikuvad kehad vahel aeglustuvad ja peatuvad, mistõttu ei ole võimalik, et hoog oleks jääv suurus.
+    	\item[\faSquareO] Kui inimene hüppab puult maapinnale, siis kokku puutudes maapinnaga muutub inimese impulss nulliks.
+    	\item[\faSquareO] Mida pikem on hoo mõjuaeg, seda suurem peab olema väliste jõudude summa suurus, et aje jääks samaks.
+    \end{itemize}
+
+    Traktor, mille veojõud haakekonksul on \qty{15}{\kilo\newton}, annab haagisele kiirenduse \qty{0,5}{\m\per\s\squared}. Traktor, mis arendab veojõudu \qty{60}{\kilo\newton}, annab samale haagisele kiirenduse \blank{\qty{2}{\m\per\s}}. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+3.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Suletud süsteemi koguhoog on muutumatu.
+    	\item[\faSquareO] Kiirus on vektoriaalne suurus.
+    	\item[\faSquareO] Hoog on massi ja kiiruse korrutis.
+     	\item[\faSquareO] Massi saab arvutada jagades hoo kiirusega.
+    	\item[\faSquareO] Keha hoo muut näitab, kui suur väline resultantjõud sellele kehale mõjub.
+      \item[\faSquareO] Kiiruse saab arvutada jagades hoo massiga.
+      \item[\faSquareO] On võimalik, et objekt saab suurema impulsi väikesest jõust kui suurest jõust.
+    	\item[\faSquareO] Jõud saab anda null-impulsi nullist erineva aja kestel, kuigi jõud ei ole null vähemalt osa sellest ajavahemikust.
+     	\item[\faSquareO] Hüdroelektrijaamas suunatakse vesi suure kiirusega turbiinilabadele, mis on paigutatud võllile, mis pöörab elektrigeneraatorit. Maksimaalse võimsuse genereerimiseks peaksid turbiinilabad olema kujundatud nii, et vesi jääks täielikult seisma.
+    	\item[\faSquareO] Öeldakse, et muistsetel aegadel jäi jõukas mees kullakotiga jääkülma järve pinnale lõksu. Kuna jää oli libe, ei suutnud ta end kaldale lükata ning ta külmus surnuks. Ta oleks võinud enda päästmiseks visata kullakoti kalda poole.
+    \end{itemize}
+    
+    Jõud \qty{60}{\newton} annab kehale kiirenduse \qty{0,8}{\m\per\s\squared}. Sellele kehale annab kiirenduse \qty{2}{\m\per\s\squared} jõud \blank{\qty{150}{\newton}}. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+4.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Tennisepalli kiirus pärast servile vastamist ei või olla sama kiire kui serv ise, hoolimata sellest, et reketit ei liigutata väga kiiresti.
+    	\item[\faSquareO] "Kaks last hõljuvad liikumatult kosmosejaamas. \qty{20}{\kg} tüdruk surub \qty{40}{\kg} poissi ja poiss triivib ära kiirusega \qty{1,0}{\m\per\s}. Tüdruk jääb paigale.".
+    	\item[\faSquareO] Inertsus on keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab see keha ise ennast mõjutama teatud aja.
+    	\item[\faSquareO] Mass on füüsikaline suurus, mis suunaliselt iseloomustab keha inertsust.
+    	\item[\faSquareO] Mass on vektoriaalne suurus.
+    	\item[\faSquareO] Hoog on skalaarne suurus.
+    	\item[\faSquareO] Jõud on vektoriaalne suurus.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha ajet.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha hoo muutu.
+     	\item[\faSquareO] Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb.
+    \end{itemize}
+    
+    Keha, mille mass on \qty{4}{\kilo\g}, sai mingi jõu mõjul kiirenduse \qty{2}{\m\per\s\squared}. Sama jõu mõjul saab \qty{10}{\kilo\g} massiga keha kiirenduse \blank{\qty{0,8}{\m\per\s\squared}}. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+5.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+     	\item[\faSquareO] Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb.
+    	\item[\faSquareO] Kosmonaut on lühikese vahemaa kaugusel oma kosmosejaamast ilma köieta. Tal on suur mutrivõti. Et liikuda kosmosejaama poole, peaks ta mutrivõtme otse kosmosejaamast eemale viskama.
+    	\item[\faSquareO] Pesapall visatakse horisontaalselt koduplaadi suunas kiirusega \qty{110}{\kilo\m\per\hour}. Pesapalli aje on  suurema magnituudiga, kui pesapall lüüakse otse tagasi viskajale kiirusega \qty{110}{\kilo\m\per\hour}, võrreldes olukorraga, milles püüdja püüab palli kinni.
+    	\item[\faSquareO] Golfipall ja samaväärse massiga olev ubade kott visatakse samalt kõrguselt ja tabavad maad. Oa kott jääb maha, samal ajal kui golfipall põrkub tagasi. Ubade kott kogeb suuremat hoogu maapinnalt.
+    	\item[\faSquareO] Liikuvad kehad vahel aeglustuvad ja peatuvad, mistõttu ei ole võimalik, et hoog oleks jääv suurus.
+    	\item[\faSquareO] Kui inimene hüppab puult maapinnale, siis kokku puutudes maapinnaga muutub inimese impulss nulliks.
+    	\item[\faSquareO] Mida pikem on hoo mõjuaeg, seda suurem peab olema väliste jõudude summa suurus, et aje jääks samaks.
+    \end{itemize}
+
+    Koormata veoauto, mille mass on \qty{4}{\tonne}, hakkas liikuma kiirendusega \qty{0,3}{\m\per\s\squared}. Kui auto liigub paigalt kiirendusega \qty{0,2}{\m\per\s\squared}, siis koorma mass on \blank{\qty{2}{\tonne}}. Mootori veojõud on mõlemal korral sama suur. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+6.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Suletud süsteemi koguhoog on muutumatu.
+    	\item[\faSquareO] Kiirus on vektoriaalne suurus.
+    	\item[\faSquareO] Hoog on massi ja kiiruse korrutis.
+     	\item[\faSquareO] Massi saab arvutada jagades hoo kiirusega.
+    	\item[\faSquareO] Keha hoo muut näitab, kui suur väline resultantjõud sellele kehale mõjub.
+      \item[\faSquareO] Kiiruse saab arvutada jagades hoo massiga.
+      \item[\faSquareO] On võimalik, et objekt saab suurema impulsi väikesest jõust kui suurest jõust.
+    	\item[\faSquareO] Jõud saab anda null-impulsi nullist erineva aja kestel, kuigi jõud ei ole null vähemalt osa sellest ajavahemikust.
+     	\item[\faSquareO] Hüdroelektrijaamas suunatakse vesi suure kiirusega turbiinilabadele, mis on paigutatud võllile, mis pöörab elektrigeneraatorit. Maksimaalse võimsuse genereerimiseks peaksid turbiinilabad olema kujundatud nii, et vesi jääks täielikult seisma.
+    	\item[\faSquareO] Öeldakse, et muistsetel aegadel jäi jõukas mees kullakotiga jääkülma järve pinnale lõksu. Kuna jää oli libe, ei suutnud ta end kaldale lükata ning ta külmus surnuks. Ta oleks võinud enda päästmiseks visata kullakoti kalda poole.
+    \end{itemize}
+
+    Kui mootorite veojõud oli \qty{90}{\kilo\newton}, siis \qty{60}{\tonne} massiga reaktiivlennuk liikus hoovõtul kiirendusega \blank{\qty{1,5}{\m\per\s\squared}}. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+7.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Tennisepalli kiirus pärast servile vastamist ei või olla sama kiire kui serv ise, hoolimata sellest, et reketit ei liigutata väga kiiresti.
+    	\item[\faSquareO] "Kaks last hõljuvad liikumatult kosmosejaamas. \qty{20}{\kg} tüdruk surub \qty{40}{\kg} poissi ja poiss triivib ära kiirusega \qty{1,0}{\m\per\s}. Tüdruk jääb paigale.".
+    	\item[\faSquareO] Mass on füüsikaline suurus, mis suunaliselt iseloomustab keha inertsust.
+    	\item[\faSquareO] Hoog on skalaarne suurus.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha ajet.
+    	\item[\faSquareO] Kehale mõjuvate väliste jõudude summa kujutab endast selle keha hoo muutu.
+     	\item[\faSquareO] Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb.
+    \end{itemize}
+
+    Inimesteveo auto mass on \qty{2}{\tonne}, kaubaveo autol - \qty{8}{\tonne}. Võrrelda autode kiirendusi, kui kaubaveo auto veojõud on inimesteveo auto veojõust ühe korra suurem! Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    \blank{Inimesteveo auto}
+    \blank{ võimalik}
+    \blank{ suurim kiirendus}
+    \blank{ on kahekordne}
+    \blank{ kaubaveo auto}
+    \blank{ võimalik}
+    \blank{ suurim kiirendus.}
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
+
+8.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Jõud on vektoriaalne suurus.
+    	\item[\faSquareO] Mass on vektoriaalne suurus.
+    	\item[\faSquareO] Inertsus on keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab see keha ise ennast mõjutama teatud aja.
+     	\item[\faSquareO] Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb.
+    	\item[\faSquareO] Kosmonaut on lühikese vahemaa kaugusel oma kosmosejaamast ilma köieta. Tal on suur mutrivõti. Et liikuda kosmosejaama poole, peaks ta mutrivõtme otse kosmosejaamast eemale viskama.
+    	\item[\faSquareO] Pesapall visatakse horisontaalselt koduplaadi suunas kiirusega \qty{110}{\kilo\m\per\hour}. Pesapalli aje on  suurema magnituudiga, kui pesapall lüüakse otse tagasi viskajale kiirusega \qty{110}{\kilo\m\per\hour}, võrreldes olukorraga, milles püüdja püüab palli kinni.
+    	\item[\faSquareO] Liikuvad kehad vahel aeglustuvad ja peatuvad, mistõttu ei ole võimalik, et hoog oleks jääv suurus.
+    	\item[\faSquareO] Kui inimene hüppab puult maapinnale, siis kokku puutudes maapinnaga muutub inimese impulss nulliks.
+    	\item[\faSquareO] Mida pikem on hoo mõjuaeg, seda suurem peab olema väliste jõudude summa suurus, et aje jääks samaks.
+    \end{itemize}
+    
+    Pall, mille mass on \qty{0,5}{\kilo\g}, saab \qty{0,02}{\s} kestva löögi tagajärjel kiiruse \qty{10}{\m\per\s}. Löögi tugevus on \blank{\qty{250}{\newton}}. Jõud on konstantsed, hõõrdumist ei arvestata.
+    
+    Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
 
 ### Lühitestide tulemused
 
@@ -1807,3 +2038,95 @@ for (date in 1:limit_of_dates) {
 ```
 
 \landscapeend
+
+## Kaardid
+
+Tabelis \@ref(tab:formulas) leheküljel\, `r render_pageref(reference="tab:formulas")` on mängu valemid.
+
+```{r label="formulas", echo=FALSE}
+formulas <- c(
+  "$\\vec{\\bf{r}} := x \\, \\hat{\\bf{i}} + y \\, \\hat{\\bf{j}} + z \\, \\hat{\\bf{k}}$",
+  "$\\vec{\\bf{v}} = \\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
+  "$\\vec{\\bf{a}} = \\frac{\\mathrm{d}(\\vec{\\bf{v}})}{\\mathrm{d}(t)}$",
+  "$w(t) = 0 \\rightarrow t = \\frac{\\vec{\\bf{v}} - \\overrightarrow{\\bf{v_0}}}{\\overrightarrow{\\bf{a_0}}}$",
+  "$w(t) = \\frac{\\mathrm{d}(a(t))}{\\mathrm{d}(t)}$",
+  "$a(t) = w(t) \\cdot t + a(0)$",
+  "$\\frac{w(t) \\cdot t^2}{2} + a(0) \\cdot t + v(0) = v(t)$",
+  "$\\frac{w(t) \\cdot t^3}{6} + \\frac{a(0) \\cdot t^2}{2} + v(0) \\cdot t + r(0) = r(t)$",
+  "$\\frac{\\overrightarrow{v}^2 - \\overrightarrow{v(0)}^2}{2 \\cdot \\overrightarrow{a(0)}} = r - r(0)$",
+  "$\\vec{\\bf{p}} = m \\cdot \\vec{\\bf{v}}$",
+  "$m = \\frac{\\vec{\\bf{p}}}{\\vec{\\bf{v}}}$",
+  "$\\vec{\\bf{v}} = \\frac{\\vec{\\bf{p}}}{m}$",
+  "$\\vec{\\bf{J}} = \\int_{t_1}^{t_2}\\overrightarrow{\\bf{F(t)}} \\mathrm{d}(t)$",
+  "$\\frac{\\text{d}(\\vec{\\bf{J}})}{\\text{d}(t)} = \\overrightarrow{\\bf{F(t)}}$",
+  "$\\Delta(m) = 0 \\rightarrow m \\cdot \\vec{\\bf{a}}= \\vec{\\bf{F}}$",
+  "$\\Delta(m) = 0 \\rightarrow \\vec{\\bf{a}}= \\frac{\\vec{\\bf{F}}}{m}$",
+  "$\\Delta(m) = 0 \\rightarrow m= \\frac{\\vec{\\bf{F}}}{\\vec{\\bf{a}}}$"
+)
+
+data_frame_of_formulas <- data.frame(formulas)
+
+colnames(data_frame_of_formulas) <- c(
+  "Valem"
+)
+
+table <- print_table(
+  table=data_frame_of_formulas,
+  caption="Valemid."
+)
+
+table
+
+```
+
+Tabelis \@ref(tab:legend) leheküljel\, `r render_pageref(reference="tab:legend")` on mängu valemite legend.
+
+```{r label="legend", echo=FALSE}
+variables <- c(
+  "$t$",
+  "$\\vec{\\bf{r}}$",
+  "$x \\, \\hat{\\bf{i}}$",
+  "$y \\, \\hat{\\bf{j}}$",
+  "$z \\, \\hat{\\bf{k}}$",
+  "$\\vec{\\bf{v}}$",
+  "$\\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
+  "$\\vec{\\bf{a}}$",
+  "$w(t)$",
+  "$\\overrightarrow{\\bf{v_0}}$",
+  "$\\vec{\\bf{p}}$",
+  "$m$",
+  "$\\vec{\\bf{J}}$",
+  "$\\overrightarrow{\\bf{F(t)}}$"
+)
+
+definitions <- c(
+  "aeg",
+  "asukoha vektor",
+  "abstsiss",
+  "ordinaat",
+  "z-koordinaat",
+  "kiiruse vektor",
+  "asukoha vektori väike muut aja järgi",
+  "kiirenduse vektor",
+  "jõnks aja järgi",
+  "algkiiruse vektor",
+  "hoog",
+  "mass",
+  "aje",
+  "jõu vektor aja järgi"
+)
+data_frame <- data.frame(variables, definitions)
+
+colnames(data_frame) <- c(
+  "Suurus",
+  "Selgitus"
+)
+
+table <- print_table(
+  table=data_frame,
+  caption="Legend."
+)
+
+table
+
+```
