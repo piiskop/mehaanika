@@ -1,975 +1,3 @@
-# Kursus
-
-## Dünaamika
-
-### Õpitulemused
-
-Kursuse lõpus õpilane:
-1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
-rakendumist looduses (44.4);
-
-2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
-($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6);
-
-3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
-
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6);
-
-5. sõnastab impulsi jäävuse seaduse ja lahendab probleemülesandeid, kasutades seost
-a. (9.2);
-
-6. seostab reaktiivliikumist impulsi jäävuse seadusega; toob näiteid reaktiivliikumise kohta looduses ja
-rakenduste kohta tehnikas (9.2);
-
-7. toob näiteid nähtuste kohta, kus impulsi muutumise kiirus on võrdne seda muutust põhjustava jõuga (9.2);
-
-8. rakendab gravitatsiooniseadust (6: 1-2);
-
-9. tunneb gravitatsioonivälja mõistet (6.8);
-
-10. teab, et üldrelatiivsusteooria kirjeldab gravitatsioonilist vastastikmõju aegruumi kõverdumise kaudu (6.9);
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk (4.6, 6, 8.7, 8.10)
-
-12. probleemülesandeid lahendades ning rakendab seost P = m (g ± a) (4.7);
-
-13. selgitab mõisteid hõõrdejõud ja elastsusjõud ning rakendab loodus- ja tehiskeskkonnas toimuvaid
-nähtusi selgitades seoseid Fh = µ N ja Fe = – k ∆l (5.1, 7.3);
-
-14. rakendab mõisteid töö, energia, kineetiline ja potentsiaalne energia, võimsus, kasulik energia,
-kasutegur, selgitades looduses ja tehiskeskkonnas toimuvaid nähtusi (7, 8.2, 8.8, 20: 2-3);
-
-15. rakendab probleeme lahendades seoseid A = Fs cos α; , Ep = mgh ning E = Ek + Ep; 15)
-selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas (7.1, 8: 2-3).
-
-4
-5
-6
-7
-8: 1-3, 7-10
-9: 2
-20: 2-3
-44: 4
-
-### Õppesisu
-
-1. Newtoni seadused (4-6).
-
-2. Jõud (4: 1).
-
-3. Jõudude vektoriaalne liitmine (4: 4).
-
-4. Resultantjõud (4: 4).
-
-5. Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel (4: 2).
-
-6. Keha impulss (9).
-
-7. Impulsi jäävuse seadus (9: 2).
-
-8. Reaktiivliikumine (9: 2).
-
-9. Gravitatsiooniseadus (6: 1-2).
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-11. Kaalutus (6: 4). Elastsusjõud (7: 3). Hooke’i seadus (7: 3, 12: 5).
-Jäikustegur (7: 3). Hõõrdejõud ja hõõrdetegur (5: 1). Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
-seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
-jäävuse seadus looduses ja tehnikas (8).
-
-4
-5
-6
-7
-8
-9
-12: 5
-20: 2-3
-29: 4
-44: 4
-
-### Põhimõisted
-
-kuju muutumine
-
-reaktiivliikumine (9: 2),
-
-resultantjõud (4: 4)
-: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
-
-inertsus (4: 2-3)
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass (4: 2-3)
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-impulss (9)
-: massi ja kiirusvektori korrutis[@haynes_2014_crc, lk 2-59]
-
-, impulsi
-jäävuse seadus (9: 2),
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-keha kaal (4: 6), kaalutus (6: 4), toereaktsioon (4: 6), elastsusjõud (7: 3), jäikustegur (7: 3), hõõrdejõud (5: 1),
-hõõrdetegur (5: 1), mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
-
-### Praktiline tegevus
-
-1. Tutvumine Newtoni seaduste olemusega (4-6);
-
-2. jäikusteguri määramine (7: 3);
-
-3. liugehõõrdeteguri määramine (5: 1);
-
-4. seisuhõõrde uurimine (5: 1);
-
-5. tutvumine reaktiivliikumise ja jäävusseadustega (7: 3, 8: 3). 
-
-## Perioodilised liikumised
-
-### Õpitulemused
-
-Kursuse lõpus õpilane:
-
-1. seostab looduses ja tehnoloogias esinevad perioodilised nähtused ühtlase ja mitteühtlase tiirlemise
-ning pöörlemisega (10);
-
-2. kasutab ringliikumist kirjeldades füüsikalisi suurusi pöördenurk, periood, sagedus, nurkkiirus,
-joonkiirus ja kesktõmbekiirendus (10: 1);
-
-3. rakendab ringliikumisega seotud probleemülesannete lahendamisel järgmisi seoseid: (10: 1);
-
-5. analüüsib orbitaalliikumist, kasutades inertsi ja kesktõmbejõu mõistet (5: 3);
-
-6. kasutab vabavõnkumise ja sundvõnkumise mõistet looduses ning tehnikas toimuvaid võnkumisi
-kirjeldades (14: 8);
-
-7. rakendab füüsikalisi suurusi hälve, amplituud, periood, sagedus ja faas perioodilisi liikumisi
-kirjeldades (10: 1);
-
-8. kasutab võnkumise probleemülesandeid lahendades seoseid (10: 1);
-
-9. analüüsib energia jäävuse seaduse kehtivust pendli võnkumisel (11: 6);
-
-10. analüüsib võnkumise graafikuid (14: 2-4);
-
-11. selgitab resonantsi ning toob näiteid selle esinemise kohta looduses ja tehnikas (14: 8, 15: 9);
-
-12. kirjeldab piki- ja ristlainete tekkimist ning levimist ning toob nende kohta näiteid (15: 2);
-
-13. rakendab füüsikalisi suurusi lainepikkus, laine levimiskiirus, periood ja sagedus lainenähtusi
-selgitades (15: 2);
-
-14. kasutab probleeme lahendades seoseid (15: 1);
-
-15. toob nähtuste peegeldumine, murdumine, interferents ja difraktsioon näiteid loodusest ning
-tehnikast (15: 10-11).
-
-4
-5
-6
-7
-8
-9
-10
-11: 6
-12: 5
-14: 1-4, 8
-15: 1-2, 9-11
-20: 1-3
-29: 4
-44: 4
-
-### Õppesisu
-
-Ühtlase ringjoonelise liikumise kirjeldamine: pöördenurk, periood, sagedus, nurk- ja joonkiirus,
-kesktõmbekiirendus (10: 1). Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine (10). Võnkumine kui
-perioodiline liikumine (14). Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6). Energia
-muundumine võnkumisel (14: 3). Võnkumised ja resonants looduses ning tehnikas (14: 8). Lained (15). Piki- ja ristlained (15: 2). Lainet
-iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1). Lainenähtused: peegeldumine,
-murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11). 3D-printimine.
-
-4
-5
-6
-7
-8
-9
-10
-11: 6
-12: 5
-14
-15
-20: 1-3
-29: 4
-44: 4
-
-### Põhimõisted
-
-Ppöördenurk, periood (5: 2, 10: 1, 14: 1-2, 15: 1), sagedus (15: 1), nurkkiirus (10: 1), joonkiirus (10: 1), kesktõmbekiirendus (10: 1), võnkumine (14), hälve (14: 1),
-amplituud (14: 1), faas (14: 2), vabavõnkumine, sundvõnkumine (14: 8), pendel (14: 5-6), resonants (14: 8, 15: 9), laine (15), pikilaine (15: 2),
-ristlaine (15: 2), lainepikkus (15: 1), peegeldumine (15: 7, 32: 1-2, 32: 9, 34: 5), murdumine (15: 10), interferents (15: 8), difraktsioon (15: 11).
-
-4
-5
-6
-7
-8
-9
-10
-11: 6
-12: 5
-14
-15
-20: 1-3
-29: 4
-32: 1-2, 9-10
-34: 5
-44: 4
-
-### Praktiline tegevus
-
-1. pöördliikumise uurimine, kesktõmbekiirenduse määramine (10);
-
-2. matemaatilise pendli ja vedrupendli võnkumise uurimine (14: 5);
-
-3. gravitatsioonivälja tugevuse määramine pendliga;
-
-4. tutvumine lainenähtustega (15);
-
-5. helikiiruse määramine (16: 1). 
-
-4
-5
-6
-7
-8
-9
-10
-11: 6
-12: 5
-14
-15
-16: 1
-20: 1-3
-29: 4
-32: 1-2, 9-10
-34: 5
-44: 4
-
-## Õppesessioonid
-
-### 2024-2-15
-
-Kursuse lõpus õpilane:
-1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
-rakendumist looduses.
-
-2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
-(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
-
-3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
-
-Õppesisu:
-
-1. Jõud.
-
-3. Jõudude vektoriaalne liitmine.
-
-4. Resultantjõud.
-
-5. Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel.
-
-Põhimõisted:
-
-kuju muutumine
-
-resultantjõud (4: 4)
-: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
-
-Kava:
-
-1. Tutvumine.
-
-2. Jõud.
-
-3. Jõudude vektoriaalne liitmine.
-
-4. Resultantjõud.
-
-5. Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel. Jõudsime jõudude liitmise simulatsioonini.
-
-### 2024-2-15
-
-Kursuse lõpus õpilane:
-1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
-rakendumist looduses.
-
-2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
-(v = const, a = 0) kui ka muutumisel (a = const ≠ 0) (4.6);
-
-3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
-
-Õppesisu:
-
-3. Jõudude vektoriaalne liitmine.
-
-4. Resultantjõud.
-
-5. Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel.
-
-Põhimõisted:
-
-kuju muutumine
-
-resultantjõud (4: 4)
-: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
-
-Kava:
-
-3. Jõudude vektoriaalne liitmine.
-
-4. Resultantjõud. Jõudsime jõudude liitmise ülesanded lahendada.
-
-\onecolumn
-
-### 2024-2-20
-
-Kava: Arutelu hindamissüsteemi üle (joonis \@ref(fig:grading) leheküljel `r render_pageref(reference="fig:grading")`).
-
-```{r label="grading", echo=FALSE, fig.cap="Hindamissüsteemi arutelu tulemus."}
-include_external_graphics("rmd/hindamine-IMG_20240220_131955.jpg")
-
-```
-
-\multicolsbegin
-
-### 2024-2-20
-
-Kursuse lõpus õpilane:
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu:
-
-1. Newtoni seadused (4-6).
-
-Põhimõisted:
-
-inertsus
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-Kava: Newtoni seadused. Jõudsime viienda ülesande lahendatud Newtoni I seaduse kohta.
-
-### 2024-2-22
-
-Kursuse lõpus õpilane:
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu:
-
-1. Newtoni seadused (4-6).
-
-Põhimõisted:
-
-inertsus
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-Kava: Newtoni seadused. Alustasime kuuenda ülesande lahendamisest Newtoni I seaduse kohta. Jõudsime II seaduse neljanda ülesandeni.
-
-### 2024-2-22
-
-Kursuse lõpus õpilane:
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu:
-
-1. Newtoni seadused (4-6).
-
-Põhimõisted:
-
-inertsus
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-Kava: Newtoni seadused. Alustasime II seaduse viiendast ülesandest. Jõudsime tutvuda III seadusega.
-
-### 2024-3-7
-
-Kursuse lõpus õpilane:
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu:
-
-1. Newtoni seadused (4-6).
-
-Põhimõisted:
-
-inertsus
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-Kava: Newtoni seadused. Alustasime III seaduse ülesannete lahendamist.
-
-### 2024-3-7
-
-Kursuse lõpus õpilane:
-8. rakendab gravitatsiooniseadust (6: 1-2).
-
-Kava: Gravitatsiooniseadus.
-
-### 2024-3-7
-
-Õpilasi polnud.
-
-### 2024-3-14
-
-Kursuse lõpus õpilane:
-
-2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
-($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6).
-
-Kava: Vektorite kordamine.
-
-### 2024-3-14
-
-Kursuse lõpus õpilane:
-
-2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
-($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6).
-
-Kava: Vektorite test.
-
-### 2024-3-14
-
-Kursuse lõpus õpilane:
-
-4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu:
-
-1. Newtoni seadused (4-6).
-
-2. Jõud (4: 1).
-
-5. Muutumatu kiirusega liikumine
-jõudude tasakaalustumisel (4: 2).
-
-9. Gravitatsiooniseadus (6: 1-2).
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõisted:
-
-kuju muutumine
-
-reaktiivliikumine (9: 2),
-
-resultantjõud (4: 4)
-: kehale mõjuvate jõudude vektorsumma[@ekoolikottee]
-
-inertsus (4: 2-3)
-: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee]
-
-mass (4: 2-3)
-: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee]
-
-impulss (9), impulsi
-jäävuse seadus (9: 2),
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Dünaamika kordamine raskusjõuni.
-
-### 2024-3-21
-
-Arutelu õppeprotsessi tõhustamisest: esimesed seitse muret
-
-### 2024-3-21
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava:
-
-1. Kahe viimase punkti üle arutamine õppeprotsessi osas.
-
-2. Gravitatsioonikonstandi ühiku tuletamine.
-
-\multicolsend
-
-### 2024-3-21
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Arvutused gravitatsioonikonstandiga (joonis \@ref(fig:dynamics-sessions-gravitation-discussion) leheküljel `r render_pageref(reference="fig:dynamics-sessions-gravitation-discussion")`.
-
-```{r label="dynamics-sessions-gravitation-discussion", echo=FALSE, fig.cap="Arutelu teemad, lahendid ja gravitatsioonimöll."}
-include_external_graphics("rmd/IMG_20240321_150908.jpg")
-
-```
-
-\multicolsbegin
-
-### 2024-3-28
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Test.
-
-### 2024-3-28
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Mängisime läbi jõu arvutamise situatsioonid staatilise raskusega.
-
-\multicolsend
-
-### 2024-3-28
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Arvutasime kaalu näidu liikuma hakkava lifti puhul (joonis \@ref(fig:dynamics-sessions-weight) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-weight")`.
-
-```{r label="dynamics-sessions-weight", echo=FALSE, fig.cap="Kaal."}
-include_external_graphics("rmd/IMG_20240328_150618.jpg")
-
-```
-
-\multicolsbegin
-
-### 2024-4-2 Waldorfkoolis
-
-Kava:
-
-Pärast soojendamiseks ja tutvumiseks tehtud loogikamängu, milles kõik neli rõõmuga osalesid, leppisime kokku esialgse plaani ja seejärel viskasin neile küsimusi praeguse füüsikakursuse alguse teemade kohta. Ilma konspektita ei osanud keegi Newtoni seadustest midagi rääkida. Konspekti abil kaks õpilast siiski tuletasid jutu kokku, mida nad ei mõistnud. Seetõttu me mõtestasime selles jutus olnud komponente lahti ja sidusime ka inimvaheliste suhetega.
-
-### 2024-4-2 Waldorfkoolis
-
-Õpitulemused:
-
-4. Selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6).
-
-Õppesisu
-
-1. Newtoni seadused (4-6).
-
-Kava: Jätkasime eelmise sessiooni kava järgimist pärast soojendust.
-
-### 2024-4-4
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava: Tegime läbi ülesanded: tõusuvesi, astronaut, Z-34.
-
-\multicolsend
-
-### 2024-4-4
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõiste:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-Kava:
-
-1. Lahendasime veel valemi kasutuse oskust kontrollivaid gravitatsioonijõu ja -kiirenduse ülesandeid: võrdelisus, millegi suurendamine, vähendamine, selle mõju.
-
-2.  Tegime kaalusituatsioonide tabeli kuni staatilise liftini (joonis \@ref(fig:dynamics-sessions-weight-lift) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-weight-lift")`).
-
-    ```{r label="dynamics-sessions-weight-lift", echo=FALSE, fig.cap="Kaalu olukorrad."}
-    include_external_graphics("rmd/IMG_20240404_144302.jpg")
-    
-    ```
-
-### 2024-4-4
-
-Kursuse lõpus õpilane:
-
-11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
-rõhk.
-
-Õppesisu:
-
-6. Keha impulss (9).
-
-7. Impulsi jäävuse seadus (9: 2).
-
-10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
-
-Põhimõisted:
-
-raskusjõud (4: 6)
-: taevakeha külgetõmbe jõud[@ekoolikottee],
-
-impulss (9)
-: massi ja kiirusvektori korrutis[@haynes_2014_crc, lk 2-59]
-
-Kava:
-
-1. Lõpetasime kaalusituatsioonide tabeli.
-
-2.  Selgitasin hoogu ja ajet (joonis \@ref(fig:dynamics-sessions-momentum) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-momentum")`).
-
-    ```{r label="dynamics-sessions-momentum", echo=FALSE, fig.cap="Hoog."}
-    include_external_graphics("rmd/IMG_20240404_150452.jpg")
-    
-    ```
-
-\multicolsbegin
-
-### 2024-4-9 Waldorfkoolis
-
-Soojendus kahe võistkonna vahelise loogikamänguga.
-
-Liikumisseaduste kordamine ja hindeline lühitest.
-
-### 2024-4-9 Waldorfkoolis
-
-Hoo ja aje kordamine.
-
-### 2024-4-11
-
-### 2024-4-11
-
-### 2024-4-11
-
-### 2024-4-16 Waldorfkoolis
-
-Tegevused:
-
-1. Välised mõjud inimese kehale.
-
-2. Võrdelisuse selgitamine.
-
-3. Valemitemäng.
-
-4. Liikumisseaduste testi probleemsete ülesannete lahendamine.
-
-5. Lühitest aje teemani.
-
-6. Põrgete kordamine.
-
-7. Gravitatsiooni kordamine.
-
-### 2024-4-16 Waldorfkoolis
-
-\pagebreak
-
-## Ülesanded
-
-### 2024-3-3
-
-Kuupäevani 2024-3-3 tuleb lahendada järgmised ülesanded iseseisvalt kasutades ülesande lahendamise struktuuri ja näidates terve lahenduskäigu:
-
-::: {.exercise #dynamics-task-20240303-1 name="Kolme vektori suurus ja suund."}
-Tee kindlaks kolme vektori
-$$\overrightarrow{\bf{V}_1} = \num{4,0} \hat{\bf{i}} - \num{8,0} \hat{\bf{j}},$$
-$$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
-$$\overrightarrow{\bf{V}_3} = \num{-2,0} \hat{\bf{i}} + \num{4,0} \hat{\bf{j}}$$
-suurus ja suund!
-
-Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
-:::
-
-2.  Vektorid $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$ liituvad summaarseks vektoriks $\overrightarrow{\bf{V}_R} = \overrightarrow{\bf{V}_1} + \overrightarrow{\bf{V}_2}$.
-
-    Kirjelda $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$, kui
-
- - $V_\text{R} = V_\text{1} + V_\text{2}$,
-    
- - $V_\text{R}^2 = V_\text{1}^2 + V_\text{2}^2$,
- 
- - $V_1 + V_2 = V_1 - V_2$.
-
-3.  Konkreetse osakese asukoha aja funktsioonina annab
-    $$\overrightarrow{\bf{r}} = ( \num{9,60} \cdot t \hat{\bf{i}} + \num{6,45} \hat{\bf{j}} - \num{1,50} \cdot t^2 \hat{\bf{k}}) \text{m}.$$
-    Määra osakese kiirus ja kiirendus aja funktsioonina.
-
-4.  Auto liigub kiirusega \qty{16,0}{\m\per\s} otse lõunasse ühel hetkel ja \qty{25,7}{\m\per\s} otse itta \qty{8,00}{\s} hiljem. Selle ajavahemiku jooksul määra auto
- - keskmine suunatud kiirus,
- 
- - keskmise kiirenduse suurus ja suund,
- 
- - keskmine kiirus.
-
-    [Vihje: kas saad antud teabe põhjal kõikidele alamküsimustele vastata?]
-
-\multicolsend
-
-\twocolumn
-
-5.  Suusataja kiirendab \qty{30,0}{\degree} mäest alla \qty{1,80}{\m\per\s\squared} (joonis \@ref(fig:dynamics-tasks-vectors-23) leheküljel `r render_pageref(reference="fig:dynamics-tasks-vectors-23")`).
-
-    ```{r label="dynamics-tasks-vectors-23", echo=FALSE, fig.cap="Suusataja laskumas."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-23.svg")
-    
-    ```
-
- - Milline on tema kiirenduse vertikaalne komponent?
- 
- - Kui kaua kulub tal mäe põhja jõudmiseks, eeldades, et ta alustab puhkeasendist ja kiirendab ühtlaselt, kui $a = \qty{1,80}{\m\per\s\squared}$ ja 
-kõrguse muutus on \qty{125}{\m}?
-
-\onecolumn
-
-\multicolsbegin
-
-6. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $x$-komponent!
-
-7. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $y$-komponent!
-
-8. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $x$-komponent trajektoori esimese lõigu lõpust!
-
-9. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $y$-komponent trajektoori esimese lõigu lõpust!
-
-10. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $x$-komponent trajektoori viimase lõigu algusest!
-
-11. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $y$-komponent trajektoori viimase lõigu algusest!
-
-12. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{x}}} = (\qty{1,424e-1}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga keskmise kiiruse vektori $x$-komponent!
-
-13. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{y}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektori $y$-komponent!
-
-### 2024-3-19
-
-1. Osakese asukoha aja $t$ funktsioonina annab $\overrightarrow{\bf{r}} = ( \qty{5,0}{\m\per\s} \cdot t + \qty{6,0}{\m\per\s\squared} \cdot t^2 ) \hat{\bf{i}} + ( \qty{7,0}{\m} \qty{- 3,0}{\m\per\s\cubed} \cdot t^3 ) \hat{\bf{j}}$. Kui $t = \qty{5,0}{\s}$, arvuta osakese nihkevektori $∆(\overrightarrow{\bf{r}})$ suurus ja suund punkti $\overrightarrow{\bf{r_0}} =\nolinebreak(\qty{2,0}{\m} \hat{\bf{i}} +\nolinebreak \qty{7,0}{\m} \hat{\bf{j}} )$ suhtes!
-
-2. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur on õhu liikumise kiirus otse lennuki tegelikule suunale vastu?
-
-3. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur tuule kiiruse lennuki arvatud suunaga risti olev komponent?
-
-4. Osake alustab liikumist lähtepunktist $t = 0$ algkiirusega \qty{5,0}{\m\per\s} piki positiivset $x$-telge. Kui kiirendus on $(-3,0 \hat{\bf{i}} + 4,5 \hat{\bf{j}} ) \unit{\m\per\s\squared}$, määra osakese kiirus ja asukoht hetkel, mil see jõuab maksimaalsele $x$-koordinaadile!
-
-5. \qty{2,5}{\m\per\s} jooksev sukelduja hüppab vertikaalse kalju servalt horisontaalselt välja ja jõuab \qty{3,5}{\s} hiljem alla vette. Kui kõrge oli kalju ja kui kaugel selle alusest sukelduja vette plärtsatas? Eira õhutakistust!
-
-\columnbreak
-
-6. Hoone katuselt \qty{10,8}{\m\per\s} horisontaalselt visatud pall maandub \qty{21,0}{\m} kaugusel hoone alusest. Kui kõrge hoone on? Eira õhutakistust!
-
-\multicolsend
-
-7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Millise nurga all peaks otsik olema, et vesi maanduks
-\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37")`)? Miks on kaks erinevat nurka? Eira õhutakistust!
-
-    ```{r label="dynamics-tasks-projectiles-37", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
-    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
-    
-    ```
-
-\multicolsbegin
-
-8.  Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra
-
- - mürsu maksimaalne kõrgus,
- 
- - kogu õhus viibitud aeg ja
- 
- - horisontaalne kogu läbitud kaugus (st laskeulatus).
- 
-    Eira õhutakistust!
-
-\columnbreak
-
-9. Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra mürsu kiirus \qty{1,50}{\s} peale tulistamist. Eira õhutakistust!
-
-\columnbreak
-
-10. Mürsu maksimaalne laskekaugus on \qty{95}{\m}.
-Avalda tegeliku mürsu lendamise aja ja maksimaalse lennukauguse lennu kestuse suhe nii rõhtsate kui püstiste komponentide kaudu! Eira õhutakistust!
-
-\multicolsend
-
-11. Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
-Kui mürsk tabab maad $x = \qty{68}{\m}$ kaugusel,
-milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-angle) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-angle")`.
-
-    \begin{align}
-    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{\text{sin}(2 \cdot \measuredangle{(v_0)_\text{max}})}{R}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
-    (\#eq:dynamics-tasks-projectiles-41-test-angle)
-    \end{align}
-
-    Eira õhutakistust!
-
-\multicolsbegin
-
-12. Kaugushüpet sooritav sportlane lahkub maapinnast \qty{27,0}{\degree} nurga all ja maandub \qty{7,80}{\m} kaugusele.
-
- - Milline oli stardikiirus?
- 
- - Kui seda kiirust suurendataks vaid \qty{5,0}{\percent}, kui palju pikem oleks hüpe?
-
-    Eira õhutakistust!
-
-\multicolsend
-
-13. Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
-
-    ```{r label="dynamics-tasks-projectiles-45", echo=FALSE, fig.cap="Hüppav auto."}
-    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-45.svg")
-    
-    ```
-
-    Millise minimaalse kiirusega peab ta horisontaalselt kaldteelt maha sõitma? Kaldtee vertikaalne kõrgus on autokatuste kohal \qty{1,5}{\m} ja horisontaalne vahemaa, mille ta peab läbima, on \qty{22}{\m}.
-
-    Eira õhutakistust!
-    
-\newpage
-
-### 2024-4-2
-
-\multicolsbegin
-
-1.  Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
-
-    Kui kaldtee on nüüd kallutatud ülespoole, nii et stardinurk on \qty{9,0}{\degree} horisontaaltasapinnast kõrgemal, siis milline on uus minimaalne kiirus?
-
-    Eira õhutakistust!
-
-\columnbreak
-
-2.  Päästelennuki tegelased tahavad \qty{265}{\m} allpool asuval kivisel harjal varusid eraldada mägironijatele. Kui lennuk liigub horisontaalselt kiirusega \qty{125}{\kilo\m\per\hour}, siis kui kaugel enne saajaid (horisontaalne vahemaa) tuleb kaup kukutada?
-
-    Eira õhutakistust!
-
-3.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Arvuta mürsu algkiirus!
-
-    Eira õhutakistust!
-
-4.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Määra mürsu horisontaalne ulatus!
-
-    Eira õhutakistust!
-
-\multicolsend
-
-5.  Pall visatakse horisontaalselt kalju tipust algkiirusega $v_0$ (kui $t = 0$). Igal hetkel moodustab selle liikumissuund horisontaaltasandi suhtes nurga $u$ (joonis \@ref(fig:dynamics-tasks-projectiles-51) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-51")`). Tuleta $u$ valem aja $t$ funktsioonina, arvestades, et kuul järgib mürsu rada.
-
-    ```{r label="dynamics-tasks-projectiles-51", echo=FALSE, fig.cap="Visatud pall."}
-    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-51.svg")
-    
-    ```
-
-    Eira õhutakistust!
-
-\multicolsbegin
-
-6.  Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Milline on tema stardikiirus $v_0$?
-
-    Eira õhutakistust!
-
-7.  Kui pall lüüakse maapinnalt \qty{15,0}{\m\per\s}, on kaks stardinurka, mis panevad palli maanduma \qty{20,0}{\m} kaugusele. Tuleta nende kahe nurga arvutamise valem!
-
-    Ignoreeri õhutakistust.
-
-\columnbreak
-
-8.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Millise maksimaalse kõrguse pall igal juhul saavutab?
-
-    Ignoreeri õhutakistust.
-
-9.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Kui kaua on pall igal juhul õhus?
-
-    Ignoreeri õhutakistust.
-
-\multicolsend
 
 \onecolumn
 
@@ -977,7 +5,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 
 ## Testid
 
-### 2024-2-20
+### 2024-2-20 Edus
 
 1.  Sõidetakse autoga \qty{245}{\kilo\m} läände ja seejärel \qty{118}{\kilo\m} edelasse (\qty{45,0}{\degree}). Kui suur on auto nihkumine lähtepunktist? Joonista diagramm.
               
@@ -1016,7 +44,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 5.  Joonisel \@ref(fig:dynamics-test-vectors-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-7")` on kujutatud kaks vektorit, $\overrightarrow{\bf{A}}$ ja  $\overrightarrow{\bf{B}}$, mille suurused on $A = \num{6,8}$ ühikut ja $B = \num{5,5}$ ühikut.
 
     ```{r label="dynamics-test-vectors-7", echo=FALSE, fig.cap="Kaks antiparalleelset vektorit."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-7.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-7.svg")
     
     ```
 
@@ -1041,7 +69,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 7.  Joonisel \@ref(fig:dynamics-test-vectors-11-7) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-7")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
 
     ```{r label="dynamics-test-vectors-11-7", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1060,7 +88,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 8.  Joonisel \@ref(fig:dynamics-test-vectors-11-8) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-8")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
 
     ```{r label="dynamics-test-vectors-11-8", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1079,7 +107,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 9.  Joonisel \@ref(fig:dynamics-test-vectors-11-9) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-9")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
 
     ```{r label="dynamics-test-vectors-11-9", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1098,7 +126,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 10. Joonisel \@ref(fig:dynamics-test-vectors-11-10) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-10")` on kujutatud vektorid $\overrightarrow{\bf{A}}$ ja $\overrightarrow{\bf{B}}$.
 
     ```{r label="dynamics-test-vectors-11-10", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1117,7 +145,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 11. Joonisel \@ref(fig:dynamics-test-vectors-11-11) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-11")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suurus!
 
     ```{r label="dynamics-test-vectors-11-11", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1130,7 +158,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 12. Joonisel \@ref(fig:dynamics-test-vectors-11-12) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-12")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{B}} - 3 \cdot \overrightarrow{\bf{A}}$ suund!
 
     ```{r label="dynamics-test-vectors-11-12", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1143,7 +171,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 13. Joonisel \@ref(fig:dynamics-test-vectors-11-13) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-13")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suurus!
 
     ```{r label="dynamics-test-vectors-11-13", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1156,7 +184,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 14. Joonisel \@ref(fig:dynamics-test-vectors-11-14) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-14")` kujutatud vektorite osas arvuta $2 \cdot \overrightarrow{\bf{A}} - 3 \cdot \overrightarrow{\bf{B}} + 2 \cdot \overrightarrow{\bf{C}}$ suund!
 
     ```{r label="dynamics-test-vectors-11-14", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1169,7 +197,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 15. Joonisel \@ref(fig:dynamics-test-vectors-11-15) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-15")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suurus!
 
     ```{r label="dynamics-test-vectors-11-15", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1182,7 +210,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 16. Joonisel \@ref(fig:dynamics-test-vectors-11-16) leheküljel `r render_pageref(reference="fig:dynamics-test-vectors-11-16")` kujutatud vektorite osas arvuta $\overrightarrow{\bf{C}} - \overrightarrow{\bf{A}} - \overrightarrow{\bf{B}}$ suund!
 
     ```{r label="dynamics-test-vectors-11-16", echo=FALSE, fig.cap="Kolm erisuunalist vektorit samal tasandil."}
-    include_external_graphics("rmd/mehaanika-dünaamika-vektorid-11.svg")
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-vektorid-11.svg")
     
     ```
 
@@ -1194,7 +222,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 
 []{#mechanics-tasks-2024-3-14}
 
-### 2024-3-14
+### 2024-3-14 Edus
 
 1.  Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Selle, esimese lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{1; x}}} = (\qty{1,00e-1}{\m}; \frac{\pi}{2}; \num{0})$. Seejärel pöörab ta \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Selle, teise lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{2; x}}} = (\qty{7,660e-2}{\m}; \frac{\pi}{2}; \num{0})$. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Selle, kolmanda lõigu nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{3; x}}} = (\qty{-3,421e-2}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga nihke vektori $x$-komponent!
 
@@ -1245,7 +273,7 @@ milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynam
 Joonista kummagi trajektoor! Eira õhutakistust!
 
     ```{r label="dynamics-tasks-projectiles-37-test", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
-    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-37.svg")
+    include_external_graphics("rmd/kursus/mehaanika-dünaamika-heitkehad-37.svg")
     
     ```
 
@@ -1307,18 +335,41 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
 
 \newpage
 
-12. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Nüüd on ta matkamas ja jõuab jõe vasakule kaldale. Silda ei ole ja parem kallas on horisontaalselt \qty{10,0}{\m} kaugusel ja vertikaalselt \qty{2,5}{\m} allpool. Kui ta hüppab vasaku kalda servalt \qty{45}{\degree} eelneva hüppe kiirusega, siis kui kaugele vastaskalda servast ja kummale poole ta maandub (joonis \@ref(fig:dynamics-tasks-projectiles-53) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-53")`)? Eira õhutakistust!
+12. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Milline on kaugushüppaja lähtekiiruse rõhtne komponent?
 
-    ```{r label="dynamics-tasks-projectiles-53", echo=FALSE, fig.cap="Hüpe üle vee."}
-    include_external_graphics("rmd/mehaanika-dünaamika-heitkehad-53.svg")
-    
-    ```
-
-    \vspace{0.5\textheight}
+    \vspace{0.3\textheight}
 
     Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-13. Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Nende kahe nurga arvutamise valem on \@ref(eq:dynamics-tasks-projectiles-55) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-55")`. Arvuta need kaks nurka!
+\newpage
+
+13. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Seejuures on kaugushüppaja lähtekiiruse rõhtne komponent \qty{6,3}{\m\per\s}. Nüüd on ta matkamas ja jõuab jõe vasakule kaldale. Silda ei ole ja parem kallas on horisontaalselt \qty{10,0}{\m} kaugusel ja vertikaalselt \qty{2,5}{\m} allpool. Kui ta hüppab vasaku kalda servalt \qty{45}{\degree} eelneva hüppe kiirusega, siis kui kaua kestab tema hüpe (joonis \@ref(fig:dynamics-tasks-projectiles-53-time) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-53-time")`)? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-53-time", echo=FALSE, fig.cap="Hüpe üle vee."}
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-heitkehad-53.svg")
+    
+    ```
+
+    \vspace{0.4\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+14. Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Seejuures on kaugushüppaja lähtekiiruse rõhtne komponent \qty{6,3}{\m\per\s}. Nüüd on ta matkamas ja jõuab jõe vasakule kaldale. Silda ei ole ja parem kallas on horisontaalselt \qty{10,0}{\m} kaugusel ja vertikaalselt \qty{2,5}{\m} allpool. Kui ta hüppab vasaku kalda servalt \qty{45}{\degree} eelneva hüppe kiirusega, siis tema hüpe kestab \qty{0,36}{\s}. Kui kaugele vastaskalda servast ja kummale poole ta maandub (joonis \@ref(fig:dynamics-tasks-projectiles-53-distance) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-53-distance")`)? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-53-distance", echo=FALSE, fig.cap="Hüpe üle vee."}
+    include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-heitkehad-53.svg")
+    
+    ```
+
+    \vspace{0.2\textheight}
+
+    Täna on 2024-3-14 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+15. Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Nende kahe nurga arvutamise valem on \@ref(eq:dynamics-tasks-projectiles-55) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-55")`. Arvuta need kaks nurka!
 
     \begin{align}
     \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{g \cdot x}{v_0^2}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
@@ -1333,7 +384,9 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
 
 \newpage
 
-### 2024-3-28
+[]{#mechanics-tasks-2024-3-28}
+
+### 2024-3-28 Edus
 
 1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
     
@@ -1348,6 +401,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
     	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
     	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
+    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1412,6 +466,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
     	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
     	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
+    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1427,6 +482,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
     	\item[\faSquareO] Kosmoselaev liigub Kuu suunas. Kui kosmoselaev jõuab atmosfäärist välja, siis kosmoselaevale Maa külgetõmbe jõud enam ei mõju.
     	\item[\faSquareO] Kahe planeeti A ja B pinnal mõjub ühesuurune gravitatsioonijõud. B raadius on kaks A raadiust. Kui A mass on $m$, siis B mass on $4 \cdot m$.
+    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1442,6 +498,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Maa gravitatsiooniväli ulatub Kuust veidi kaugemale.
     	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
     	\item[\faSquareO] Eestis on Maa pinnal gravitatsioonist tingitud kiirendus \qty{9,80}{\m\per\s\squared}.
+    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1460,6 +517,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
     	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
     	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
+    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1475,6 +533,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
     	\item[\faSquareO] Kaks väikest keha massidega $M$ ja $m$ on algselt üksteisest kaugusel $r$ ja nende vahel mõjub gravitatsioonijõud $F$. Uued massid on vastavalt $2 \cdot M$ ja $2 \cdot m$ ning uus kaugus on $4 \cdot r$. Uus gravitatsioonijõud on $\frac{F}{16}$.
     	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
+     	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1521,11 +580,8 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
     	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
     	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
-    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
-    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
-    	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
+     	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on pöördvõrdeline keha massiga, mis selle kiirenduse põhjustab.
     	\item[\faSquareO] Mida suurem on gravitatsiooni põhjustava keha mass, seda väiksem on gravitatsioonist tingitud kiirendus selle keha suhtes.
-    	\item[\faSquareO] Kuu tõmbub gravitatsiooniliselt Maa poole tugevamini kui Maa Kuu poole.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
@@ -1536,17 +592,16 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Mida kaugemal on väiksema massiga keha suurema massiga kehast, seda väiksem on väiksema massiga keha kiirendus suurema massiga keha suhtes.
     	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kahekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud pool esialgset.
     	\item[\faSquareO] Kahe keha vaheline kaugus suureneb kolmekordseks võrreldes esialgsega. Selle tulemusel on nende kehade vaheline gravitatsioonijõud üheksandik esialgset.
-    	\item[\faSquareO] Gravitatsioonikonstandi väärtus \qty{9,8e-11}{\m\cubed\per\kg\per\s\squared}.
     	\item[\faSquareO] Kahe keha vahel mõjub gravitatsioonijõud. Ühe keha mass suureneb kahekordseks võrreldes esialgsega. Selle tulemusel suureneb nende kehade vaheline gravitatsioonijõud kahekordseks võrreldes esialgsega.
-    	\item[\faSquareO] Meie kool on Maa keskpunktist \qty{6}{\mega\m} kaugusel.
-    	\item[\faSquareO] Gravitatsioonijõud mõjub alati suurema massiga keha suunas.
     	\item[\faSquareO] Gravitatsioonijõudu arvutatakse valemi $F = \frac{G \cdot m_1 \cdot m_2}{r^2}$ järgi, milles $F$ tähendab jõudu, $G$ on gravitatsioonikonstant, $m_1$ ja $m_2$ kehade massid, mille vahel see jõud mõjub, ja $r$ on nende kehade vaheline kaugus.
     	\item[\faSquareO] Gravitatsioonist tingitud kiirendust arvutatakse valemi $g = \frac{G \cdot m}{r^2}$ järgi, milles $g$ tähendab gravitatsioonist tingitud kiirendust, $G$ on gravitatsioonikonstant, $m$ keha mass, mille gravitatsiooniväli selle kiirenduse põhjustab, ja $r$ on kaugus sellest kehast.
     \end{itemize}
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-### 2024-4-9
+[]{#mechanics-tasks-2024-4-9}
+
+### 2024-4-9 Vabas
 
 1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
     
@@ -1704,7 +759,9 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
 
     Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
 
-### 2024-4-11
+[]{#mechanics-tasks-2024-4-11}
+
+### 2024-4-11 Edus
 
 $$
 \num{0} = F_\text{N} - F_\text{g} \pm F_\text{T}, \vec{\bf{a}} = \frac{\vec{\bf{F_\text{T}}}}{m}.
@@ -1734,7 +791,7 @@ Arvutused tee pöördele! Sulgudes on suurim alamülesande lahendi punktide arv.
 
 Täna on 2024-4-11 ja mina olen \blank{10. Trubilko, Vladislav}.
 
-### 2024-4-16
+### 2024-4-16 Vabas
 
 1.  Märgistan iga õige väite. Iga õige märgistus ja märgistamata jätmine tähendab üht hindepunkti. Iga ebaõige märgistus ja märgistamata jätmine tähendab üht negatiivset hindepunkti.
     
@@ -1889,7 +946,315 @@ Täna on 2024-4-11 ja mina olen \blank{10. Trubilko, Vladislav}.
     
     Täna on 2024-4-16 ja mina olen \blank{Keteli Pärl Kungla}.
 
+\newpage
+
+[]{#mechanics-tasks-2024-5-2}
+
+### 2024-5-2 Edus
+
+Joonisel \@ref(fig:dynamics-test-frictional-force-momentum) leheküljel `r render_pageref(reference="fig:dynamics-test-frictional-force-momentum")` on näidatud eksperimendi algasetus.
+
+```{r label="dynamics-test-frictional-force-momentum", echo=FALSE, fig.cap="Kaldpinna kõrgemas osas on libistatav ese, millele mõjuvad jõud on näidatud vektoritena."}
+include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-hoog.svg")
+
+```
+
+1.  Avaldan normaaljõu raskusjõu ja kaldenurga kaudu.
+
+    $\bf{F_\text{N}} = \blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}$.
+
+2.  Avaldan hõõrdejõu raskusjõu ja kaldenurga kaudu.
+
+    $\bf{F_\text{fr}} = \mu_\text{s} \cdot \blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}$.
+
+3. Avaldan hõõrdejõudu tasakaalustava raskusjõu komponendi raskusjõu ja kaldenurga kaudu. $\bf{F_\text{T}} = \blank{\bf{F_\text{g}} \cdot \text{sin}(\theta)}$.
+
+4.  Väljendan eelnevate avaldiste abil staatilise hõõrdeteguri kaldenurga kaudu.
+
+    \begin{align}
+    \mu_\text{s} &= \dfrac{\bf{F_\text{fr}}}{\blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}}\leavevmode\\
+    \leavevmode\\
+    &= \dfrac{\blank{\bf{F_\text{g}} \cdot \text{sin}(\theta)}}{\blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}}\leavevmode\\
+    &= \blank{\text{tg}(\theta)}.
+    \end{align}
+
+5. Kaalun libistatava eseme. $m = \blank{\qty{0,029}{\kg}}$.
+
+6. Asetan libistatava eseme kaldpinna kõrgeimasse ossa. Liigutan kaldpinna all olevat pudelit, et kaldpind rohkem kaldu oleks tehes seda niikaua, kuni libistatav ese hakkab libisema ja mõõdan või arvutan kaldenurga, mille all ese hakkas libisema. $\theta = \blank{\qty{29,4}{\degree}}$.
+
+7. Arvutan staatilise hõõrdeteguri. $\mu_\text{s} = \blank{\num{0,496}}$.
+
+8. Arvutan raskusjõu. $\bf{F_\text{g}} = \blank{\qty{0,285}{\newton}}$.
+
+9. Arvutan normaaljõu. $\bf{F_\text{N}} = \blank{\qty{0,255}{\newton}}$.
+
+10. Arvutan staatilise hõõrdejõu.  $\bf{F_\text{fr; s}} = \blank{\qty{0,127}{\newton}}$.
+
+11. Muudan kalde selliseks, et ese ei libiseks oma algasukohast, ning asetan libistatava eseme tagasi algasukohta. Liigutan taas pudelit muutes kallet ja teise käega käivitan stopperi, kui ese hakkab libisema, ning peatan stopperi, kui ese lõpetab libisemise. Märgin libisemise kestuse. $t = \blank{\qty{0,6}{\s}}$.
+
+12. Mõõdan või arvutan libisemise teekonna. $\Delta(x) = \blank{\qty{0,28}{\m}}$.
+
+13. Arvutan libisenud eseme libisemiskiirenduse. $a = \blank{\qty{1,56}{\m\per\s\squared}}$.
+
+14. Arvutan välise jõu, mis eseme libisema sundis. $\bf{F_\text{T}} = \blank{\qty{0,0451}{\newton}}$.
+
+15. Arvutan kineetilise hõõrdejõu. $\bf{F_\text{fr; k}} = \blank{\qty{0,0815}{\newton}}$.
+
+16. Arvutan kineetilise hõõrdeteguri. $\mu_\text{k} = \blank{\num{0,320}}$.
+
+17. Arvutan libisenud eseme lõppkiiruse. $v = \blank{\qty{0,933}{\m\per\s}}$.
+
+18. Arvutan libisenud eseme lõpphoo ja seega hoo muudu.
+
+    $J = \blank{\qty{0,0271}{\kg\m\per\s}}$.
+
+19. Arvutan välise jõu, mis eseme libisema sundis, hoo muudu ja libisemisaja kaudu.
+
+    \begin{align}
+    \bf{F_\text{T}} &= \dfrac{\blank{\qty{0,0271}{\kg\m\per\s}}}{\blank{\qty{0,6}{\s}}}\leavevmode\\
+    &= \blank{\qty{0,0451}{\newton}}.
+    \end{align}
+
+20. Asetan kaldpinna rõhtsalt lauale ja libistatava eseme selle peale. Püüan eset sõrmega libistada. Arvutan, kui suurt jõudu ma selleks rakendama pean. $\bf{F_\text{fr; s}} = \blank{\qty{0,141}{\newton}}$.
+
+21. Jõud, millega ese libisema saada, on kaldpinnal \Circle suurem \Circle väiksem kui rõhtsal pinnal, sest \blank{raskusjõud} \blank{ kaldpinna} \blank{ puhul} \blank{ aitab}.
+
+22. Staatiline hõõrdejõud oli \Circle suurem \Circle väiksem kui kineetiline hõõrdejõud, sest \blank{eseme} \blank{ liikumasaamiseks} \blank{ on vaja rohkem} \blank{ jõudu} \blank{ rakendada}.
+    
+Täna on 2024-5-2 ja mina olen \blank{10. Trubilko, Vladislav}.
+
+\newpage
+
+### 2024-5-2 ru
+
+На странице `r render_pageref(reference="fig:dynamics-test-frictional-force-momentum-ru")`, рисунок  \@ref(fig:dynamics-test-frictional-force-momentum-ru) показывает начальную установку эксперимента.
+
+```{r label="dynamics-test-frictional-force-momentum-ru", echo=FALSE, fig.cap="На верхней части наклонной поверхности находится скользящий предмет, на который действующие силы показаны векторами."}
+include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-hoog.svg")
+
+```
+
+1.  Я определяю нормальную силу через силу тяжести и угол наклона.
+
+    $\bf{F_\text{N}} = \blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}$.
+
+2.  Я определяю силу трения через силу тяжести и угол наклона.
+
+    $\bf{F_\text{fr}} = \mu_\text{s} \cdot \blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}$.
+
+\newpage
+
+3. Является ли это вопросом о наклонной плоскости и компонентах сил, действующих на предмет? Если да, то горизонтальная компонента реакции определяется как \( F_{hõõrdumine} = \mu \cdot F_{n} \), где \( \mu \) - коэффициент трения, \( F_{n} \) - нормальная сила, которая может быть определена как \( F_{n} = m \cdot g \cdot \cos(\theta) \), где \( m \) - масса объекта, \( g \) - ускорение свободного падения, \( \theta \) - угол наклона. $\bf{F_\text{T}} = \blank{\bf{F_\text{g}} \cdot \text{sin}(\theta)}$.
+
+4.  Статический коэффициент трения (\( \mu \)) может быть выражен через угол наклона (\( \theta \)) следующим образом:
+
+    \[ \mu = \frac{F_{hõõrdumine}}{F_{n}} \]
+
+    Подставляя выражение для \( F_{n} \):
+
+    \[ \mu = \frac{F_{hõõrdumine}}{m \cdot g \cdot \cos(\theta)} \]
+
+    где \( F_{hõõrdumine} \) - сила трения, \( m \) - масса объекта, \( g \) - ускорение свободного падения, \( \theta \) - угол наклона.
+
+    \begin{align}
+    \mu_\text{s} &= \dfrac{\bf{F_\text{fr}}}{\blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}}\leavevmode\\
+    \leavevmode\\
+    &= \dfrac{\blank{\bf{F_\text{g}} \cdot \text{sin}(\theta)}}{\blank{\bf{F_\text{g}} \cdot \text{cos}(\theta)}}\leavevmode\\
+    &= \blank{\text{tg}(\theta)}.
+    \end{align}
+
+5. Я взвешиваю скользящий предмет. $m = \blank{\qty{0,029}{\kg}}$.
+
+\newpage
+
+6. Я размещаю скользящий предмет на самой высокой точке наклонной поверхности. Я перемещаю бутылку, находящуюся под наклонной поверхностью, чтобы увеличить угол наклона, делая это до тех пор, пока скользящий предмет не начнет скользить, и затем измеряю или вычисляю угол наклона, при котором предмет начинает скользить. $\theta = \blank{\qty{29,4}{\degree}}$.
+
+7. Вычисляю коэффициент статического трения. $\mu_\text{s} = \blank{\num{0,496}}$.
+
+8. Вычисляю силу тяжести. $\bf{F_\text{g}} = \blank{\qty{0,285}{\newton}}$.
+
+9. Вычисляю нормальную силу. $\bf{F_\text{N}} = \blank{\qty{0,255}{\newton}}$.
+
+10. Вычисляю статическую силу трения.  $\bf{F_\text{fr; s}} = \blank{\qty{0,127}{\newton}}$.
+
+11. Я изменяю угол наклона так, чтобы предмет не скользил со своего начального положения, а затем возвращаю скользящий предмет обратно на исходное место. Я снова перемещаю бутылку, изменяя угол наклона, и запускаю секундомер одной рукой, когда предмет начинает скользить, и останавливаю его, когда предмет перестает скользить. Я фиксирую время продолжительности скольжения. $t = \blank{\qty{0,6}{\s}}$.
+
+12. Я измеряю или вычисляю длину пути скольжения.
+
+    $\Delta(x) = \blank{\qty{0,28}{\m}}$.
+
+13. Вычисляю ускорение скольжения скользящего объекта. $a = \blank{\qty{1,56}{\m\per\s\squared}}$.
+
+14. Вычисляю внешнюю силу, которая заставила объект скользить. $\bf{F_\text{T}} = \blank{\qty{0,0451}{\newton}}$.
+
+15. Вычисляю кинетическую силу трения. $\bf{F_\text{fr; k}} = \blank{\qty{0,0815}{\newton}}$.
+
+16. Вычисляю кинетический коэффициент трения. $\mu_\text{k} = \blank{\num{0,320}}$.
+
+17. Вычисляю конечную скорость скользящего объекта.
+
+    $v = \blank{\qty{0,933}{\m\per\s}}$.
+
+18. Вычисляю конечный импульс скользящего объекта и, следовательно, изменение импульса.
+
+    $J = \blank{\qty{0,0271}{\kg\m\per\s}}$.
+
+19. Вычисляю внешнюю силу, которая заставила объект скользить, изменение импульса исходя из времени скольжения.
+
+    \begin{align}
+    \bf{F_\text{T}} &= \dfrac{\blank{\qty{0,0271}{\kg\m\per\s}}}{\blank{\qty{0,6}{\s}}}\leavevmode\\
+    &= \blank{\qty{0,0451}{\newton}}.
+    \end{align}
+
+20. Я помещаю наклонную поверхность горизонтально на стол и кладу на нее скользящий предмет. Я пытаюсь сдвинуть предмет пальцем и вычисляю, какую силу мне нужно приложить для этого. $\bf{F_\text{fr; s}} = \blank{\qty{0,141}{\newton}}$.
+
+21. Сила, необходимая для того, чтобы объект начал скользить, на наклонной поверхности \Circle больше \Circle меньше, чем на горизонтальной поверхности, потому что \blank{гравитация} \blank{наклонная плоскость} \blank{помогает}.
+
+22. Статическая сила трения была \Circle больше \Circle меньше, чем кинетическая сила трения, потому что \blank{для} \blank{ объекта} \blank{начала движения} \blank{требуется} \blank{ больше} \blank{силы} \blank{применить}.
+    
+Сегодня 2 мая 2024 года, и я \blank{10. Трубилко, Владислав}.
+
+\newpage
+
+[]{#mechanics-tasks-2024-5-7}
+
+### 2024-5-7 Vabas
+
+1.  Kalamees, kelle mass on \qty{75}{\kg}, hüppab paadist välja kiirusega \qty{5}{\m\per\s}. Millise kiirusega ja millises suunas hakkab see \qty{125}{\kg} massiga paat liikuma?
+
+    Sisendid:
+    
+    $m_\text{mees} = \blank{\qty{75}{\kg}}$.
+    
+    $v_\text{mees} = \blank{\qty{5}{\m\per\s}}$.
+    
+    $m_\text{paat} = \blank{\qty{125}{\kg}}$.
+    
+    Väljund:
+    
+    $v_\text{paat} = ...$
+    
+    Arutamine:
+    
+    Suletud süsteemi hoog on \Circle muutumatu \Circle pidevas muutumises. See tähendab, et kui muutub selle süsteemi komponendi \Circle mass \Circle hoog, siis peab see saama ülejäänud süsteemi poolt tasakaalustatud. Seda nimetatakse \Circle massi \Circle hoo jäävuse seaduseks. Meie suletud süsteemi moodustavad \blank{kalamees} ja paat. Kuna kalamees liigub ja seega muudab oma hoogu, siis peab liikuma ka \blank{paat}, mistõttu muutub ka paadi \blank{hoog}. Kalamees ja \blank{paat} liiguvad üksteise suhtes \Circle vastassuunas \Circle samasuunaliselt. Võime arbitraarselt tähistada kalamehe hoo negatiivselt ja paadi hoo \blank{positiivselt}. Vastavalt hoo \blank{jäävuse} seadusele peab süsteemi hoog enne ja \blank{pärast} hüpet olema \Circle sama \Circle erinev (valem \@ref(eq:p-before-after)).
+    
+    \begin{align}
+    p_\text{\blank{enne}} = p_\text{pärast}.
+    (\#eq:p-before-after)
+    \end{align}
+    
+    Hoo arvutamise üldvalem on esitatud avaldisena \@ref(eq:p).
+    
+    \begin{align}
+    p = m \cdot \blank{v}.
+    (\#eq:p)
+    \end{align}
+    
+    \Circle Enne \Circle Pärast hüpet ei liikunud mees ega paat. Seega oli enne hüpet süsteemi hoog \blank{null}. Vastavalt hoo jäävuse \blank{seadusele} peab selle süsteemi hoog olema seega ka pärast hüpet \blank{null}. Selle saavutame, kui liidame kokku mehe ja paadi hoo \blank{pärast} hüpet, kuna need hood on erimärgilised, sest need kehad liiguvad üksteise suhtes \Circle vastassuunas \Circle samasuunaliselt.
+
+    Liidan kokku mehe ja paadi \blank{hoo} kasutades vastavalt võrrandite \@ref(eq:dynamics-test-momentum-p-man) ja \@ref(eq:dynamics-test-momentum-p-boat) paremat poolt ning panen tulemuse võrduma nulliga (võrrand \@ref(eq:man-boat)).
+ 
+    \begin{align}
+    p_\text{mees} &= m_\text{\blank{mees}} \cdot -v_\text{mees}.\leavevmode\\
+    (\#eq:dynamics-test-momentum-p-man)p_\text{paat} &= m_\text{paat} \cdot v_\text{\blank{paat}}.\leavevmode\\
+    (\#eq:dynamics-test-momentum-p-boat)p_\text{mees} + p_\text{paat} &= \num{0}.\leavevmode\\
+    m_\text{mees} \cdot -v_\text{mees} + m_\text{paat} \cdot v_\text{paat} &= \blank{\num{0}}.\leavevmode\\
+    m_\text{paat} \cdot v_\text{paat} &= m_\text{mees} \cdot \blank{v_\text{mees}}.\leavevmode\\
+    v_\text{paat} &= \frac{m_\text{mees} \cdot v_\text{mees}}{\blank{m_\text{paat}}}.
+    (\#eq:man-boat)
+    \end{align}
+    
+    Arvutamine (avaldis \@ref(eq:dynamics-test-momentum-v-boat-calculation)):
+
+    \begin{align}
+    v_\text{paat} = \frac{\blank{\qty{75}{\kg}} \times \blank{\qty{5}{\m\per\s}}}{\blank{\qty{125}{\kg}}} = \blank{\qty{3}{\m\per\s}}.
+    (\#eq:dynamics-test-momentum-v-boat-calculation)
+    \end{align}
+    
+    Lahend: Paat liigub kiirusega \blank{\qty{3}{\m\per\s}} \Circle kaldast eemale \Circle kalda poole. Olen \blank{Keteli Pärl Kungla}.
+
+2.  Dünamiidilaeng 2024-5-7 lõhub paigalseisva kivi kaheks tükiks, mis lendavad vastassuundades laiali kiirustega \qty{23}{\m\per\s} ja \qty{45}{\m\per\s}. Suurema kivitüki mass on \qty{7,4}{\kg}. Arvuta teise tüki mass.
+
+    Sisendid:
+    
+    $v_\text{\blank{suurem tükk}} = \qty{23}{\m\per\s}$.
+
+    $v_\text{\blank{väiksem tükk}} = \qty{45}{\m\per\s}$.
+
+    $m_\text{suurem tükk} = \blank{\qty{7,4}{\kg}}$.
+    
+    Väljund: $m_\text{väiksem tükk} = ...$
+    
+    Arutamine (olen \blank{Keteli Pärl Kungla}):
+    
+    Suletud süsteemi hoog on \Circle muutumatu \Circle pidevas muutumises. See tähendab, et kui muutub selle süsteemi komponendi \Circle mass \Circle hoog, siis peab see saama ülejäänud süsteemi poolt tasakaalustatud. Seda nimetatakse \Circle massi \Circle hoo jäävuse seaduseks. Meie suletud süsteemi moodustavad \blank{suurem} ja väiksem kivi. Võime arbitraarselt tähistada väiksema kivi hoo negatiivselt ja suurema kivi hoo \blank{positiivselt}. Vastavalt hoo \blank{jäävuse} seadusele peab süsteemi hoog enne ja \blank{pärast} plahvatust olema \Circle sama \Circle erinev (valem \@ref(eq:p-before-after)).
+    
+    \begin{align}
+    p_\text{\blank{enne}} = p_\text{pärast}.
+    (\#eq:p-before-after)
+    \end{align}
+    
+    Hoo arvutamise üldvalem on esitatud avaldisena \@ref(eq:p).
+    
+    \begin{align}
+    p = m \cdot \blank{v}.
+    (\#eq:p)
+    \end{align}
+    
+    \Circle Enne \Circle Pärast plahvatust ei liikunud mitte kumbki kivitükk. Seega oli enne plahvatust süsteemi hoog \blank{null}. Vastavalt hoo jäävuse \blank{seadusele} peab selle süsteemi hoog olema seega ka pärast hüpet \blank{null}. Selle saavutame, kui liidame kokku kummagi kivitüki hoo \blank{pärast} plahvatust, kuna need hood on erimärgilised, sest need kehad liiguvad üksteise suhtes \Circle vastassuunas \Circle samasuunaliselt.
+
+    Liidan kokku kivitükkide \blank{hoo} kasutades vastavalt võrrandite \@ref(eq:dynamics-test-momentum-p-smaller) ja \@ref(eq:dynamics-test-momentum-p-larger) paremat poolt ning panen tulemuse võrduma nulliga (võrrand \@ref(eq:dynamics-test-momentum-pieces-of-rock)).
+ 
+    \begin{align}
+    p_\text{väiksem tükk} + p_\text{suurem tükk} = \num{0}.\leavevmode\\
+    (\#eq:dynamics-test-momentum-p-smaller)p_\text{väiksem tükk} = m_\text{\blank{väiksem tükk}} \cdot -v_\text{väiksem tükk}.\leavevmode\\
+    (\#eq:dynamics-test-momentum-p-larger)p_\text{suurem tükk} = m_\text{suurem tükk} \cdot v_\text{\blank{suurem tükk}}.\leavevmode\\
+    m_\text{väiksem tükk} \cdot -v_\text{väiksem tükk} + m_\text{suurem tükk} \cdot v_\text{suurem tükk} = \blank{\num{0}}.\leavevmode\\
+    m_\text{suurem tükk} \cdot v_\text{suurem tükk} = m_\text{väiksem tükk} \cdot \blank{v_\text{väiksem tükk}}.\leavevmode\\
+    m_\text{väiksem tükk} = \frac{m_\text{suurem tükk} \cdot v_\text{suurem tükk}}{\blank{v_\text{väiksem tükk}}}.
+    (\#eq:dynamics-test-momentum-pieces-of-rock)
+    \end{align}
+    
+    Arvutamine (avaldis \@ref(eq:dynamics-test-momentum-m-smaller-piece-of-rock-calculation)):
+
+    \begin{align}
+    m_\text{väiksem tükk} = \frac{\blank{\qty{7,4}{\kg}} \times \blank{\qty{23}{\m\per\s}}}{\blank{\qty{45}{\m\per\s}}} = \blank{\qty{3,8}{\kg}}.
+    (\#eq:dynamics-test-momentum-m-smaller-piece-of-rock-calculation)
+    \end{align}
+    
+    Lahend: Väiksema kivitüki mass on \blank{\qty{3,8}{\kg}}.
+
+3.  Horisontaalsel teel kiirusega \qty{0,4}{\m\per\s} liikuvale vagonetile langes vertikaalsihis \qty{200}{\kg} liiva. Kuidas muutus vagoneti kiirus, kui vagoneti mass on \qty{800}{\kg}?
+    
+    \begin{itemize}
+    	\item[\faSquareO] Suurenes \qty{0,32}{\m\per\s} võrra.
+    	\item[\faSquareO] Vähenes \qty{0,08}{\m\per\s} võrra.
+    	\item[\faSquareO] Vähenes \qty{0,32}{\m\per\s} võrra.
+    	\item[\faSquareO] Suurenes \qty{0,08}{\m\per\s} võrra.
+    \end{itemize}
+   
+    Täna on 2024-5-7 ja mina olen \blank{Keteli Pärl Kungla}.
+
+4.  Jääl seisvat hokimängijat tabab litter. Millise kiirusega hakkaks hokimängija liikuma, kui hõõrdumist mitte arvestada? Mängija mass on \qty{80}{\kg}, litri mass on \qty{200}{\g} ja kiirus \qty{80}{\kilo\m\per\hour}.
+    
+    \begin{itemize}
+    	\item[\faSquareO] Suurenes \qty{16}{\mm\per\s} võrra.
+    	\item[\faSquareO] Vähenes \qty{20}{\mm\per\s} võrra.
+    	\item[\faSquareO] Vähenes \qty{37}{\mm\per\s} võrra.
+    	\item[\faSquareO] Suurenes \qty{55}{\mm\per\s} võrra.
+    \end{itemize}
+   
+    Täna on 2024-5-7 ja mina olen \blank{Keteli Pärl Kungla}.
+
+5.  Poiss hüppab paigalseisvast paadist horisontaalselt välja kiirusega \qty{2}{\m\per\s}. Kui suure kiiruse omandab paat, kui selle mass on \qty{150}{\kg} ja poisi mass \qty{50}{\kg}?
+              
+    \vspace{0.2\textheight}
+
+    Täna on 2024-5-7 ja mina olen \blank{Keteli Pärl Kungla}.
+
 ### Lühitestide tulemused
+
+#### Edus
 
 Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-1) leheküljel `r render_pageref(reference="tab:mechanics-results-1")`.
 
@@ -1897,12 +1262,18 @@ Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-1) lehekülje
 
 (ref:mechanics-tasks-2024-2-20) [2024-2-20](#mechanics-tasks-2024-2-20)
 (ref:mechanics-tasks-2024-3-14) [2024-3-14](#mechanics-tasks-2024-3-14)
+(ref:mechanics-tasks-2024-3-28) [2024-3-28](#mechanics-tasks-2024-3-28)
+(ref:mechanics-tasks-2024-4-11) [2024-4-11](#mechanics-tasks-2024-4-11)
+(ref:mechanics-tasks-2024-5-2) [2024-5-2](#mechanics-tasks-2024-5-2)
 
 ```{r label="mechanics-results-1", echo=FALSE}
 
 mechanics_dates <- c(
   "(ref:mechanics-tasks-2024-2-20)",
-  "(ref:mechanics-tasks-2024-3-14)"
+  "(ref:mechanics-tasks-2024-3-14)",
+  "(ref:mechanics-tasks-2024-3-28)",
+  "(ref:mechanics-tasks-2024-4-11)",
+  "(ref:mechanics-tasks-2024-5-2)"
 )
 
 mechanics_tasks <- data.frame(
@@ -1914,7 +1285,7 @@ mechanics_tasks <- data.frame(
     NA, # 6. Nersesjan, Feliks
     4, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
-    NA, # 7. Šesterikov, Daniil
+    5, # 7. Šesterikov, Daniil, 4 ka
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     2, # 10. Trubilko, Vladislav
@@ -1940,8 +1311,38 @@ mechanics_tasks <- data.frame(
     6, # Donat Irhin
     NA, # 3. Kimasks, Stanislavs
     NA, # Kustov, Vladimir
+    7, # Malõšev, Polina
+    13, # 6. Nersesjan, Feliks, esimesel katsel 5
+    NA, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    10, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    4, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    9 # Volkova, Jeva
+  ),
+  c( # 2024-4-11
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
     NA, # Malõšev, Polina
-    5, # 6. Nersesjan, Feliks
+    NA, # 6. Nersesjan, Feliks
+    NA, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    NA, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    NA # Volkova, Jeva
+  ),
+  c( # 2024-5-2
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    NA, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
     NA, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
     NA, # 7. Šesterikov, Daniil
@@ -1960,9 +1361,9 @@ mechanics_grades <- data.frame(
     NA, # Kustov, Vladimir
     NA, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
-    NA, # 7. Salnikova, Veronika
     4, # Šerstobitov, Mihhail
-    NA, # 7. Šesterikov, Daniil
+    NA, # 7. Salnikova, Veronika
+    4, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     2, # 10. Trubilko, Vladislav
@@ -1975,8 +1376,8 @@ mechanics_grades <- data.frame(
     NA, # Kustov, Vladimir
     NA, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
-    NA, # 7. Salnikova, Veronika
     3, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
     NA, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
@@ -1988,10 +1389,40 @@ mechanics_grades <- data.frame(
     1, # Donat Irhin
     NA, # 3. Kimasks, Stanislavs
     NA, # Kustov, Vladimir
-    NA, # Malõšev, Polina
-    1, # 6. Nersesjan, Feliks
-    NA, # 7. Salnikova, Veronika
+    5, # Malõšev, Polina
+    5, # 6. Nersesjan, Feliks, esimesel katsel 1
     NA, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    NA, # 7. Šesterikov, Daniil
+    1, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    2, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    5 # Volkova, Jeva
+  ),
+  c( # 2024-4-11
+    NA, # Donat Irhin
+    NA, # 3. Kimasks, Stanislavs
+    2, # Kustov, Vladimir
+    4, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    NA, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
+    5, # 7. Šesterikov, Daniil, enne 1
+    NA, # Žigadlo, Grigori
+    NA, # 9. Žukova, Darja
+    5, # 10. Trubilko, Vladislav
+    NA, # 12. Volkova, Darja
+    2 # Volkova, Jeva
+  ),
+  c( # 2024-5-2
+    NA, # Donat Irhin
+    2, # 3. Kimasks, Stanislavs
+    NA, # Kustov, Vladimir
+    22, # Malõšev, Polina
+    NA, # 6. Nersesjan, Feliks
+    2, # Šerstobitov, Mihhail
+    NA, # 7. Salnikova, Veronika
     NA, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
@@ -2005,7 +1436,7 @@ summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
 
 data_frame <- cbind(mechanics_tasks[1], mechanics_grades[1])
 number_of_tests <- length(mechanics_dates)
-limit_of_dates <- 2#6
+limit_of_dates <- 4#6
 additional_header <- data.frame(
   c("Õpilane", mechanics_dates[1:limit_of_dates]),
   c(1, rep(x=2, limit_of_dates))
@@ -2037,96 +1468,103 @@ for (date in 1:limit_of_dates) {
 
 ```
 
+#### Vabas
+
+Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-Vaba) leheküljel `r render_pageref(reference="tab:mechanics-results-Vaba")`.
+
+(ref:mechanics-tasks-2024-4-9) [2024-4-9](#mechanics-tasks-2024-4-9)
+(ref:mechanics-tasks-2024-5-7) [2024-5-7](#mechanics-tasks-2024-5-7)
+
+```{r label="mechanics-results-Vaba", echo=FALSE}
+
+mechanics_dates <- c(
+  "(ref:mechanics-tasks-2024-4-9)",
+  "(ref:mechanics-tasks-2024-5-7)"
+)
+
+mechanics_tasks <- data.frame(
+  c( # 2024-4-9
+    NA, # Heleene Kargu
+    6, # Keteli Pärl Kungla
+    2, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    NA, # Liisbet Treimann
+    NA # Joosep Vest
+  ),
+  c( # 2024-5-7
+    NA, # Heleene Kargu
+    5, # Keteli Pärl Kungla
+    NA, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    3, # Egert Polman
+    2, # Nora Pärlin
+    3, # Liisbet Treimann
+    1 # Joosep Vest
+  )
+)
+
+mechanics_grades <- data.frame(
+  c( # 2024-4-9
+    NA, # Heleene Kargu
+    5, # Keteli Pärl Kungla
+    5, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    NA, # Liisbet Treimann
+    NA # Joosep Vest
+  ),
+  c( # 2024-5-7
+    NA, # Heleene Kargu
+    3, # Keteli Pärl Kungla
+    NA, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    5, # Egert Polman
+    1, # Nora Pärlin
+    5, # Liisbet Treimann
+    5 # Joosep Vest
+  )
+)
+
+summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
+
+data_frame <- cbind(mechanics_tasks[1], mechanics_grades[1])
+number_of_tests <- length(mechanics_dates)
+limit_of_dates <- 1#6
+additional_header <- data.frame(
+  c("Õpilane", mechanics_dates[1:limit_of_dates]),
+  c(1, rep(x=2, limit_of_dates))
+)
+
+if (number_of_tests > 1)
+{
+  for (date in 2:number_of_tests) {
+    data_frame <- cbind(data_frame, mechanics_tasks[date], mechanics_grades[date])
+  }
+}
+
+data_frame <- cbind(data_frame, summary)
+
+last_column <- limit_of_dates * 2
+data_frame_1 <- subset(data_frame, select = c(1:last_column))
+colnames(data_frame_1) <- c(
+  rep(x=c("Üles-anne", "Hinne"), limit_of_dates)
+)
+rownames(data_frame_1) <- names_Vaba
+table <- print_table(
+  table = data_frame_1,
+  caption = paste("Mehaanika kursuse tulemused ", mechanics_dates[1], " kuni ", mechanics_dates[limit_of_dates], ".", sep=""),
+  additional_header = additional_header
+)
+
+for (date in 1:limit_of_dates) {
+  table <- column_spec(kable_input = table, column = date * 2, width = "2em")
+}
+
+# table
+
+```
+
 \landscapeend
-
-## Kaardid
-
-Tabelis \@ref(tab:formulas) leheküljel\, `r render_pageref(reference="tab:formulas")` on mängu valemid.
-
-```{r label="formulas", echo=FALSE}
-formulas <- c(
-  "$\\vec{\\bf{r}} := x \\, \\hat{\\bf{i}} + y \\, \\hat{\\bf{j}} + z \\, \\hat{\\bf{k}}$",
-  "$\\vec{\\bf{v}} = \\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
-  "$\\vec{\\bf{a}} = \\frac{\\mathrm{d}(\\vec{\\bf{v}})}{\\mathrm{d}(t)}$",
-  "$w(t) = 0 \\rightarrow t = \\frac{\\vec{\\bf{v}} - \\overrightarrow{\\bf{v_0}}}{\\overrightarrow{\\bf{a_0}}}$",
-  "$w(t) = \\frac{\\mathrm{d}(a(t))}{\\mathrm{d}(t)}$",
-  "$a(t) = w(t) \\cdot t + a(0)$",
-  "$\\frac{w(t) \\cdot t^2}{2} + a(0) \\cdot t + v(0) = v(t)$",
-  "$\\frac{w(t) \\cdot t^3}{6} + \\frac{a(0) \\cdot t^2}{2} + v(0) \\cdot t + r(0) = r(t)$",
-  "$\\frac{\\overrightarrow{v}^2 - \\overrightarrow{v(0)}^2}{2 \\cdot \\overrightarrow{a(0)}} = r - r(0)$",
-  "$\\vec{\\bf{p}} = m \\cdot \\vec{\\bf{v}}$",
-  "$m = \\frac{\\vec{\\bf{p}}}{\\vec{\\bf{v}}}$",
-  "$\\vec{\\bf{v}} = \\frac{\\vec{\\bf{p}}}{m}$",
-  "$\\vec{\\bf{J}} = \\int_{t_1}^{t_2}\\overrightarrow{\\bf{F(t)}} \\mathrm{d}(t)$",
-  "$\\frac{\\text{d}(\\vec{\\bf{J}})}{\\text{d}(t)} = \\overrightarrow{\\bf{F(t)}}$",
-  "$\\Delta(m) = 0 \\rightarrow m \\cdot \\vec{\\bf{a}}= \\vec{\\bf{F}}$",
-  "$\\Delta(m) = 0 \\rightarrow \\vec{\\bf{a}}= \\frac{\\vec{\\bf{F}}}{m}$",
-  "$\\Delta(m) = 0 \\rightarrow m= \\frac{\\vec{\\bf{F}}}{\\vec{\\bf{a}}}$"
-)
-
-data_frame_of_formulas <- data.frame(formulas)
-
-colnames(data_frame_of_formulas) <- c(
-  "Valem"
-)
-
-table <- print_table(
-  table=data_frame_of_formulas,
-  caption="Valemid."
-)
-
-table
-
-```
-
-Tabelis \@ref(tab:legend) leheküljel\, `r render_pageref(reference="tab:legend")` on mängu valemite legend.
-
-```{r label="legend", echo=FALSE}
-variables <- c(
-  "$t$",
-  "$\\vec{\\bf{r}}$",
-  "$x \\, \\hat{\\bf{i}}$",
-  "$y \\, \\hat{\\bf{j}}$",
-  "$z \\, \\hat{\\bf{k}}$",
-  "$\\vec{\\bf{v}}$",
-  "$\\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
-  "$\\vec{\\bf{a}}$",
-  "$w(t)$",
-  "$\\overrightarrow{\\bf{v_0}}$",
-  "$\\vec{\\bf{p}}$",
-  "$m$",
-  "$\\vec{\\bf{J}}$",
-  "$\\overrightarrow{\\bf{F(t)}}$"
-)
-
-definitions <- c(
-  "aeg",
-  "asukoha vektor",
-  "abstsiss",
-  "ordinaat",
-  "z-koordinaat",
-  "kiiruse vektor",
-  "asukoha vektori väike muut aja järgi",
-  "kiirenduse vektor",
-  "jõnks aja järgi",
-  "algkiiruse vektor",
-  "hoog",
-  "mass",
-  "aje",
-  "jõu vektor aja järgi"
-)
-data_frame <- data.frame(variables, definitions)
-
-colnames(data_frame) <- c(
-  "Suurus",
-  "Selgitus"
-)
-
-table <- print_table(
-  table=data_frame,
-  caption="Legend."
-)
-
-table
-
-```

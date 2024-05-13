@@ -1,0 +1,157 @@
+# Kursus
+
+## Dünaamika
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+1. selgitab nähtuste vastastikmõju, gravitatsioon, hõõrdumine ja deformatsioon esinemist ning
+rakendumist looduses (44.4);
+
+2. täiendab etteantud joonist vektoritega, näidates kehale mõjuvaid jõude nii liikumisoleku püsimisel
+($v$ = const, $a$ = 0) kui ka muutumisel ($a$ = const ≠ 0) (4.6);
+
+3. oskab jõu komponentide kaudu leida resultantjõudu (4.6);
+
+4. selgitab ja rakendab Newtoni seadusi ning seostab neid igapäevaelu nähtustega (4-6);
+
+5. sõnastab impulsi jäävuse seaduse ja lahendab probleemülesandeid, kasutades seost \@ref(eq:impulse) leheküljel\ `r render_pageref(reference="eq:impulse")` (9.2);
+
+6. seostab reaktiivliikumist impulsi jäävuse seadusega; toob näiteid reaktiivliikumise kohta looduses ja
+rakenduste kohta tehnikas (9.2);
+
+7. toob näiteid nähtuste kohta, kus impulsi muutumise kiirus on võrdne seda muutust põhjustava jõuga (9.2);
+
+8. rakendab gravitatsiooniseadust (6: 1-2);
+
+9. tunneb gravitatsioonivälja mõistet (6.8);
+
+10. teab, et üldrelatiivsusteooria kirjeldab gravitatsioonilist vastastikmõju aegruumi kõverdumise kaudu (6.9);
+
+11. kasutab mõisteid raskusjõud, keha kaal, toereaktsioon, rõhumisjõud ja
+rõhk (4.6, 6, 8.7, 8.10)
+
+12. probleemülesandeid lahendades ning rakendab seost P = m (g ± a) (4.7);
+
+13. selgitab mõisteid hõõrdejõud ja elastsusjõud ning rakendab loodus- ja tehiskeskkonnas toimuvaid
+nähtusi selgitades seoseid Fh = µ N ja Fe = – k ∆l (5.1, 7.3);
+
+14. rakendab mõisteid töö, energia, kineetiline ja potentsiaalne energia, võimsus, kasulik energia,
+kasutegur, selgitades looduses ja tehiskeskkonnas toimuvaid nähtusi (7, 8.2, 8.8, 20: 2-3);
+
+15. rakendab probleeme lahendades seoseid A = Fs cos α; , Ep = mgh ning E = Ek + Ep; 15)
+selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas (7.1, 8: 2-3).
+
+4
+5
+6
+7
+8: 1-3, 7-10
+9: 2
+20: 2-3
+44: 4
+
+### Õppesisu
+
+1. Newtoni seadused (4-6).
+
+2. Jõud (4: 1).
+
+3. Jõudude vektoriaalne liitmine (4: 4).
+
+4. Resultantjõud (4: 4).
+
+5. Muutumatu kiirusega liikumine
+jõudude tasakaalustumisel (4: 2).
+
+6. Keha impulss (9).
+
+7. Impulsi jäävuse seadus (9: 2).
+
+8. Reaktiivliikumine (9: 2).
+
+9. Gravitatsiooniseadus (6: 1-2).
+
+10. Raskusjõud, keha kaal, toereaktsioon (4: 6).
+
+11. Kaalutus (6: 4).
+
+12. Elastsusjõud (7: 3).
+
+13. Hooke’i seadus (7: 3, 12: 5).
+
+14. Jäikustegur (7: 3).
+
+15. Hõõrdejõud ja hõõrdetegur (5: 1).
+
+16. Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
+seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
+jäävuse seadus looduses ja tehnikas (8).
+
+4
+5
+6
+7
+8
+9
+12: 5
+20: 2-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+Kuju muutumine,
+
+reaktiivliikumine (9: 2),
+
+resultantjõud (4: 4)
+: kehale mõjuvate jõudude vektorsumma[@ekoolikottee],
+
+inertsus (4: 2-3)
+: keha omadus, mis seisneb selles, et selle keha kiiruse muutmiseks antud suuruse võrra peab teise keha mõju kestma teatud aja[@ekoolikottee].
+
+mass (4: 2-3)
+: füüsikaline suurus, mis arvuliselt iseloomustab keha inertsust[@ekoolikottee],
+
+impulss (9)
+: massi ja kiirusvektori korrutis[@haynes_2014_crc, lk 2-59],
+
+impulsi
+jäävuse seadus
+: Kui netovälisjõud objektide süsteemile on
+null, jääb kogu impulss konstantseks[@physics, lk 253] (9: 2),
+
+raskusjõud (4: 6)
+: taevakeha külgetõmbe jõud[@ekoolikottee],
+
+keha kaal
+: kehale mõjuva gravitatsioonijõu suurus[@physics, lk 94] (4: 6),
+
+kaalutus
+: võrdlusraamis objektid ei kuku ega näi omavat kaalu[@physics, lk 154] (6: 4),
+
+toereaktsioon (4: 6)
+: risti ühise kontaktpinnaga toimiv kontaktjõud[@physics, lk 94],
+
+elastsusjõud (7: 3), jäikustegur (7: 3),
+
+hõõrdejõud
+: normaaljõu ja kineetilise hõõrdeteguri korrutis[@physics, lk 136] (5: 1),
+
+hõõrdetegur
+: tegur, mille väärtus sõltub pindade karedusest[@physics, lk 117] (5: 1),
+
+mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
+
+### Praktiline tegevus
+
+1. Tutvumine Newtoni seaduste olemusega (4-6);
+
+2. jäikusteguri määramine (7: 3);
+
+3. liugehõõrdeteguri määramine (5: 1);
+
+4. seisuhõõrde uurimine (5: 1);
+
+5. tutvumine reaktiivliikumise ja jäävusseadustega (7: 3, 8: 3). 

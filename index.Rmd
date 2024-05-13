@@ -73,6 +73,17 @@ names_10_20240220 <- c(
 	"13. Volkova, Jeva"
 )
 
+names_Vaba <- c(
+	"Heleene Kargu",
+	"Keteli Pärl Kungla",
+	"Elis Lehtmaa",
+	"Angela Ojamets",
+	"Egert Polman",
+	"Nora Pärlin",
+	"Liisbet Treimann",
+	"Joosep Vest"
+)
+
 #' This function displays external graphics by making the appropriate conversion aforehead.
 #' 
 #' @param path the path to the image file

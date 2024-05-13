@@ -1,0 +1,92 @@
+
+## Kaardid
+
+Tabelis \@ref(tab:formulas) leheküljel\, `r render_pageref(reference="tab:formulas")` on mängu valemid.
+
+```{r label="formulas", echo=FALSE}
+formulas <- c(
+  "$\\vec{\\bf{r}} := x \\, \\hat{\\bf{i}} + y \\, \\hat{\\bf{j}} + z \\, \\hat{\\bf{k}}$",
+  "$\\vec{\\bf{v}} = \\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
+  "$\\vec{\\bf{a}} = \\frac{\\mathrm{d}(\\vec{\\bf{v}})}{\\mathrm{d}(t)}$",
+  "$w(t) = 0 \\rightarrow t = \\frac{\\vec{\\bf{v}} - \\overrightarrow{\\bf{v_0}}}{\\overrightarrow{\\bf{a_0}}}$",
+  "$w(t) = \\frac{\\mathrm{d}(a(t))}{\\mathrm{d}(t)}$",
+  "$a(t) = w(t) \\cdot t + a(0)$",
+  "$\\frac{w(t) \\cdot t^2}{2} + a(0) \\cdot t + v(0) = v(t)$",
+  "$\\frac{w(t) \\cdot t^3}{6} + \\frac{a(0) \\cdot t^2}{2} + v(0) \\cdot t + r(0) = r(t)$",
+  "$\\frac{\\overrightarrow{v}^2 - \\overrightarrow{v(0)}^2}{2 \\cdot \\overrightarrow{a(0)}} = r - r(0)$",
+  "$\\vec{\\bf{p}} = m \\cdot \\vec{\\bf{v}}$",
+  "$m = \\frac{\\vec{\\bf{p}}}{\\vec{\\bf{v}}}$",
+  "$\\vec{\\bf{v}} = \\frac{\\vec{\\bf{p}}}{m}$",
+  "$\\vec{\\bf{J}} = \\int_{t_1}^{t_2}\\overrightarrow{\\bf{F(t)}} \\mathrm{d}(t)$",
+  "$\\frac{\\text{d}(\\vec{\\bf{J}})}{\\text{d}(t)} = \\overrightarrow{\\bf{F(t)}}$",
+  "$\\Delta(m) = 0 \\rightarrow m \\cdot \\vec{\\bf{a}}= \\vec{\\bf{F}}$",
+  "$\\Delta(m) = 0 \\rightarrow \\vec{\\bf{a}}= \\frac{\\vec{\\bf{F}}}{m}$",
+  "$\\Delta(m) = 0 \\rightarrow m= \\frac{\\vec{\\bf{F}}}{\\vec{\\bf{a}}}$"
+)
+
+data_frame_of_formulas <- data.frame(formulas)
+
+colnames(data_frame_of_formulas) <- c(
+  "Valem"
+)
+
+table <- print_table(
+  table=data_frame_of_formulas,
+  caption="Valemid."
+)
+
+table
+
+```
+
+Tabelis \@ref(tab:legend) leheküljel\, `r render_pageref(reference="tab:legend")` on mängu valemite legend.
+
+```{r label="legend", echo=FALSE}
+variables <- c(
+  "$t$",
+  "$\\vec{\\bf{r}}$",
+  "$x \\, \\hat{\\bf{i}}$",
+  "$y \\, \\hat{\\bf{j}}$",
+  "$z \\, \\hat{\\bf{k}}$",
+  "$\\vec{\\bf{v}}$",
+  "$\\frac{\\mathrm{d}(\\vec{\\bf{r}})}{\\mathrm{d}(t)}$",
+  "$\\vec{\\bf{a}}$",
+  "$w(t)$",
+  "$\\overrightarrow{\\bf{v_0}}$",
+  "$\\vec{\\bf{p}}$",
+  "$m$",
+  "$\\vec{\\bf{J}}$",
+  "$\\overrightarrow{\\bf{F(t)}}$"
+)
+
+definitions <- c(
+  "aeg",
+  "asukoha vektor",
+  "abstsiss",
+  "ordinaat",
+  "z-koordinaat",
+  "kiiruse vektor",
+  "asukoha vektori väike muut aja järgi",
+  "kiirenduse vektor",
+  "jõnks aja järgi",
+  "algkiiruse vektor",
+  "hoog",
+  "mass",
+  "aje",
+  "jõu vektor aja järgi"
+)
+data_frame <- data.frame(variables, definitions)
+
+colnames(data_frame) <- c(
+  "Suurus",
+  "Selgitus"
+)
+
+table <- print_table(
+  table=data_frame,
+  caption="Legend."
+)
+
+table
+
+```

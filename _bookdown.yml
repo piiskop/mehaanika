@@ -7,7 +7,12 @@ rmd_files: [
   "rmd/hindamine.Rmd",
   "rmd/soovitusi-õppimiseks.Rmd",
   "rmd/baasreeglistik/baasreeglistik.Rmd",
-  "rmd/kursus.Rmd",
+  "rmd/kursus/dünaamika.Rmd",
+  "rmd/kursus/perioodilised-liikumised.Rmd",
+  "rmd/kursus/õppesessioonid/õppesessioonid.Rmd",
+  "rmd/kursus/ülesanded/ülesanded.Rmd",
+  "rmd/kursus/testid/testid.Rmd",
+  "rmd/kursus/kaardid.Rmd",
   "rmd/mõõtmiseksperiment.Rmd",
   "references.Rmd"
 ]

@@ -258,7 +258,7 @@ Tõusunurga arvutamise valem on \@ref(eq:tangent-angle) leheküljel `r render_pa
 
 ```{=tex}
 \begin{equation}
-\alpha = \mathrm{atan}(\frac{nihe_\text{vertikaalne}}{\Delta(x)})
+\alpha = \mathrm{atan}(\frac{\text{nihe}_\text{vertikaalne}}{\Delta(x)}).
 (\#eq:tangent-angle)
 \end{equation}
 ```
@@ -267,7 +267,7 @@ Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from
 
 ```{=tex}
 \begin{equation}
-nurk_\text{rad} = \frac{nurk° \cdot \pi}{180°}
+\text{nurk}_\text{rad} = \frac{\text{nurk}° \cdot \pi}{180°}.
 (\#eq:angle-from-degrees-to-radians)
 \end{equation}
 ```
@@ -276,7 +276,7 @@ Ringjoone pikkust saab arvutada valemi \@ref(eq:length-of-circle) järgi lehekü
 
 ```{=tex}
 \begin{equation}
-pikkus_\text{ringjoon} = 2 \cdot \pi \cdot raadius
+\text{pikkus}_\text{ringjoon} = 2 \cdot \pi \cdot \text{raadius}.
 (\#eq:length-of-circle)
 \end{equation}
 ```
@@ -286,7 +286,7 @@ Koosinusteoreem on esitatud avaldisena \@ref(eq:cosine-theorem) leheküljel `r r
 ```{=tex}
 \begin{align}
 |a| =\leavevmode\\
-\sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot \mathrm{cos}(nurk_{b, c})}
+\sqrt{|b|^2 + |c|^2 - 2 \cdot |b| \cdot |c| \cdot \mathrm{cos}(\text{nurk}_{b; c})}.
 (\#eq:cosine-theorem)
 \end{align}
 
@@ -1789,7 +1789,7 @@ elektrilaeng ($Q$)
 
 Elementaarlaeng on esitatud avaldises \@ref(eq:elementary-charge) leheküljel `r render_pageref(reference = "eq:elementary-charge")` [@bureau_1974_the(lk 134)].
 
-```{r label = "elementary-charge"}
+```{r label = "elementary-charge", echo=FALSE}
 e <- 1.602176634e-19
 A <- 1 / (e * syms$nucs)
 
@@ -1817,7 +1817,7 @@ Elektrilaengu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-
 
 ```{=tex}
 \begin{align}
-\mathrm{I \cdot T}.
+\text{dim}(Q) = \mathrm{I \cdot T}.
 (\#eq:dimensional-analysis-of-electric-charge)
 \end{align}
 
@@ -1906,7 +1906,7 @@ Kulonilise jõu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensiona
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{1}{\frac{T^4 \cdot I^2}{L^3 \cdot M}} \cdot \frac{I \cdot T \cdot I \cdot T}{L^2} = \frac{L \cdot M}{T^2}}.
+\text{dim}(F) = \mathrm{\frac{1}{\frac{T^4 \cdot I^2}{L^3 \cdot M}} \cdot \frac{I \cdot T \cdot I \cdot T}{L^2} = \frac{L \cdot M}{T^2}}.
 (\#eq:dimensional-analysis-of-coulomb-s-law)
 \end{align}
 
@@ -1928,27 +1928,24 @@ Avaldan avaldisest \@ref(eq:elementary-charge) leheküljel `r render_pageref(ref
 
 ```
 
-Elektrivoolu valem on \@ref(eq:I) leheküljel `r render_pageref(reference = "eq:I")` ja selles $Q$ on elektrilaeng.
+Elektrivoolu valem on \@ref(eq:I) leheküljel `r render_pageref(reference = "eq:I")` ja selles $Q$ on elektrilaeng[@haynes_2014_crc(lk 2-3)].
 
 ```{=latex}
 \begin{align}
-I := \frac{\mathrm{d}(Q)}{\mathrm{d}(t)},(\#eq:I) 
+I := \frac{\mathrm{d}(Q)}{\mathrm{d}(t)}.(\#eq:I) 
 \end{align}
 
 ```
 
-[@haynes_2014_crc(lk 2-3)]. Dimensionaalanalüüs:
+Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-I) leheküljel\, `r render_pageref(reference="eq:dimensional-analysis-for-I")`, millest johtuvalt on elektrivoolu tugevuse ühik $\unit{A}$.
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{I \cdot T}{T} = I},
+\text{dim}(I) = \mathrm{\frac{I \cdot T}{T} = I}.
 (\#eq:dimensional-analysis-for-I)
 \end{align}
+
 ```
-
-mistõttu ühik on $\unit{A}$.
-
-\twocolumn
 
 ### Elektromotoorjõud
 
@@ -1961,7 +1958,7 @@ Elektromotoorjõud on esitatud avaldisena \@ref(eq:emf) leheküljel `r render_pa
 
 ```{=latex}
 \begin{align}
-E := \frac{W}{Q} = \int{\frac{\vec{F}}{Q}} \cdot \mathrm{d}(s).(\#eq:emf) 
+E := \frac{W}{Q} = \int{\frac{\vec{\bf{F}}}{Q}} \cdot \mathrm{d}(s).(\#eq:emf) 
 \end{align}
 
 ```
@@ -1970,7 +1967,7 @@ Elektromotoorjõu dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensio
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{\frac{L \cdot M}{T^2}}{I \cdot T} \cdot L = \frac{L^2 \cdot M}{I \cdot T^3}}
+\text{dim}(E) = \mathrm{\frac{\frac{L \cdot M}{T^2}}{I \cdot T} \cdot L = \frac{L^2 \cdot M}{I \cdot T^3}}.
 (\#eq:dimensional-analysis-of-emf)
 \end{align}
 
@@ -1982,7 +1979,7 @@ Avaldan valemist \@ref(eq:emf) jõu ja loon avaldise \@ref(eq:F-via-E-Q-s) lehek
 
 ```{=latex}
 \begin{align}
-\vec{F} := \frac{E \cdot Q}{s}.(\#eq:F-via-E-Q-s)
+\vec{\bf{F}} := \frac{E \cdot Q}{s}.(\#eq:F-via-E-Q-s)
 \end{align}
 
 ```
@@ -1991,34 +1988,34 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-F-
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T}{L} = \frac{L^2 \cdot M \cdot I \cdot T}{I \cdot T^3 \cdot L} = \frac{L \cdot M}{T^2}}.
+\text{dim}(F) = \mathrm{\frac{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T}{L} = \frac{L^2 \cdot M \cdot I \cdot T}{I \cdot T^3 \cdot L} = \frac{L \cdot M}{T^2}}.
 (\#eq:dimensional-analysis-of-F-via-E-Q-s)
 \end{align}
 ```
 
 Seetõttu ühik on $\unit{\m\kg\per\second\squared}$ ehk lihtsamalt $\unit{\N}$.
 
-Asendan valemisse \@ref(eq:W) jõu valemist \@ref(eq:F-via-E-Q-s) leheküljel`r render_pageref("eq:F-via-E-Q-s")`:
+Asendan valemisse \@ref(eq:W) jõu valemist \@ref(eq:F-via-E-Q-s) leheküljel`r render_pageref("eq:F-via-E-Q-s")`, et saada töö arvutamise valem \@ref(eq:W-via-E-Q) leheküljel\, `r render_pageref(reference="eq:W-via-E-Q")`.
 
 ```{=latex}
 \begin{align}
-W := \int{\overrightarrow{\frac{E \cdot Q}{\mathrm{d}(s)}}} \cdot \mathrm{d}(s) = E \cdot Q.(\#eq:W-via-E-Q) 
+W := \int{\overrightarrow{\bf{\frac{E \cdot Q}{\mathrm{d}(s)}}}} \cdot \mathrm{d}(s) = E \cdot Q.(\#eq:W-via-E-Q) 
 \end{align}
 
 ```
 
-Dimensionaalanalüüs:
+Töö dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-for-W-via-E-Q) leheküljel\, `r render_pageref(reference="eq:dimensional-analysis-for-W-via-E-Q")`, millest johtuvalt on ühik $\unit{\m\squared\kg\per\s\squared}$ ehk lühemalt $\unit{\m\N}$ ehk kõige lühemalt $\unit{\J}$.
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T = \frac{L^2 \cdot M}{T^2}},
+\text{dim}(W) = \mathrm{\frac{L^2 \cdot M}{I \cdot T^3} \cdot I \cdot T = \frac{L^2 \cdot M}{T^2}}.
 (\#eq:dimensional-analysis-for-W-via-E-Q)
 \end{align}
 ```
 
-millest johtuvalt on ühik $\unit{\m\squared\kg\per\s\squared}$ ehk lühemalt $\unit{\m\N}$ ehk kõige lühemalt $\unit{\J}$.
+\multicolsbegin
 
-### Elektriline potentsiaal
+### Potentsiaal
 
 Elektrilise potentsiaali definitsioon on esitatud valemina \@ref(eq:V) leheküljel `r render_pageref(reference = "eq:V")`, milles $W$ on töö [@haynes_2014_crc(lk 2-2)].
 
@@ -2033,7 +2030,7 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-V)
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{\frac{L^2 \cdot M}{T^2}}{I \cdot T} = \frac{L^2 \cdot M}{T^2 \cdot I \cdot T} = \frac{L^2 \cdot M}{T^3 \cdot I}},
+\text{dim}(V) = \mathrm{\frac{\frac{L^2 \cdot M}{T^2}}{I \cdot T} = \frac{L^2 \cdot M}{T^2 \cdot I \cdot T} = \frac{L^2 \cdot M}{T^3 \cdot I}}.
 (\#eq:dimensional-analysis-of-V)
 \end{align}
 
@@ -2041,9 +2038,7 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-V)
 
 Seetõttu ühik on $\unit{\m\squared\kg\per\A\per\s\cubed}$ või kõige lühemalt $\unit{\V}$.
 
-\onecolumn
-
-### Elektripotentsiaalide erinevus
+### Erinevus
 
 Elektripotentsiaalide erinevus on ühtlasi pingelang ning selle definitsioon on esitatud valemina \@ref(eq:U) leheküljel `r render_pageref(reference = "eq:U")` ning selles $V_1$ ja $V_2$ on elektrilised potentsiaalid [@haynes_2014_crc(lk 2-2)].
 
@@ -2058,7 +2053,7 @@ Dimensionaalanalüüs on esitatud avaldisena \@ref(eq:dimensional-analysis-of-U)
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{L^2 \cdot M}{T^3 \cdot I}},
+\text{dim}(U) = \mathrm{\frac{L^2 \cdot M}{T^3 \cdot I}}.
 (\#eq:dimensional-analysis-of-U)
 \end{align}
 
@@ -2090,7 +2085,7 @@ W = U \cdot Q.
 
 ```
 
-### Elektrivälja tugevus
+### Välja tugevus
 
 elektrivälja tugevus ($E$)
 : elektrivälja poolt punktlaengule mõjuv jõud jagatuna elektrilaenguga[@haynes_2014_crc(lk 2-51)]
@@ -2099,7 +2094,7 @@ Elektrivälja tugevuse arvutamise eeskiri on esitatud avaldisena \@ref(eq:electr
 
 ```{=tex}
 \begin{align}
-\vec{E} = \frac{\vec{F}}{Q}.
+\vec{\bf{E}} = \frac{\vec{\bf{F}}}{Q}.
 (\#eq:electric-field-strength)
 \end{align}
 
@@ -2109,7 +2104,7 @@ Selles valemis $\vec{F}$ on jõud ja $Q$ on elektrilaeng. Dimensionaalanalüüs 
 
 ```{=tex}
 \begin{align}
-\mathrm{\frac{\frac{L \times M}{T^2}}{I \times T} = \frac{L \times M}{I \times T^3}}.
+\text{dim}(\vec{\bf{E}}) = \mathrm{\frac{\frac{L \times M}{T^2}}{I \times T} = \frac{L \times M}{I \times T^3}}.
 (\#eq:dimensional-analysis-for-electric-field-strength)
 \end{align}
 ```
@@ -2123,7 +2118,7 @@ Asendan töö valemist \@ref(eq:W) leheküljel `r render_pageref(reference = "eq
 
 ```{=tex}
 \begin{align}
-\vec{E} = \frac{W}{Q \cdot s}.
+\vec{\bf{E}} = \frac{W}{Q \cdot s}.
 (\#eq:electric-field-strength-through-work)
 \end{align}
 
@@ -2133,7 +2128,7 @@ Asendan elektromotoorjõu valemist \@ref(eq:emf) leheküljel `r render_pageref(r
 
 ```{=tex}
 \begin{align}
-\vec{E} = \frac{E}{s}.
+\vec{\bf{E}} = \frac{E}{s}.
 (\#eq:electric-field-strength-through-emf)
 \end{align}
 
@@ -2159,7 +2154,7 @@ calculate_electric_field_strength_through_U <- function(V_2, V_1, s) {
 
 ```{=tex}
 \begin{align}
-\vec{E} = \frac{V_2 - V_1}{s}.
+\vec{\bf{E}} = \frac{V_2 - V_1}{s}.
 (\#eq:electric-field-strength-through-U)
 \end{align}
 
@@ -2182,15 +2177,17 @@ calculate_force_through_electric_field_strength <- function(E, Q) {
 
 ```{=tex}
 \begin{align}
-\vec{F} = \vec{E} \cdot Q.
+\vec{\bf{F}} = \vec{\bf{E}} \cdot Q.
 (\#eq:force-through-electric-field-strength)
 \end{align}
 
 ```
 
+\multicolsend
+
 ## Heli
 
-```{r label = "I-0"}
+```{r label = "I-0", echo=FALSE}
 I_0 <- 1e-12
 
 ```
@@ -2217,7 +2214,7 @@ Helitaseme arvutamiseks võimsustiheduste järgi saab kasutada valemit \@ref(eq:
 
 ```
 
-```{r label = "calculate-sound-level"}
+```{r label = "calculate-sound-level", echo=FALSE}
 #' This function calculates the sound level.
 #' 
 #' @param I the power intensity
@@ -2241,7 +2238,7 @@ I &= \qty{`r as.character(I_0)`}{\W\per\m\squared} \times 10^{\frac{\beta}{10}}.
 
 ```
 
-```{r label = "calculate-power-intensity"}
+```{r label = "calculate-power-intensity", echo=FALSE}
 #' This function calculates the power intensity.
 #' 
 #' @param beta the sound level

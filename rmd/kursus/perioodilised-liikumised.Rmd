@@ -1,0 +1,153 @@
+
+## Perioodilised liikumised
+
+### Õpitulemused
+
+Kursuse lõpus õpilane:
+
+1. seostab looduses ja tehnoloogias esinevad perioodilised nähtused ühtlase ja mitteühtlase tiirlemise
+ning pöörlemisega (10);
+
+2. kasutab ringliikumist kirjeldades füüsikalisi suurusi pöördenurk, periood, sagedus, nurkkiirus,
+joonkiirus ja kesktõmbekiirendus (10: 1);
+
+3. rakendab ringliikumisega seotud probleemülesannete lahendamisel järgmisi seoseid: (10: 1);
+
+5. analüüsib orbitaalliikumist, kasutades inertsi ja kesktõmbejõu mõistet (5: 3);
+
+6. kasutab vabavõnkumise ja sundvõnkumise mõistet looduses ning tehnikas toimuvaid võnkumisi
+kirjeldades (14: 8);
+
+7. rakendab füüsikalisi suurusi hälve, amplituud, periood, sagedus ja faas perioodilisi liikumisi
+kirjeldades (10: 1);
+
+8. kasutab võnkumise probleemülesandeid lahendades seoseid (10: 1);
+
+9. analüüsib energia jäävuse seaduse kehtivust pendli võnkumisel (11: 6);
+
+10. analüüsib võnkumise graafikuid (14: 2-4);
+
+11. selgitab resonantsi ning toob näiteid selle esinemise kohta looduses ja tehnikas (14: 8, 15: 9);
+
+12. kirjeldab piki- ja ristlainete tekkimist ning levimist ning toob nende kohta näiteid (15: 2);
+
+13. rakendab füüsikalisi suurusi lainepikkus, laine levimiskiirus, periood ja sagedus lainenähtusi
+selgitades (15: 2);
+
+14. kasutab probleeme lahendades seoseid (15: 1);
+
+15. toob nähtuste peegeldumine, murdumine, interferents ja difraktsioon näiteid loodusest ning
+tehnikast (15: 10-11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14: 1-4, 8
+15: 1-2, 9-11
+20: 1-3
+29: 4
+44: 4
+
+### Õppesisu
+
+1. Ühtlase ringjoonelise liikumise kirjeldamine: pöördenurk, periood, sagedus, nurk- ja joonkiirus,
+kesktõmbekiirendus (10: 1).
+
+2. Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine (10).
+
+3. Võnkumine kui
+perioodiline liikumine (14). Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6). Energia
+muundumine võnkumisel (14: 3). Võnkumised ja resonants looduses ning tehnikas (14: 8). Lained (15). Piki- ja ristlained (15: 2). Lainet
+iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1). Lainenähtused: peegeldumine,
+murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11). 3D-printimine.
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+44: 4
+
+### Põhimõisted
+
+Pöördenurk
+: nurk, mille võrra pöördub ringliikumisel keha asukohta ja trajektoori kõveruskeskpunkti ühendav raadius[@teepikkus],
+
+periood (5: 2, 10: 1, 14: 1-2, 15: 1)
+: ühe täieliku pöörde jaoks kuluv aeg[@physics, lk 125],
+
+sagedus (15: 1),
+
+nurkkiirus (10: 1)
+: nurkasukoha muutumise kiirus[@physics, lk 266],
+
+joonkiirus (10: 1)
+: teepikkuse (läbitud joone pikkuse) ning aja jagatis[@htlase],
+
+kesktõmbekiirendus (10: 1)
+: suunamuutusest tingitud kiirendus[@htlase],
+
+võnkumine (14), hälve (14: 1),
+amplituud (14: 1), faas (14: 2), vabavõnkumine, sundvõnkumine (14: 8), pendel (14: 5-6), resonants (14: 8, 15: 9), laine (15), pikilaine (15: 2),
+ristlaine (15: 2), lainepikkus (15: 1), peegeldumine (15: 7, 32: 1-2, 32: 9, 34: 5), murdumine (15: 10), interferents (15: 8), difraktsioon (15: 11).
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4
+
+### Praktiline tegevus
+
+1. pöördliikumise uurimine, kesktõmbekiirenduse määramine (10);
+
+2. matemaatilise pendli ja vedrupendli võnkumise uurimine (14: 5);
+
+3. gravitatsioonivälja tugevuse määramine pendliga;
+
+4. tutvumine lainenähtustega (15);
+
+5. helikiiruse määramine (16: 1). 
+
+4
+5
+6
+7
+8
+9
+10
+11: 6
+12: 5
+14
+15
+16: 1
+20: 1-3
+29: 4
+32: 1-2, 9-10
+34: 5
+44: 4

@@ -1,0 +1,221 @@
+
+\pagebreak
+
+\multicolsbegin
+
+## Ülesanded
+
+### 2024-3-3
+
+Kuupäevani 2024-3-3 tuleb lahendada järgmised ülesanded iseseisvalt kasutades ülesande lahendamise struktuuri ja näidates terve lahenduskäigu:
+
+::: {.exercise #dynamics-task-20240303-1 name="Kolme vektori suurus ja suund."}
+Tee kindlaks kolme vektori
+$$\overrightarrow{\bf{V}_1} = \num{4,0} \hat{\bf{i}} - \num{8,0} \hat{\bf{j}},$$
+$$\overrightarrow{\bf{V}_2} = \hat{\bf{i}} + \hat{\bf{j}} \text{ ja}$$
+$$\overrightarrow{\bf{V}_3} = \num{-2,0} \hat{\bf{i}} + \num{4,0} \hat{\bf{j}}$$
+suurus ja suund!
+
+Tee kindlaks $\overrightarrow{\bf{V}_1} - \overrightarrow{\bf{V}_2} + \overrightarrow{\bf{V}_3}$.
+:::
+
+2.  Vektorid $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$ liituvad summaarseks vektoriks $\overrightarrow{\bf{V}_R} = \overrightarrow{\bf{V}_1} + \overrightarrow{\bf{V}_2}$.
+
+    Kirjelda $\overrightarrow{\bf{V}_1}$ ja $\overrightarrow{\bf{V}_2}$, kui
+
+ - $V_\text{R} = V_\text{1} + V_\text{2}$,
+    
+ - $V_\text{R}^2 = V_\text{1}^2 + V_\text{2}^2$,
+ 
+ - $V_1 + V_2 = V_1 - V_2$.
+
+3.  Konkreetse osakese asukoha aja funktsioonina annab
+    $$\overrightarrow{\bf{r}} = ( \num{9,60} \cdot t \hat{\bf{i}} + \num{6,45} \hat{\bf{j}} - \num{1,50} \cdot t^2 \hat{\bf{k}}) \text{m}.$$
+    Määra osakese kiirus ja kiirendus aja funktsioonina.
+
+4.  Auto liigub kiirusega \qty{16,0}{\m\per\s} otse lõunasse ühel hetkel ja \qty{25,7}{\m\per\s} otse itta \qty{8,00}{\s} hiljem. Selle ajavahemiku jooksul määra auto
+ - keskmine suunatud kiirus,
+ 
+ - keskmise kiirenduse suurus ja suund,
+ 
+ - keskmine kiirus.
+
+    [Vihje: kas saad antud teabe põhjal kõikidele alamküsimustele vastata?]
+
+\multicolsend
+
+\twocolumn
+
+5.  Suusataja kiirendab \qty{30,0}{\degree} mäest alla \qty{1,80}{\m\per\s\squared} (joonis \@ref(fig:dynamics-tasks-vectors-23) leheküljel `r render_pageref(reference="fig:dynamics-tasks-vectors-23")`).
+
+    ```{r label="dynamics-tasks-vectors-23", echo=FALSE, fig.cap="Suusataja laskumas."}
+    include_external_graphics("rmd/kursus/ülesanded/mehaanika-dünaamika-vektorid-23.svg")
+    
+    ```
+
+ - Milline on tema kiirenduse vertikaalne komponent?
+ 
+ - Kui kaua kulub tal mäe põhja jõudmiseks, eeldades, et ta alustab puhkeasendist ja kiirendab ühtlaselt, kui $a = \qty{1,80}{\m\per\s\squared}$ ja 
+kõrguse muutus on \qty{125}{\m}?
+
+\onecolumn
+
+\multicolsbegin
+
+6. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $x$-komponent!
+
+7. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Määrake sipelga nihke $y$-komponent!
+
+8. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $x$-komponent trajektoori esimese lõigu lõpust!
+
+9. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Määra sipelga nihke $y$-komponent trajektoori esimese lõigu lõpust!
+
+10. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $x$-komponent trajektoori viimase lõigu algusest!
+
+11. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}.  Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Määra sipelga nihke $y$-komponent trajektoori viimase lõigu algusest!
+
+12. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori rõhtne komponent on $\overrightarrow{\bf{r_\text{x}}} = (\qty{1,424e-1}{\m}; \frac{\pi}{2}; \num{0})$. Määra sipelga keskmise kiiruse vektori $x$-komponent!
+
+13. Sipelgas kõnnib millimeetripaberil otse piki $x$-telge \qty{10,0}{\centi\m} kaugusele \qty{2,40}{\s}. Seejärel pöörab see \qty{40,0}{\degree} vasakule ja kõnnib sirgjooneliselt veel \qty{10,0}{\centi\m} \qty{1,80}{\s}. Lõpuks pöörab ta veel \qty{70,0}{\degree} vasakule ja kõnnib veel \qty{10,0}{\centi\m} \qty{1,55}{\s}. Sipelga nihkevektori püstine komponent on $\overrightarrow{\bf{r_\text{y}}} = (\qty{1,582e-1}{\m}; \frac{\pi}{2}; \frac{\pi}{2})$. Määra sipelga keskmise kiiruse vektori $y$-komponent!
+
+### 2024-3-19
+
+1. Osakese asukoha aja $t$ funktsioonina annab $\overrightarrow{\bf{r}} = ( \qty{5,0}{\m\per\s} \cdot t + \qty{6,0}{\m\per\s\squared} \cdot t^2 ) \hat{\bf{i}} + ( \qty{7,0}{\m} \qty{- 3,0}{\m\per\s\cubed} \cdot t^3 ) \hat{\bf{j}}$. Kui $t = \qty{5,0}{\s}$, arvuta osakese nihkevektori $∆(\overrightarrow{\bf{r}})$ suurus ja suund punkti $\overrightarrow{\bf{r_0}} =\nolinebreak(\qty{2,0}{\m} \hat{\bf{i}} +\nolinebreak \qty{7,0}{\m} \hat{\bf{j}} )$ suhtes!
+
+2. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur on õhu liikumise kiirus otse lennuki tegelikule suunale vastu?
+
+3. Kerge lennuk suundub otse lõunasse kiirusega õhu suhtes \qty{185}{\kilo\m\per\hour}. \qty{1,25}{\hour} pärast märkab piloot, et nad on läbinud vaid \qty{135}{\kilo\m} ja nende suund ei ole lõuna, vaid \qty{15,0}{\degree} lõunast ida pool. Kui suur tuule kiiruse lennuki arvatud suunaga risti olev komponent?
+
+4. Osake alustab liikumist lähtepunktist $t = 0$ algkiirusega \qty{5,0}{\m\per\s} piki positiivset $x$-telge. Kui kiirendus on $(-3,0 \hat{\bf{i}} + 4,5 \hat{\bf{j}} ) \unit{\m\per\s\squared}$, määra osakese kiirus ja asukoht hetkel, mil see jõuab maksimaalsele $x$-koordinaadile!
+
+5. \qty{2,5}{\m\per\s} jooksev sukelduja hüppab vertikaalse kalju servalt horisontaalselt välja ja jõuab \qty{3,5}{\s} hiljem alla vette. Kui kõrge oli kalju ja kui kaugel selle alusest sukelduja vette plärtsatas? Eira õhutakistust!
+
+\columnbreak
+
+6. Hoone katuselt \qty{10,8}{\m\per\s} horisontaalselt visatud pall maandub \qty{21,0}{\m} kaugusel hoone alusest. Kui kõrge hoone on? Eira õhutakistust!
+
+\multicolsend
+
+7.  Maapinna lähedal hoitud tuletõrjevoolik tulistab vett kiirusega \qty{6,5}{\m\per\s}. Millise nurga all peaks otsik olema, et vesi maanduks
+\qty{2,5}{\m} kaugusel (joonis \@ref(fig:dynamics-tasks-projectiles-37) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-37")`)? Miks on kaks erinevat nurka? Eira õhutakistust!
+
+    ```{r label="dynamics-tasks-projectiles-37", echo=FALSE, fig.cap="Voolikust pritsiv vesi."}
+    include_external_graphics("rmd/kursus/mehaanika-dünaamika-heitkehad-37.svg")
+    
+    ```
+
+\multicolsbegin
+
+8.  Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra
+
+ - mürsu maksimaalne kõrgus,
+ 
+ - kogu õhus viibitud aeg ja
+ 
+ - horisontaalne kogu läbitud kaugus (st laskeulatus).
+ 
+    Eira õhutakistust!
+
+\columnbreak
+
+9. Mürsk tulistatakse algkiirusega \qty{38,8}{\m\per\s} horisontaaltasapinnast \qty{42,2}{\degree} nurga all pika tasase  laskeala kohal. Määra mürsu kiirus \qty{1,50}{\s} peale tulistamist. Eira õhutakistust!
+
+\columnbreak
+
+10. Mürsu maksimaalne laskekaugus on \qty{95}{\m}.
+Avalda tegeliku mürsu lendamise aja ja maksimaalse lennukauguse lennu kestuse suhe nii rõhtsate kui püstiste komponentide kaudu! Eira õhutakistust!
+
+\multicolsend
+
+11. Mürsu maksimaalne laskekaugus $R$ on \qty{95}{\m}.
+Kui mürsk tabab maad $x = \qty{68}{\m}$ kaugusel,
+milline oli stardinurk $\angle{v_0}$? Stardinurk avaldub valemina \@ref(eq:dynamics-tasks-projectiles-41-test-angle) leheküljel `r render_pageref(reference="eq:dynamics-tasks-projectiles-41-test-angle")`.
+
+    \begin{align}
+    \angle{v_0} = \frac{(-1)^n \cdot \text{asin}(\frac{\text{sin}(2 \cdot \measuredangle{(v_0)_\text{max}})}{R}) + n \cdot \pi}{2}; n \in \mathbb{Z}.
+    (\#eq:dynamics-tasks-projectiles-41-test-angle)
+    \end{align}
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+12. Kaugushüpet sooritav sportlane lahkub maapinnast \qty{27,0}{\degree} nurga all ja maandub \qty{7,80}{\m} kaugusele.
+
+ - Milline oli stardikiirus?
+ 
+ - Kui seda kiirust suurendataks vaid \qty{5,0}{\percent}, kui palju pikem oleks hüpe?
+
+    Eira õhutakistust!
+
+\multicolsend
+
+13. Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    ```{r label="dynamics-tasks-projectiles-45", echo=FALSE, fig.cap="Hüppav auto."}
+    include_external_graphics("rmd/kursus/ülesanded/mehaanika-dünaamika-heitkehad-45.svg")
+    
+    ```
+
+    Millise minimaalse kiirusega peab ta horisontaalselt kaldteelt maha sõitma? Kaldtee vertikaalne kõrgus on autokatuste kohal \qty{1,5}{\m} ja horisontaalne vahemaa, mille ta peab läbima, on \qty{22}{\m}.
+
+    Eira õhutakistust!
+    
+\newpage
+
+### 2024-4-2
+
+\multicolsbegin
+
+1.  Kaskadöör tahab panna oma auto üle \num{8} horisontaalse kaldtee all kõrvuti pargitud autot hüppama (joonis \@ref(fig:dynamics-tasks-projectiles-45) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-45")`).
+
+    Kui kaldtee on nüüd kallutatud ülespoole, nii et stardinurk on \qty{9,0}{\degree} horisontaaltasapinnast kõrgemal, siis milline on uus minimaalne kiirus?
+
+    Eira õhutakistust!
+
+\columnbreak
+
+2.  Päästelennuki tegelased tahavad \qty{265}{\m} allpool asuval kivisel harjal varusid eraldada mägironijatele. Kui lennuk liigub horisontaalselt kiirusega \qty{125}{\kilo\m\per\hour}, siis kui kaugel enne saajaid (horisontaalne vahemaa) tuleb kaup kukutada?
+
+    Eira õhutakistust!
+
+3.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Arvuta mürsu algkiirus!
+
+    Eira õhutakistust!
+
+4.  Täpselt \qty{3,0}{\s} pärast mürsu maapinnalt õhku laskmist täheldatakse selle kiirust $\vec{\bf{v}} = ( \num{7,8} \hat{\bf{i}} + \num{5,2} \hat{bf{j}} ) \unit{\m\per\s}$, kus $x$-telg on horisontaalne ja $y$-telg on positiivne ülespoole. Aeg, mis mürsul kulub jõudmiseks maksimaalsele kõrgusele, on \qty{3,53}{\s}. Määra mürsu horisontaalne ulatus!
+
+    Eira õhutakistust!
+
+\multicolsend
+
+5.  Pall visatakse horisontaalselt kalju tipust algkiirusega $v_0$ (kui $t = 0$). Igal hetkel moodustab selle liikumissuund horisontaaltasandi suhtes nurga $u$ (joonis \@ref(fig:dynamics-tasks-projectiles-51) leheküljel `r render_pageref(reference="fig:dynamics-tasks-projectiles-51")`). Tuleta $u$ valem aja $t$ funktsioonina, arvestades, et kuul järgib mürsu rada.
+
+    ```{r label="dynamics-tasks-projectiles-51", echo=FALSE, fig.cap="Visatud pall."}
+    include_external_graphics("rmd/kursus/ülesanded/mehaanika-dünaamika-heitkehad-51.svg")
+    
+    ```
+
+    Eira õhutakistust!
+
+\multicolsbegin
+
+6.  Kaugushüppaja lahkub maapinnast \qty{45}{\degree} kõrgusel horisontaaltasapinnast ja maandub \qty{8,0}{\m} kaugusele. Milline on tema stardikiirus $v_0$?
+
+    Eira õhutakistust!
+
+7.  Kui pall lüüakse maapinnalt \qty{15,0}{\m\per\s}, on kaks stardinurka, mis panevad palli maanduma \qty{20,0}{\m} kaugusele. Tuleta nende kahe nurga arvutamise valem!
+
+    Ignoreeri õhutakistust.
+
+\columnbreak
+
+8.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Millise maksimaalse kõrguse pall igal juhul saavutab?
+
+    Ignoreeri õhutakistust.
+
+9.  Kui pall lüüakse maapinnalt $v_0 = \qty{15,0}{\m\per\s}$, on kaks stardinurka \num{5,296e-1} ja \num{1,041}, mis panevad palli maanduma $x = \qty{20,0}{\m}$ kaugusele. Kui kaua on pall igal juhul õhus?
+
+    Ignoreeri õhutakistust.
+
+\multicolsend
