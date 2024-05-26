@@ -442,7 +442,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     \begin{itemize}
     	\item[\faSquareO] Planeedi Z\nobreakdash-34 mass on kolmandik Maa massi. Planeedi Z\nobreakdash-34 raadius on kolmandik Maa raadiust. Kui $g$ tähistab Maa gravitatsioonist tingitud kiirendust Maa pinnal, siis Z\nobreakdash-34 gravitatsioonist tingitud kiirendus Z\nobreakdash-34 pinnal on $3 \cdot g$.
     	\item[\faSquareO] Planeedi A mass on kahekordne planeedi B mass. Selle teabe põhjal teame, et gravitatsioonist tingitud kiirendust planeedi A pinnal on kahekordne võrreldes gravitatsioonist tingitud kiirendusega planeedi B pinnal.
-    	\item[\faSquareO] Satelliit ringleb ümber Marsi planeedi pinnast kõrgusel, mis on võrdne planeedi kolmekordse raadiusega. Kui $g\text{m}$ tähistab gravitatsioonist tingitud kiirendust Marsi pinnal, siis satelliidi asukohas on see kiirendus $\frac{g_\text{m}}{9}$.
+    	\item[\faSquareO] Satelliit ringleb ümber Marsi planeedi pinnast kõrgusel, mis on võrdne planeedi kolmekordse raadiusega. Kui $g_\text{m}$ tähistab gravitatsioonist tingitud kiirendust Marsi pinnal, siis satelliidi asukohas on see kiirendus $\frac{g_\text{m}}{9}$.
     	\item[\faSquareO] Maa gravitatsiooniväli ulatub Kuust veidi kaugemale.
     	\item[\faSquareO] Gravitatsioonijõud on võrdeline kehade, mille vahel see jõud mõjub, vahelise kauguse teise astmega.
     	\item[\faSquareO] Gravitatsioonist tingitud kiirendus on kõikjal \qty{9,8}{\m\per\s\squared}.
@@ -1393,7 +1393,7 @@ mechanics_tasks <- data.frame(
     5, # 7. Šesterikov, Daniil, 4 ka
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
-    2, # 10. Trubilko, Vladislav
+    12, # 10. Trubilko, Vladislav, enne 2
     NA, # 12. Volkova, Darja
     NA # Volkova, Jeva
   ),
@@ -1405,7 +1405,7 @@ mechanics_tasks <- data.frame(
     NA, # 6. Nersesjan, Feliks
     1, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
-    NA, # 7. Šesterikov, Daniil
+    4, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     2, # 10. Trubilko, Vladislav
@@ -1418,9 +1418,9 @@ mechanics_tasks <- data.frame(
     NA, # Kustov, Vladimir
     7, # Malõšev, Polina
     13, # 6. Nersesjan, Feliks, esimesel katsel 5
-    NA, # Šerstobitov, Mihhail
+    9, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
-    NA, # 7. Šesterikov, Daniil
+    7, # 7. Šesterikov, Daniil
     10, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     4, # 10. Trubilko, Vladislav
@@ -1471,7 +1471,7 @@ mechanics_grades <- data.frame(
     4, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
-    2, # 10. Trubilko, Vladislav
+    3, # 10. Trubilko, Vladislav, enne 2
     NA, # 12. Volkova, Darja
     NA # Volkova, Jeva
   ),
@@ -1483,7 +1483,7 @@ mechanics_grades <- data.frame(
     NA, # 6. Nersesjan, Feliks
     3, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
-    NA, # 7. Šesterikov, Daniil
+    2, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     2, # 10. Trubilko, Vladislav
@@ -1496,9 +1496,9 @@ mechanics_grades <- data.frame(
     NA, # Kustov, Vladimir
     5, # Malõšev, Polina
     5, # 6. Nersesjan, Feliks, esimesel katsel 1
-    NA, # Šerstobitov, Mihhail
+    1, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
-    NA, # 7. Šesterikov, Daniil
+    1, # 7. Šesterikov, Daniil
     1, # Žigadlo, Grigori
     NA, # 9. Žukova, Darja
     2, # 10. Trubilko, Vladislav
@@ -1511,7 +1511,7 @@ mechanics_grades <- data.frame(
     2, # Kustov, Vladimir
     4, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
-    NA, # Šerstobitov, Mihhail
+    2, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
     5, # 7. Šesterikov, Daniil, enne 1
     NA, # Žigadlo, Grigori
@@ -1524,9 +1524,9 @@ mechanics_grades <- data.frame(
     NA, # Donat Irhin
     2, # 3. Kimasks, Stanislavs
     NA, # Kustov, Vladimir
-    2, # Malõšev, Polina
+    3, # Malõšev, Polina, enne 2
     NA, # 6. Nersesjan, Feliks
-    2, # Šerstobitov, Mihhail
+    3, # Šerstobitov, Mihhail, enne 2
     NA, # 7. Salnikova, Veronika
     NA, # 7. Šesterikov, Daniil
     NA, # Žigadlo, Grigori
@@ -1554,13 +1554,14 @@ for (date in 2:number_of_tests) {
 data_frame <- cbind(data_frame, summary)
 
 last_column <- limit_of_dates * 2
-data_frame_1 <- subset(data_frame, select = c(1:last_column))
-colnames(data_frame_1) <- c(
-  rep(x=c("Üles-anne", "Hinne"), limit_of_dates)
+#data_frame_1 <- subset(data_frame, select = c(1:last_column))
+colnames(data_frame) <- c(
+  rep(x=c("Üles-anne", "Hinne"), limit_of_dates),
+  "Keskmine"
 )
-rownames(data_frame_1) <- names_10_20240220
+rownames(data_frame) <- names_10_20240220
 table <- print_table(
-  table = data_frame_1,
+  table = data_frame,
   caption = paste("Mehaanika kursuse tulemused ", mechanics_dates[1], " kuni ", mechanics_dates[limit_of_dates], ".", sep=""),
   additional_header = additional_header
 )
@@ -1569,7 +1570,7 @@ for (date in 1:limit_of_dates) {
   table <- column_spec(kable_input = table, column = date * 2, width = "2em")
 }
 
- #table
+#table
 
 ```
 
@@ -1696,7 +1697,7 @@ for (date in 1:limit_of_dates) {
 
 ```
 
-##### Õpitulemuste järgi
+##### Õpiväljundite järgi
 
 Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-Vaba-goals) leheküljel `r render_pageref(reference="tab:mechanics-results-Vaba-goals")`.
 
