@@ -62,10 +62,26 @@ kesktõmbekiirendus (10: 1).
 2. Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine (10).
 
 3. Võnkumine kui
-perioodiline liikumine (14). Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6). Energia
-muundumine võnkumisel (14: 3). Võnkumised ja resonants looduses ning tehnikas (14: 8). Lained (15). Piki- ja ristlained (15: 2). Lainet
-iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1). Lainenähtused: peegeldumine,
-murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11). 3D-printimine.
+perioodiline liikumine (14).
+
+4. Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas (14: 5-6).
+
+5. Energia
+muundumine võnkumisel (14: 3).
+
+6. Võnkumised ja resonants looduses ning tehnikas (14: 8).
+
+7. Lained (15).
+
+8. Piki- ja ristlained (15: 2).
+
+9. Lainet
+iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus (15: 1).
+
+10. Lainenähtused: peegeldumine,
+murdumine, interferents, difraktsioon, lained looduses ning tehnikas (15: 10-11).
+
+11. 3D-printimine.
 
 4
 5

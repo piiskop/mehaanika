@@ -863,9 +863,79 @@ Kava:
 
 ### 2024-5-9 Edus
 
-### 2024-5-9 Edus
+Kursuse lõpus õpilane:
+
+1. seostab looduses ja tehnoloogias esinevad perioodilised nähtused ühtlase ja mitteühtlase tiirlemise
+ning pöörlemisega;
+
+2. kasutab ringliikumist kirjeldades füüsikalisi suurusi pöördenurk, periood, sagedus, nurkkiirus,
+joonkiirus ja kesktõmbekiirendus.
+
+Õppesisu:
+
+1. Ühtlase ringjoonelise liikumise kirjeldamine: pöördenurk, periood, sagedus, nurk- ja joonkiirus,
+kesktõmbekiirendus.
+
+2. Tiirlemine ja pöörlemine looduses ning tehnikas, orbitaalliikumine.
+
+Põhimõisted:
+
+Pöördenurk
+: nurk, mille võrra pöördub ringliikumisel keha asukohta ja trajektoori kõveruskeskpunkti ühendav raadius[@teepikkus],
+
+periood
+: ühe täieliku pöörde jaoks kuluv aeg[@physics, lk 125],
+
+sagedus (15: 1),
+
+nurkkiirus
+: nurkasukoha muutumise kiirus[@physics, lk 266],
+
+joonkiirus
+: teepikkuse (läbitud joone pikkuse) ning aja jagatis[@htlase],
+
+kesktõmbekiirendus
+: suunamuutusest tingitud kiirendus[@htlase].
+
+Kava: ringliikumise ülesannete lahendamine.
 
 ### 2024-5-9 Edus
+
+Kursuse lõpus õpilane:
+
+14. rakendab mõisteid töö, energia, kineetiline ja potentsiaalne energia, võimsus, kasulik energia,
+kasutegur, selgitades looduses ja tehiskeskkonnas toimuvaid nähtusi;
+
+15. rakendab probleeme lahendades seoseid A = Fs cos α; , Ep = mgh ning E = Ek + Ep;
+selgitab energia miinimumi printsiibi kehtivust looduses ja tehiskeskkonnas.
+
+Õppesisu:
+
+16. Töö ja energia.
+
+17. Mehaaniline energia.
+
+Kava: töö.
+
+### 2024-5-9 Edus
+
+Õppesisu:
+
+18. Mehaanilise energia jäävuse
+seadus.
+
+Põhimõiste:
+
+mehaanilise energia jäävuse seadus
+: Kui töötavad ainult konservatiivsed jõud, siis süsteemi mehaaniline koguenergia ei suurene ega vähene üheski protsessis. See jääb konstantseks - see on konserveeritud[@physics, lk 201].
+
+Kava: energia (joonis \@ref(fig:dynamics-sessions-energy) leheküljel\ `r render_pageref(reference="fig:dynamics-sessions-energy")`).
+
+```{r label="dynamics-sessions-energy", echo=FALSE, fig.cap="Energia tutvustamine."}
+include_external_graphics("rmd/kursus/õppesessioonid/IMG_20240509_150726.jpg")
+
+```
+
 
 ### 2024-5-14 Vabas
 
@@ -873,20 +943,151 @@ Kava:
 
 1. Valemitemäng: ülesannete loomine ja lahendamine.
 
-2. Neile, kellel hoog selge: *Speed and Velocity*[@circular, lk 1] ja *Acceleration and Circular Motion*[@circular, lk 2].
+### 2024-5-14 Vabas
 
-4. *Momentum, Impulse and Momentum Change*[@the].
+Kava:
 
-5. *Controlling a Collision*[@controlling].
+1. Hoo ülesannete lahendamise analüüsimine.
 
-6. *Simple Computations with Impulse = Momentum Change*[@momentum, lk 5-6].
+2. Hoo ülesannete järjekordne lühitest.
 
-7. Nurkliikumise tutvustamine.
+### 2024-5-16 Edus
+
+Kursuse lõpus õpilane:
+
+10. teab, et üldrelatiivsusteooria kirjeldab gravitatsioonilist vastastikmõju aegruumi kõverdumise kaudu;
+
+5. analüüsib orbitaalliikumist, kasutades inertsi ja kesktõmbejõu mõistet;
+
+6. kasutab vabavõnkumise ja sundvõnkumise mõistet looduses ning tehnikas toimuvaid võnkumisi
+kirjeldades;
+
+7. rakendab füüsikalisi suurusi hälve, amplituud, periood, sagedus ja faas perioodilisi liikumisi
+kirjeldades;
+
+8. kasutab võnkumise probleemülesandeid lahendades seoseid;
+
+9. analüüsib energia jäävuse seaduse kehtivust pendli võnkumisel;
+
+10. analüüsib võnkumise graafikuid;
+
+11. selgitab resonantsi ning toob näiteid selle esinemise kohta looduses ja tehnikas;
+
+12. kirjeldab piki- ja ristlainete tekkimist ning levimist ning toob nende kohta näiteid;
+
+13. rakendab füüsikalisi suurusi lainepikkus, laine levimiskiirus, periood ja sagedus lainenähtusi
+selgitades;
+
+14. kasutab probleeme lahendades seoseid;
+
+15. toob nähtuste peegeldumine, murdumine, interferents ja difraktsioon näiteid loodusest ning
+tehnikast.
+
+Õppesisu:
+
+18. Mehaanilise energia jäävuse
+seadus.
+
+19. Mehaanilise energia muundumine teisteks energia liikideks.
+
+21. Energia
+jäävuse seadus looduses ja tehnikas.
+
+3. Võnkumine kui
+perioodiline liikumine.
+
+4. Pendli võnkumise kirjeldamine: hälve, amplituud, periood, sagedus, faas.
+
+5. Energia
+muundumine võnkumisel.
+
+6. Võnkumised ja resonants looduses ning tehnikas.
+
+7. Lained.
+
+8. Piki- ja ristlained.
+
+9. Lainet
+iseloomustavad suurused: lainepikkus, kiirus, periood ja sagedus.
+
+10. Lainenähtused: peegeldumine,
+murdumine, interferents, difraktsioon, lained looduses ning tehnikas.
+
+11. 3D-printimine.
+
+Põhimõisted:
+
+Kuju muutumine
+: liikumine, mille korral muutuvad keha punktide omavahelised kaugused[@kuju],
+
+reaktiivliikumine
+: liikumine, mille tekitab kehast eemale paiskuv keha osa[@reaktiivliikumine],
+
+elastsusjõud
+: jõudu, mis tekib keha kuju muutmisel[@elastic],
+
+jäikustegur
+: konkreetse vedru jäikuse mõõt[@physics, lk 179],
+
+energia muundumine 
+: materiaalne muutus[@sstva].
+
+Kava:
+
+1. Üldrelatiivsusteooria.
+
+2. Energia jäävus ja muundumine.
+
+3. Kuju muutumine ja elastsusjõud.
+
+4. Reaktiivliikumine.
+
+5. Kesktõmbejõud.
+
+6. Võnked.
+
+7. Lained.
+
+### 2024-5-21 Vabas
+
+Kava:
+
+1. Valemitemäng: ülesannete loomine ja lahendamine.
+
+### 2024-5-21 Vabas
+
+Kava:
+
+1. Hoo ülesannete järjekordne lühitest. Noral on tehtud teine, Ketelil viies.
+
+2. *Controlling a Collision*[@controlling].
+
+### 2024-5-28 Vabas
+
+Kava: *Nature of Light and a Modern View of the Atom*[@light]. Spektromeetrid kaasa!
+
+### 2024-5-28 Vabas
+
+Kava: *Nature of Light and a Modern View of the Atom*[@light].
+
+### 2024-6-4
+
+Kava:
+
+2. Selgitused Joosepile: Isoleeritud jõud, auto nihutamine, liikumise esimene, teine seadus.
+
+3. *Momentum, Impulse and Momentum Change*[@the].
+
+5. *Simple Computations with Impulse = Momentum Change*[@momentum, lk 5-6].
+
+6. Nurkliikumise tutvustamine.
+
+7. Neile, kellel hoog selge: *Speed and Velocity*[@circular, lk 1] ja *Acceleration and Circular Motion*[@circular, lk 2].
 
 8. *Circular Motion and Inertia*[@circular, lk 3-4].
 
 9. *The Centripetal Force Requirement*[@circular, lk 5-6].
 
-### 2024-5-14 Vabas
+### 2024-6-4
 
 \multicolsend

@@ -84,8 +84,18 @@ jõudude tasakaalustumisel (4: 2).
 
 15. Hõõrdejõud ja hõõrdetegur (5: 1).
 
-16. Töö ja energia (7). Mehaaniline energia (8: 3). Mehaanilise energia jäävuse
-seadus (8: 3). Mehaanilise energia muundumine teisteks energia liikideks (29: 4). Energia miinimumi printsiip. Energia
+16. Töö ja energia (7).
+
+17. Mehaaniline energia (8: 3).
+
+18. Mehaanilise energia jäävuse
+seadus (8: 3).
+
+19. Mehaanilise energia muundumine teisteks energia liikideks (29: 4).
+
+20. Energia miinimumi printsiip. 
+
+21. Energia
 jäävuse seadus looduses ja tehnikas (8).
 
 4
@@ -101,9 +111,11 @@ jäävuse seadus looduses ja tehnikas (8).
 
 ### Põhimõisted
 
-Kuju muutumine,
+Kuju muutumine
+: liikumine, mille korral muutuvad keha punktide omavahelised kaugused[@kuju],
 
-reaktiivliikumine (9: 2),
+reaktiivliikumine
+: liikumine, mille tekitab kehast eemale paiskuv keha osa[@reaktiivliikumine] (9: 2),
 
 resultantjõud (4: 4)
 : kehale mõjuvate jõudude vektorsumma[@ekoolikottee],
@@ -119,7 +131,7 @@ impulss (9)
 
 impulsi
 jäävuse seadus
-: Kui netovälisjõud objektide süsteemile on
+: kui netovälisjõud objektide süsteemile on
 null, jääb kogu impulss konstantseks[@physics, lk 253] (9: 2),
 
 raskusjõud (4: 6)
@@ -134,7 +146,11 @@ kaalutus
 toereaktsioon (4: 6)
 : risti ühise kontaktpinnaga toimiv kontaktjõud[@physics, lk 94],
 
-elastsusjõud (7: 3), jäikustegur (7: 3),
+elastsusjõud
+: jõudu, mis tekib keha kuju muutmisel[@elastic] (7: 3),
+
+jäikustegur (7: 3)
+: konkreetse vedru jäikuse mõõt[@physics, lk 179],
 
 hõõrdejõud
 : normaaljõu ja kineetilise hõõrdeteguri korrutis[@physics, lk 136] (5: 1),
@@ -142,7 +158,11 @@ hõõrdejõud
 hõõrdetegur
 : tegur, mille väärtus sõltub pindade karedusest[@physics, lk 117] (5: 1),
 
-mehaanilise energia jäävuse seadus (8: 3), energia muundumine (29: 4). 
+mehaanilise energia jäävuse seadus
+: Kui töötavad ainult konservatiivsed jõud, siis süsteemi mehaaniline koguenergia ei suurene ega vähene üheski protsessis. See jääb konstantseks - see on konserveeritud[@physics, lk 201],
+
+energia muundumine
+: materiaalne muutus[@sstva](29: 4). 
 
 ### Praktiline tegevus
 

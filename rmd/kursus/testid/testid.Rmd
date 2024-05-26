@@ -1171,7 +1171,7 @@ include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-
     (\#eq:dynamics-test-momentum-v-boat-calculation)
     \end{align}
     
-    Lahend: Paat liigub kiirusega \blank{\qty{3}{\m\per\s}} \Circle kaldast eemale \Circle kalda poole. Olen \blank{Keteli Pärl Kungla}.
+    Lahend: Paat liigub kiirusega \blank{\qty{3}{\m\per\s}} \Circle mehest eemale \Circle mehega samas suunas. Olen \blank{Keteli Pärl Kungla}.
 
 2.  Dünamiidilaeng 2024-5-7 lõhub paigalseisva kivi kaheks tükiks, mis lendavad vastassuundades laiali kiirustega \qty{23}{\m\per\s} ja \qty{45}{\m\per\s}. Suurema kivitüki mass on \qty{7,4}{\kg}. Arvuta teise tüki mass.
 
@@ -1238,10 +1238,10 @@ include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-
 4.  Jääl seisvat hokimängijat tabab litter. Millise kiirusega hakkaks hokimängija liikuma, kui hõõrdumist mitte arvestada? Mängija mass on \qty{80}{\kg}, litri mass on \qty{200}{\g} ja kiirus \qty{80}{\kilo\m\per\hour}.
     
     \begin{itemize}
-    	\item[\faSquareO] Suurenes \qty{16}{\mm\per\s} võrra.
-    	\item[\faSquareO] Vähenes \qty{20}{\mm\per\s} võrra.
-    	\item[\faSquareO] Vähenes \qty{37}{\mm\per\s} võrra.
-    	\item[\faSquareO] Suurenes \qty{55}{\mm\per\s} võrra.
+    	\item[\faSquareO] \qty{16}{\mm\per\s}.
+    	\item[\faSquareO] \qty{20}{\mm\per\s}.
+    	\item[\faSquareO] \qty{37}{\mm\per\s}.
+    	\item[\faSquareO] \qty{55}{\mm\per\s}.
     \end{itemize}
    
     Täna on 2024-5-7 ja mina olen \blank{Keteli Pärl Kungla}.
@@ -1251,6 +1251,111 @@ include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-
     \vspace{0.2\textheight}
 
     Täna on 2024-5-7 ja mina olen \blank{Keteli Pärl Kungla}.
+
+### Õpiväljundid
+
+[]{#mechanics-goals-I-3-11}
+
+#### I.3.11
+
+Eesmärk: oskus seletada Newtoni III seaduse olemust – mõjuga kaasneb alati vastumõju.
+
+1. Looduses ei ole olemas üksikut isoleeritud jõudu. Kas see väide on tõene?
+
+2. Olles autos, ei ole võimalik autot paigalt nihutada. Kas see väide on tõene?
+
+3. Toolil istuv õpilane mõjutab tooli vastupidises suunas jõuga, millega see tool mõjutab toda õpilast. Kas see väide on tõene?
+
+4. Toolil istuv õpilane mõjutab tooli samas suunas jõuga, millega see tool mõjutab toda õpilast. Kas see väide on tõene?
+
+5. Toolil istuvale õpilasele mõjuvad nii raskusjõud kui tooli pinna normaaljõud. Kas see väide on tõene?
+
+6. Toolil istuvale õpilasele mõjub ainult raskusjõud. Kas see väide on tõene?
+
+7. Toolil istuvale õpilasele mõjub ainult tooli pinna normaaljõud. Kas see väide on tõene?
+
+8. Toolil istuv õpilane mõjutab tooli sama suure jõuga kui see tool toda õpilast. Kas see väide on tõene?
+
+9. Igale mõjule on sama suur vastassuunaline vastumõju ning need mõjud avalduvad eri kehadele.
+
+[]{#mechanics-goals-I-3-13}
+
+#### I.3.13
+
+Eesmärk: oskus seletada ja rakendada Newtoni II seadust – liikumisoleku muutumise põhjustab jõud.
+
+1. Mida suurem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes. Kas see väide on tõene?
+
+2. Mida väiksem on keha muutumatu mass, seda väiksem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes. Kas see väide on tõene?
+
+3. Mida väiksem on keha muutumatu mass, seda suurem on selle keha kiirendus sellele kehale mõjuva jõu samaks jäädes. Kas see väide on tõene?
+
+4. Kui keha kiirendus ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga. Kas see väide on tõene?
+
+5. Mida suurem jõud muutumatu massiga kehale mõjub, seda suurema kiirenduse see keha saab. Kas see väide on tõene?
+
+6. Mida väiksem jõud muutumatu massiga kehale mõjub, seda väiksema kiirenduse see keha saab. Kas see väide on tõene?
+
+7. Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega. Kas see väide on tõene?
+
+8. Keha kiirendus kindlalt suureneb, kui kehale mõjuv jõud väheneb ja keha mass väheneb. Kas see väide on tõene?
+
+9. Kui kehale mõjuvate jõudude summa on nullist erinev, siis selle keha kuju, liikumise suund ega suurus ei muutu. Kas see väide on tõene?
+
+10. Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline sellele kehale mõjuva jõuga. Kas see väide on tõene?
+
+11. Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline sellele kehale mõjuva jõuga. Kas see väide on tõene?
+
+12. Mõõde muutuse võimaldamiseks on aeg. Kas see väide on tõene?
+
+[]{#mechanics-goals-I-3-14}
+
+#### I.3.14
+
+Eesmärk: teadmine, milles seisneb kehade inertsuse omadus; teadmine, et seda omadust iseloomustab mass.
+
+1. Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga. Kas see väide on tõene?
+
+2. Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline selle keha massiga. Kas see väide on tõene?
+
+3. Kehale massiga \qty{1}{\kg} mõjub \qty{1}{\s} kestel jõud \qty{1}{\newton}. Milline nendest suurustest iseloomustab keha inertsust?
+
+4. Keha mass suurenes kahekordseks. Kas keha on nüüd inertsem või vähem inertne kui enne, ja kui palju?
+
+5. Mass on vastupanu kiirendusele. Kas see väide on tõene?
+
+6. Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga. Kas see väide on tõene?
+
+[]{#mechanics-goals-I-3-15}
+
+#### I.3.15
+
+Eesmärk: oskus seletada ja rakendada Newtoni I seadust – liikumisolek saab olla püsiv vaid siis, kui kehale mõjuvad
+jõud on tasakaalus.
+
+1. Kui objekt ei liigu, siis see ei tähenda, et sellele ei mõju mitte ükski jõud. Kas see väide on tõene?
+
+2. Objekt liigub sirgjoonel püsiva kiirusega. Sellele objektile ei mõju mitte ükski jõud. Kas see väide on tõene?
+
+3. Kui kehale mõjuvate jõudude summa on \num{0}, siis keha liigub ühtlaselt sirgjooneliselt muutmata kujul. Kas see väide on tõene?
+
+4. Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu. Kas see väide on tõene?
+
+5. Kui kehale mõjuvate jõudude summa on \num{0}, siis keha ei liigu kiirendusega. Kas see väide on tõene?
+
+6. Kui keha mass ei muutu ja sellele kehale mõjuvate jõudude summa on null, siis see keha liigub kiirendusega. Kas see väide on tõene?
+
+[]{#mechanics-goals-II-2-6}
+
+#### II.2.6
+
+Eesmärk: oskus sõnastada impulsi jäävuse seadus ning praktikas kasutada seoseid  \@ref(eq:elastic-collision) leheküljel `r render_pageref(reference="eq:elastic-collision")` ja  \@ref(eq:inelastic-bounce) leheküljel `r render_pageref(reference="eq:inelastic-bounce")`.
+
+1. Poiss hüppab paigalseisvast paadist horisontaalselt välja kiirusega \qty{2}{\m\per\s}. Kui suure kiiruse omandab paat, kui selle mass on \qty{150}{\kg} ja poisi mass \qty{50}{\kg}?
+
+2.  Horisontaalsel teel kiirusega \qty{0,4}{\m\per\s} liikuvale vagonetile langes vertikaalsihis \qty{200}{\kg} liiva. Kuidas muutus vagoneti kiirus, kui vagoneti mass on \qty{800}{\kg}?
+
+3.  Dünamiidilaeng lõhub paigalseisva kivi kaheks tükiks, mis lendavad vastassuundades laiali kiirustega \qty{23}{\m\per\s} ja \qty{45}{\m\per\s}. Suurema kivitüki mass on \qty{7,4}{\kg}. Arvutan teise tüki massi.
 
 ### Lühitestide tulemused
 
@@ -1419,7 +1524,7 @@ mechanics_grades <- data.frame(
     NA, # Donat Irhin
     2, # 3. Kimasks, Stanislavs
     NA, # Kustov, Vladimir
-    22, # Malõšev, Polina
+    2, # Malõšev, Polina
     NA, # 6. Nersesjan, Feliks
     2, # Šerstobitov, Mihhail
     NA, # 7. Salnikova, Veronika
@@ -1436,7 +1541,7 @@ summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
 
 data_frame <- cbind(mechanics_tasks[1], mechanics_grades[1])
 number_of_tests <- length(mechanics_dates)
-limit_of_dates <- 4#6
+limit_of_dates <- 5#6
 additional_header <- data.frame(
   c("Õpilane", mechanics_dates[1:limit_of_dates]),
   c(1, rep(x=2, limit_of_dates))
@@ -1464,22 +1569,26 @@ for (date in 1:limit_of_dates) {
   table <- column_spec(kable_input = table, column = date * 2, width = "2em")
 }
 
-# table
+ #table
 
 ```
 
 #### Vabas
 
+##### Kuupäevade järgi
+
 Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-Vaba) leheküljel `r render_pageref(reference="tab:mechanics-results-Vaba")`.
 
 (ref:mechanics-tasks-2024-4-9) [2024-4-9](#mechanics-tasks-2024-4-9)
 (ref:mechanics-tasks-2024-5-7) [2024-5-7](#mechanics-tasks-2024-5-7)
+(ref:mechanics-tasks-2024-5-21) [2024-5-21](#mechanics-tasks-2024-5-7)
 
 ```{r label="mechanics-results-Vaba", echo=FALSE}
 
 mechanics_dates <- c(
   "(ref:mechanics-tasks-2024-4-9)",
-  "(ref:mechanics-tasks-2024-5-7)"
+  "(ref:mechanics-tasks-2024-5-7)",
+  "(ref:mechanics-tasks-2024-5-21)"
 )
 
 mechanics_tasks <- data.frame(
@@ -1490,18 +1599,28 @@ mechanics_tasks <- data.frame(
     NA, # Angela Ojamets
     NA, # Egert Polman
     NA, # Nora Pärlin
-    NA, # Liisbet Treimann
-    NA # Joosep Vest
+    8, # Liisbet Treimann
+    3 # Joosep Vest, esmalt 7
   ),
   c( # 2024-5-7
     NA, # Heleene Kargu
     5, # Keteli Pärl Kungla
+    3, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    2, # Nora Pärlin
+    3, # Liisbet Treimann
+    NA # Joosep Vest
+  ),
+  c( # 2024-5-21
+    NA, # Heleene Kargu
+    2, # Keteli Pärl Kungla
     NA, # Elis Lehtmaa
     NA, # Angela Ojamets
     3, # Egert Polman
-    2, # Nora Pärlin
-    3, # Liisbet Treimann
-    1 # Joosep Vest
+    1, # Nora Pärlin
+    4, # Liisbet Treimann
+    3 # Joosep Vest
   )
 )
 
@@ -1513,18 +1632,28 @@ mechanics_grades <- data.frame(
     NA, # Angela Ojamets
     NA, # Egert Polman
     NA, # Nora Pärlin
-    NA, # Liisbet Treimann
-    NA # Joosep Vest
+    5, # Liisbet Treimann
+    5 # Joosep Vest, enne 1
   ),
   c( # 2024-5-7
     NA, # Heleene Kargu
     3, # Keteli Pärl Kungla
-    NA, # Elis Lehtmaa
+    1, # Elis Lehtmaa
     NA, # Angela Ojamets
-    5, # Egert Polman
+    NA, # Egert Polman
     1, # Nora Pärlin
     5, # Liisbet Treimann
-    5 # Joosep Vest
+    NA # Joosep Vest
+  ),
+  c( # 2024-5-21
+    NA, # Heleene Kargu
+    4, # Keteli Pärl Kungla
+    NA, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    4, # Egert Polman
+    5, # Nora Pärlin
+    4, # Liisbet Treimann
+    3 # Joosep Vest
   )
 )
 
@@ -1532,7 +1661,7 @@ summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
 
 data_frame <- cbind(mechanics_tasks[1], mechanics_grades[1])
 number_of_tests <- length(mechanics_dates)
-limit_of_dates <- 1#6
+limit_of_dates <- 3#6
 additional_header <- data.frame(
   c("Õpilane", mechanics_dates[1:limit_of_dates]),
   c(1, rep(x=2, limit_of_dates))
@@ -1566,5 +1695,108 @@ for (date in 1:limit_of_dates) {
 # table
 
 ```
+
+##### Õpitulemuste järgi
+
+Mehaanika kursuse tulemused on tabelis \@ref(tab:mechanics-results-Vaba-goals) leheküljel `r render_pageref(reference="tab:mechanics-results-Vaba-goals")`.
+
+(ref:mechanics-goals-I-3-11) [I.3.11](#mechanics-goals-I-3-11)
+(ref:mechanics-goals-I-3-13) [I.3.13](#mechanics-goals-I-3-13)
+(ref:mechanics-goals-I-3-14) [I.3.14](#mechanics-goals-I-3-14)
+(ref:mechanics-goals-I-3-15) [I.3.15](#mechanics-goals-I-3-15)
+(ref:mechanics-goals-II-2-6) [II.2.6](#mechanics-goals-II-2-6)
+
+```{r label="mechanics-results-Vaba-goals", echo=FALSE}
+
+mechanics_goals <- c(
+  "(ref:mechanics-goals-I-3-11)",
+  "(ref:mechanics-goals-I-3-13)",
+  "(ref:mechanics-goals-I-3-14)",
+  "(ref:mechanics-goals-I-3-15)",
+  "(ref:mechanics-goals-II-2-6)"
+)
+
+mechanics_grades <- data.frame(
+  c( # I.3.11
+    NA, # Heleene Kargu
+    3, # Keteli Pärl Kungla
+    5, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    4, # Liisbet Treimann
+    5 # Joosep Vest
+  ),
+  c( # I.3.13
+    NA, # Heleene Kargu
+    3, # Keteli Pärl Kungla
+    5, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    3, # Liisbet Treimann
+    5 # Joosep Vest
+  ),
+  c( # I.3.14
+    NA, # Heleene Kargu
+    3, # Keteli Pärl Kungla
+    2, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    3, # Liisbet Treimann
+    1 # Joosep Vest
+  ),
+  c( # I.3.15
+    NA, # Heleene Kargu
+    5, # Keteli Pärl Kungla
+    3, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    NA, # Nora Pärlin
+    5, # Liisbet Treimann
+    2 # Joosep Vest
+  ),
+  c( # II.2.6
+    NA, # Heleene Kargu
+    3, # Keteli Pärl Kungla
+    NA, # Elis Lehtmaa
+    NA, # Angela Ojamets
+    NA, # Egert Polman
+    1, # Nora Pärlin
+    5, # Liisbet Treimann
+    NA # Joosep Vest
+  )
+)
+
+summary <- rowMeans(x=mechanics_grades, na.rm=TRUE)
+
+data_frame <- cbind(mechanics_grades[1])
+number_of_goals <- length(mechanics_goals)
+limit_of_goals <- 12
+
+if (number_of_goals < limit_of_goals) {
+  limit_of_goals <- number_of_goals
+}
+
+if (number_of_goals > 1)
+{
+  for (goal in 2:number_of_goals) {
+    data_frame <- cbind(data_frame, mechanics_grades[goal])
+  }
+}
+
+data_frame <- cbind(data_frame, summary)
+colnames(data_frame) <- c(mechanics_goals, "Keskmine")
+rownames(data_frame) <- names_Vaba
+table <- print_table(
+  table = data_frame,
+  caption = paste("Füüsika kursuste tulemused õpiväljundite ", mechanics_goals[1], " kuni ", mechanics_goals[limit_of_goals], " osas.", sep="")
+)
+
+# table
+
+```
+
 
 \landscapeend

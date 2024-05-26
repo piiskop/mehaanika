@@ -226,11 +226,11 @@ V_{2; y} \cdot V_{3; z} - V_{2; z} \cdot V_{3; y} & V_{2; z} \cdot V_{3; x} - V_
 
 ### Tasapinna nurk
 
-Tasapinna nurk on selle nurga haarade vahelise kaare ja haara pikkuse nurgast kaareni suhe (valem \@ref(eq:plane-angle) leheküljel `r render_pageref(reference = "eq:plane-angle")`[@haynes_2014_crc(lk 2-1)]).
+Tasapinna nurk on selle nurga haarade vahelise kaare ja haara pikkuse nurgast kaareni suhe (valem \@ref(eq:plane-angle) leheküljel\ `r render_pageref(reference = "eq:plane-angle")`[@haynes_2014_crc(lk 2-1)]).
 
 ```{=tex}
 \begin{align}
-\alpha = \frac{s}{r},
+\beta = \frac{s}{r},
 (\#eq:plane-angle)
 \end{align}
 
@@ -258,12 +258,22 @@ Tõusunurga arvutamise valem on \@ref(eq:tangent-angle) leheküljel `r render_pa
 
 ```{=tex}
 \begin{equation}
-\alpha = \mathrm{atan}(\frac{\text{nihe}_\text{vertikaalne}}{\Delta(x)}).
+\beta = \mathrm{atan}\left(\frac{\Delta(y)}{\Delta(x)}\right).
 (\#eq:tangent-angle)
 \end{equation}
 ```
 
-Nurgateisendus kraadidest radiaanidesse on esitatud valemine \@ref(eq:angle-from-degrees-to-radians) leheküljel `r render_pageref(reference = "eq:angle-from-degrees-to-radians")`.
+Kui valemis \@ref(eq:plane-angle) leheküljel\ `r render_pageref(reference = "eq:plane-angle")` kaar ja haara pikkus on võrdsed, siis on tegemist nurgaga, mille suurus on üks ehk üks radiaan. Kui kahekordistada kaare pikkus, saame kaheradiaanise nurga. Kui kolmekordistada kaare pikkus, saame kolmeradiaanise nurga. Kui veel veidi lisame kaare pikkusele, saame sirgnurga, mille suurus on esitatud avaldisena \@ref(eq:pi) leheküljel\ `r render_pageref(reference="eq:pi")`.
+
+```{=tex}
+\begin{equation}
+\pi = 3{,}14159 26535 89793 23846 26433 83279 50288 41971 69399 37511.
+(\#eq:pi)
+\end{equation}
+
+```
+
+Nurgateisendus kraadidest radiaanidesse on esitatud valemina \@ref(eq:angle-from-degrees-to-radians) leheküljel\ `r render_pageref(reference = "eq:angle-from-degrees-to-radians")`.
 
 ```{=tex}
 \begin{equation}
@@ -715,6 +725,8 @@ Mitteelastne põrge on esitatud avaldisena \@ref(eq:inelastic-bounce) lehekülje
 m_1 \cdot \vec{\bf{v_1}} + m_2 \cdot \vec{\bf{v_2}} === (m_1 + m_2) \cdot \vec{\bf{v ^ \prime}}.
 (\#eq:inelastic-bounce)
 \end{align}
+
+Suletud süsteemis jääb koguhoog muutumatuks.
 
 ### Impulsimoment
 
