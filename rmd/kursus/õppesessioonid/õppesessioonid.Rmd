@@ -1058,31 +1058,35 @@ Kava:
 
 Kava:
 
-1. Hoo ülesannete järjekordne lühitest. Noral on tehtud teine, Ketelil viies.
+1. Hoo ülesannete järjekordne lühitest.
 
 2. *Controlling a Collision*[@controlling].
 
 ### 2024-5-28 Vabas
 
-Kava: *Nature of Light and a Modern View of the Atom*[@light]. Spektromeetrid kaasa!
+Kava: *Nature of Light and a Modern View of the Atom*[@light]. Kasutasime spektromeetreid.
 
 ### 2024-5-28 Vabas
 
-Kava: *Nature of Light and a Modern View of the Atom*[@light].
+Kava: *Nature of Light and a Modern View of the Atom*[@light]. Rydberg'i konstandiga arvutusi ei jõudnud teha, muud arvutused näitasin slaididelt ja õpilased kirjutasid üles.
 
 ### 2024-6-4 Vabas
 
 Kava:
 
-2. Selgitused Joosepile: Isoleeritud jõud, auto nihutamine, liikumise esimene, teine seadus.
+1. Selgitused Joosepile: Isoleeritud jõud, auto nihutamine, liikumise esimene, teine seadus.
+
+2. Matemaatika: võrdelisus[@ratio].
 
 3. *Momentum, Impulse and Momentum Change*[@the].
 
-5. *Simple Computations with Impulse = Momentum Change*[@momentum, lk 5-6].
+4. *Simple Computations with Impulse = Momentum Change*[@momentum, lk 5-6].
+
+5. Järelvastamine.
 
 6. Nurkliikumise tutvustamine.
 
-7. Neile, kellel hoog selge: *Speed and Velocity*[@circular, lk 1] ja *Acceleration and Circular Motion*[@circular, lk 2].
+7. *Speed and Velocity*[@circular, lk 1] ja *Acceleration and Circular Motion*[@circular, lk 2].
 
 8. *Circular Motion and Inertia*[@circular, lk 3-4].
 
