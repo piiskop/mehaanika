@@ -599,6 +599,8 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
 
     Täna on 2024-3-28 ja mina olen \blank{10. Trubilko, Vladislav}.
 
+\newpage
+
 []{#mechanics-tasks-2024-4-9}
 
 ### 2024-4-9 Vabas
@@ -618,6 +620,7 @@ Mürsk tabab maad $x =\nolinebreak \qty{68}{\m}$ kaugusel. Tegeliku mürsu lenda
     	\item[\faSquareO] Kui kehale mõjuvate jõudude summa on nullist erinev, siis selle keha kuju, liikumise suund ega suurus ei muutu.
     	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline sellele kehale mõjuva jõuga.
     	\item[\faSquareO] Kui keha mass ei muutu, siis selle keha kiirendus on võrdeline sellele kehale mõjuva jõuga.
+    	\item[\faSquareO] Mass on vastupanu kiirendusele.
     \end{itemize}
 
     Täna on 2024-4-9 ja mina olen \blank{Keteli Pärl Kungla}.
@@ -1120,7 +1123,7 @@ include_external_graphics("rmd/kursus/testid/mehaanika-dünaamika-hõõrdejõud-
 
 ### 2024-5-7 Vabas
 
-1.  Kalamees, kelle mass on \qty{75}{\kg}, hüppab paadist välja kiirusega \qty{5}{\m\per\s}. Millise kiirusega ja millises suunas hakkab see \qty{125}{\kg} massiga paat liikuma?
+1.  Kalamees, kelle mass on \qty{75}{\kg}, hüppab kalda suhtes vees seisvast paadist välja kaldale kiirusega \qty{5}{\m\per\s}. Millise kiirusega ja millises suunas hakkab see \qty{125}{\kg} massiga paat liikuma?
 
     Sisendid:
     
@@ -1308,6 +1311,12 @@ Eesmärk: oskus seletada ja rakendada Newtoni II seadust – liikumisoleku muutu
 
 12. Mõõde muutuse võimaldamiseks on aeg. Kas see väide on tõene?
 
+13. Liikuvad kehad vahel aeglustuvad ja peatuvad, mistõttu ei ole võimalik, et hoog oleks jääv suurus. Kas see väide on tõene?
+
+14. Mida pikem on hoo mõjuaeg, seda suurem peab olema väliste jõudude summa suurus, et aje jääks samaks. Kas see väide on tõene?
+
+15. Koormata veoauto, mille mass on \qty{4}{\tonne}, hakkas liikuma kiirendusega \qty{0,3}{\m\per\s\squared}. Kui auto liigub paigalt kiirendusega \qty{0,2}{\m\per\s\squared}, siis koorma mass on \blank{\qty{2}{\tonne}}. Mootori veojõud on mõlemal korral sama suur. Jõud on konstantsed, hõõrdumist ei arvestata.
+
 []{#mechanics-goals-I-3-14}
 
 #### I.3.14
@@ -1325,6 +1334,8 @@ Eesmärk: teadmine, milles seisneb kehade inertsuse omadus; teadmine, et seda om
 5. Mass on vastupanu kiirendusele. Kas see väide on tõene?
 
 6. Kui keha mass ei muutu, siis selle keha kiirendus on pöördvõrdeline selle keha massiga. Kas see väide on tõene?
+
+7. Valem: $\Delta(m) = 0 \ce{->}$. Lahenda: Traktor sõitis kiirendusega $\qty{20}{\m\per\s\squared}$ ja tõmbas vilja jõuga \qty{50}{\N}. Arvuta traktori ja vilja mass!
 
 []{#mechanics-goals-I-3-15}
 
@@ -1356,6 +1367,22 @@ Eesmärk: oskus sõnastada impulsi jäävuse seadus ning praktikas kasutada seos
 2.  Horisontaalsel teel kiirusega \qty{0,4}{\m\per\s} liikuvale vagonetile langes vertikaalsihis \qty{200}{\kg} liiva. Kuidas muutus vagoneti kiirus, kui vagoneti mass on \qty{800}{\kg}?
 
 3.  Dünamiidilaeng lõhub paigalseisva kivi kaheks tükiks, mis lendavad vastassuundades laiali kiirustega \qty{23}{\m\per\s} ja \qty{45}{\m\per\s}. Suurema kivitüki mass on \qty{7,4}{\kg}. Arvutan teise tüki massi.
+
+4.  Kalamees, kelle mass on \qty{75}{\kg}, hüppab kalda suhtes vees seisvast paadist välja kaldale kiirusega \qty{5}{\m\per\s}. Millise kiirusega ja millises suunas hakkab see \qty{125}{\kg} massiga paat liikuma?
+
+5. Jääl seisvat hokimängijat tabab litter. Millise kiirusega hakkaks hokimängija liikuma, kui hõõrdumist mitte arvestada? Mängija mass on \qty{80}{\kg}, litri mass on \qty{200}{\g} ja kiirus \qty{80}{\kilo\m\per\hour}.
+
+6. Väike paat kulgeb ühtlase kiirusega silla all. Raske liivakott visatakse sillalt paadile. Paadi kiirus suureneb. Kas tõene väide?
+
+7. Kosmonaut on lühikese vahemaa kaugusel oma kosmosejaamast ilma köieta. Tal on suur mutrivõti. Et liikuda kosmosejaama poole, peaks ta mutrivõtme otse kosmosejaamast eemale viskama. Kas tõene väide?
+
+8. Kosmonaut on lühikese vahemaa kaugusel oma kosmosejaamast ilma köieta. Tal on suur mutrivõti. Et liikuda kosmosejaama poole, peaks ta mutrivõtme otse kosmosejaamast eemale viskama. Kas tõene väide?
+
+9. Pesapall visatakse horisontaalselt koduplaadi suunas kiirusega \qty{110}{\kilo\m\per\hour}. Pesapalli aje on  suurema magnituudiga, kui pesapall lüüakse otse tagasi viskajale kiirusega \qty{110}{\kilo\m\per\hour}, võrreldes olukorraga, milles püüdja püüab palli kinni. Kas see väide on tõene?
+
+10. Golfipall ja samaväärse massiga olev ubade kott visatakse samalt kõrguselt ja tabavad maad. Oa kott jääb maha, samal ajal kui golfipall põrkub tagasi. Ubade kott kogeb suuremat hoogu maapinnalt.
+
+11. Kui inimene hüppab puult maapinnale, siis kokku puutudes maapinnaga muutub inimese impulss nulliks. Kas see väide on tõene?
 
 ### Lühitestide tulemused
 
@@ -1596,7 +1623,7 @@ mechanics_tasks <- data.frame(
   c( # 2024-4-9
     NA, # Heleene Kargu
     6, # Keteli Pärl Kungla
-    2, # Elis Lehtmaa
+    5, # Elis Lehtmaa, enne 2
     NA, # Angela Ojamets
     NA, # Egert Polman
     NA, # Nora Pärlin
@@ -1652,7 +1679,7 @@ mechanics_grades <- data.frame(
     NA, # Elis Lehtmaa
     NA, # Angela Ojamets
     4, # Egert Polman
-    5, # Nora Pärlin
+    4, # Nora Pärlin
     4, # Liisbet Treimann
     3 # Joosep Vest
   )
@@ -1761,12 +1788,12 @@ mechanics_grades <- data.frame(
   c( # II.2.6
     NA, # Heleene Kargu
     3, # Keteli Pärl Kungla
-    NA, # Elis Lehtmaa
+    1, # Elis Lehtmaa
     NA, # Angela Ojamets
-    NA, # Egert Polman
-    1, # Nora Pärlin
-    5, # Liisbet Treimann
-    NA # Joosep Vest
+    4, # Egert Polman
+    4, # Nora Pärlin, enne 1
+    4, # Liisbet Treimann, enne 5
+    3 # Joosep Vest
   )
 )
 
